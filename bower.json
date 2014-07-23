@@ -1,0 +1,13 @@
+{
+  "name": "thelma-components",
+  "version": "0.0.0",
+  "keywords": "seed, polymer, web-components",
+  "main": "thelma-components.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.1",
+    "thelma-core": "https://github.com/thelmanews/thelma-core.git",
+    "thelma-utils": "https://github.com/thelmanews/thelma-utils.git",
+    "thelma-charts": "https://github.com/thelmanews/thelma-charts.git",
+    "thelma-text": "https://github.com/thelmanews/thelma-text.git"
+  }
+}
