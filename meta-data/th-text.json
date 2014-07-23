@@ -1,0 +1,20 @@
+{
+  "name": "th-text",
+  "description": "Th text w/Markdown",
+  "category":"textual",
+  "version": "0.0.1",
+  "thumbnail":"markdown.jpg",
+  "tags":["textual", "Markdown"],
+  "inputAttr": {
+    "width":{"friendly":"Width(add px)", "type":"string", "default":"250px"},
+    "content":{"friendly":"HTML/Text", "type":"content", "default":"Enter Text..."},
+    "type":{
+      "friendly":"Type",
+      "type":"dropdown", 
+      "values": ["headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"],
+      "default": "mainpoint"
+    },
+    "markdown":{"friendly":"Markdown", "type":"boolean", "default":"true"},
+    "color":{"friendly":"Color", "type":"colorPicker", "default":"", "optional":"true"}
+  }
+}

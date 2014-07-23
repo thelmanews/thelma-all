@@ -1,0 +1,21 @@
+{
+  "name": "th-map-us",
+  "description": "Thelma US Map",
+  "category":"chart",
+  "version": "0.0.1",
+  "thumbnail":"map.jpg", 
+  "tags":["chart", "bar"],
+  "inputAttr": {
+    "chartWidth":{"friendly":"Width", "type":"int", "default":300},
+    "chartHeight":{"friendly":"Height", "type":"int", "default":200},
+    "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
+      "fields":{
+        "marked_states":{"friendly":"States to Mark", "type":"states-checkbox", "default":"['Alabama', 'Alaska', 'Florida']"},
+        "state_data": {"friendly": "Data for states", "type": "states-numerical", "default": "'{Alabama':0.164900154,'Alaska':1.275069684,'Arizona':1.38}"}
+      },
+      "default":[
+        {"marked_states": "['Alabama', 'Alaska', 'Florida']"}
+      ]
+    }
+  }
+}

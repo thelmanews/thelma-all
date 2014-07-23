@@ -1,0 +1,23 @@
+{
+  "name": "th-compare-grid-chart",
+  "description": "Thelma Compare Grid Chart",
+  "category":"textual",
+  "version": "0.0.1",
+  "thumbnail":"comparison.jpg", 
+  "tags":["chart", "image"],
+  "inputAttr": {
+    "chartWidth":{"friendly":"Width", "type":"int", "default":200},
+    "chartHeight":{"friendly":"Height", "type":"int", "default":250},
+    "chartData":{"friendly":"Data", "type":"table-fixed","rows":2, 
+       "fields":{
+        "label":{"friendly":"Label", "type":"string", "default":"Smoker"},
+        "value":{"friendly":"Value", "type":"int", "default":3},
+        "image":{"friendly":"Image", "type":"image", "default":"/elements/images/kid.png"}
+      },
+      "default":[
+        {"label": "Non-Smoker", "value": 33, "image": "/thelma-componenets/images/kid.png"},
+        {"label": "Smoker", "value": 1, "image": "/thelma-componenets/images/kid-smoker.png"}
+      ]
+  }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "th-countup-num",
+  "description": "Thelma Counter",
+  "category":"numberic",
+  "version": "0.0.1",
+  "thumbnail":"counter.jpg",
+  "inputAttr": {
+    "width":{"friendly":"Width(add px)", "type":"string", "default":"250px"},
+    "content":{"friendly":"Number", "type":"content", "default":"Count to 40"},
+    "numberSize":{"friendly":"Number Size", "type":"string", "default":"40px"}, 
+    "growNumber":{"friendly":"Grow Number?", "type":"boolean", "default":"false"}, 
+    "color":{"friendly":"Number Color", "type":"colorPicker", "default":"", "optional":true}, 
+    "type":{"friendly":"Type","type":"dropdown", "values": ["headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"], "default": "mainpoint"},
+    "startFrom":{"friendly":"Start From", "type":"int", "default":0},
+    "startFromSameNumberOfDigit":{"friendly":"Same number dig?", "type":"boolean", "default":"true"},
+    "duration":{"friendly":"Duration", "type":"int", "default":2}
+  }
+} 

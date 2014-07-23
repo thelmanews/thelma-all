@@ -1,0 +1,24 @@
+{
+  "name": "th-stories",
+  "description": "Suggested Stories",
+  "category":"textual",
+  "version": "0.0.1",
+  "thumbnail":"stories.jpg",
+  "inputAttr": {
+    "width":{"friendly":"Width(add px)", "type":"string", "default":"300px"},
+    "themecolor":{"friendly":"Theme","type":"dropdown","default":"dark", "values":["dark","light"]},
+    "links":{"friendly":"Data", "type":"table-repeating","rows":3, 
+      "fields":{
+        "leadIn":{"friendly":"Lead-in", "type":"string", "default":""},
+        "url":{"friendly":"Url", "type":"string", "default":""},
+        "title":{"friendly":"Title", "type":"string", "default":""},
+        "image":{"friendly":"Image", "type":"image", "default":""}
+      },
+      "default":[ 
+          { "leadIn": "", "url": "http://online.wsj.com/articles/americas-smokers-still-40-million-strong-1405468491?mod=WSJ_hp_RightTopStories" },
+          { "leadIn": "", "url": "http://online.wsj.com/articles/apple-ibm-in-deal-to-create-apps-sell-phones-1405456933?mod=WSJ_hpp_MIDDLENexttoWhatsNewsThird" },
+          { "leadIn": "", "url": "http://www.buzzfeed.com/richardhjames/stunning-images-that-show-how-the-tide-transforms-the-bri" }
+      ]
+    }
+  }
+}

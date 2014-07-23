@@ -1,0 +1,14 @@
+{
+  "name": "th-tweet",
+  "description": "Thelma Tweet",
+  "category":"textual",
+  "version": "0.0.1",
+  "thumbnail":"twitter.jpg", 
+  "tags":["textual", "image"],
+  "inputAttr": {
+    "width":{"friendly":"Width(add px)", "type":"string", "default":"250px"},
+    "image":{"friendly":"Image", "type":"image", "default":"/bower_components/thelma-components/images/person.jpg"},
+    "twitterHandle":{"friendly":"Twitter Handle", "type":"string", "default":"username"},
+    "tweet":{"friendly":"Tweet", "type":"string", "default":"Enter tweet here."}
+  }
+}

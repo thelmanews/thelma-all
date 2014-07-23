@@ -1,0 +1,23 @@
+{
+  "name": "th-table-bullets",
+  "description": "Thelma Bullets",
+  "category":"textual",
+  "version": "0.0.1",
+  "thumbnail":"bullets.jpg",
+  "inputAttr": {
+    "width":{"friendly":"Width(add px)", "type":"string", "default":"250px"},
+    "tableData":{"friendly":"Data", "type":"table-repeating","rows":2, 
+      "fields":{
+        "bullet":{"friendly":"Bullet", "type":"unicode", "default":"\u25CF"},
+        "text":{"friendly":"Text", "type":"string", "default":"This is a bullet"},
+        "image": {"friendly":"Image", "type":"image", "default":""},
+        "color": {"friendly":"Color", "type":"colorPicker", "default":"", "optional":true}
+      },
+      "default":[ 
+          { "bullet": "\u25CF", "text": "First bullet.", "image": "", "color":""},
+          { "bullet": "\u25CF", "text": "Second bullet.", "image": "", "color":""},
+          { "bullet": "\u25CF", "text": "Third bullet.", "image": "", "color":""}
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "th-n-peak-chart",
+  "description": "Thelma n peak chart",
+  "category":"chart",
+  "version": "0.0.1",
+  "thumbnail":"n-peak-chart.jpg", 
+  "tags":["chart", "bar"],
+  "inputAttr": {
+    "chartWidth":{"friendly":"Width", "type":"int", "default":200},
+    "chartHeight":{"friendly":"Height", "type":"int", "default":250},
+    "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
+      "fields":{
+        "label":{"friendly":"Label", "type":"string", "default":"Player"},
+        "value":{"friendly":"Value", "type":"int", "default":15},
+        "display_value":{"friendly":"Display Value", "type":"string", "default":"$15"},
+        "color":{"friendly":"Color", "type":"colorPicker", "default":"", "optional":true}
+      },
+      "default":[
+        {"label": "Platinum", "value": 50, "color":""},
+        {"label": "Gold", "value": 45, "color":""},
+        {"label": "Silver", "value": 30, "color":""},
+        {"label": "Bronze", "value": 25, "color":""}
+      ]
+  }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "th-donut-chart",
+  "description": "Thelma donut chart",
+  "category":"graph",
+  "version": "0.0.1",
+  "thumbnail":"single-donut.jpg",
+  "tags":["graph", "pie", "data", "animated"],
+  "inputAttr": {
+    "chartWidth":{"friendly":"Width", "type":"int", "default":260},
+    "chartHeight":{"friendly":"Height", "type":"int", "default":250},
+    "chartData":{"friendly":"Data", "type":"flat-object",
+      "fields":{
+        "value":{"friendly":"Value", "type":"int", "default":65},
+        "color":{"friendly":"Color", "type":"colorPicker", "default":"", "optional":true}
+      },
+      "default":{"value": 65, "color":""}
+    }
+  }
+}

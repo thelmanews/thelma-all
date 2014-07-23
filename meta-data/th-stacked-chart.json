@@ -1,0 +1,24 @@
+{
+  "name": "th-stacked-chart",
+  "description": "Thelma stacked chart",
+  "category":"chart",
+  "version": "0.0.1",
+  "thumbnail":"stacked.jpg", 
+  "tags":["chart", "column", "animated"],
+  "inputAttr": {
+    "chartWidth":{"friendly":"Width", "type":"int", "default":200},
+    "chartHeight":{"friendly":"Height", "type":"int", "default":250},
+    "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
+      "fields":{
+        "label":{"friendly":"Label", "type":"string", "default":"Player"},
+        "value":{"friendly":"Value", "type":"int", "default":15},
+        "display_value":{"friendly":"Display Value", "type":"string", "default":"$15"},
+        "color":{"friendly":"Color", "type":"colorPicker", "default":"", "optional":true}
+      },
+      "default":[
+      {"label": "medicaid", "value": 20, "color":""},
+      {"label": "gap", "value": 40, "color":""},
+      {"label": "sub", "value": 10, "color":""}]
+    }
+  }
+}

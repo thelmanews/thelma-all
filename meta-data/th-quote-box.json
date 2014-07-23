@@ -1,0 +1,15 @@
+{
+  "name": "th-quote-box",
+  "description": "Thelma Quote",
+  "category":"textual",
+  "version": "0.0.1",
+  "thumbnail":"quote.jpg", 
+  "tags":["textual", "image"],
+  "inputAttr": {
+    "width":{"friendly":"Width(add px)", "type":"string", "default":"250px"},
+    "content":{"friendly":"Quote", "type":"content", "default":"Please enter a quote."},
+    "title":{"friendly":"Title", "type":"string", "default":"Name"},
+    "details":{"friendly":"Details", "type":"string", "default":"Details (optional)"},
+    "image":{"friendly":"Image", "type":"image", "default":"/bower_components/thelma-components/images/person.jpg"}
+  }
+}

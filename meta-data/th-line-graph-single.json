@@ -1,0 +1,35 @@
+{
+  "name": "th-line-graph-single",
+  "description": "Thelma line graph",
+  "category":"chart",
+  "version": "0.0.1",
+  "thumbnail":"chart.jpg", 
+  "tags":["chart", "line", "animated"],
+  "inputAttr": {
+    "chartWidth":{"friendly":"Width", "type":"int", "default":200},
+    "chartHeight":{"friendly":"Height", "type":"int", "default":250},
+    "lineStyle":{"friendly":"Line Style", "type":"dropdown","default":"cardinal", "values":["linear", "basis", "cardinal", "monotone", "step-before", "step-after"]},
+    "animateStyle":{"friendly":"Animate Style","type":"dropdown","default":"draw", "values":["draw","raise"]},
+    "fillArea":{"friendly":"Fill Area", "type":"boolean", "default": true},
+    "xAxisLabels":{"friendly":"X-axis Labels", "type":"boolean", "default": true},
+    "yAxisLabels":{"friendly":"Y-axis Labels", "type":"boolean", "default": false},
+    "joyStick":{"friendly":"Joystick and Value", "type":"boolean", "default": true},
+    "dataPosition":{"friendly":"Data Position","type":"dropdown","default":"left", "values":["left","right"]},
+    "color":{"friendly":"Color", "type":"colorPicker", "default":"", "optional":true}, 
+    "chartData":{"friendly":"Data", "type":"table-repeating","rows":5, 
+      "fields":{
+        "label":{"friendly":"Label", "type":"string", "default":"2010"},
+        "value":{"friendly":"Value", "type":"int", "default":100},
+        "display_value":{"friendly":"Display Value", "type":"string", "default":"$100"},
+        "note":{"friendly":"Note", "type":"string", "default":"", "optional": true}
+      },
+      "default":[
+        {"label": 2010, "value": 104, "note": ""},
+        {"label": 2011, "value": 108, "note": ""},
+        {"label": 2012, "value": 107, "note": ""},
+        {"label": 2013, "value": 110, "note": ""},
+        {"label": 2014, "value": 112, "note": ""}
+      ]
+    }
+  }
+}
