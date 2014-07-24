@@ -7,12 +7,12 @@
   "tags":["graph", "pie", "data", "animated"],
   "inputAttr": {
     "chartSize":{"friendly":"Width", "type":"int", "default":200},
-    "chartData":{"friendly":"Data", "type":"flat-object",
+    "chartData":{"friendly":"Data", "type":"table-fixed","rows":1, 
       "fields":{
         "value":{"friendly":"Value", "type":"int", "default":65},
         "color":{"friendly":"Color", "type":"colorPicker", "default":"", "optional":true}
       },
-      "default":{"value": 65, "color":""}
+      "default":[{"value": 65, "color":""}]
     }
   }
 }
