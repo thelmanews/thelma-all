@@ -16,9 +16,9 @@
         "color":{"friendly":"Color", "type":"colorPicker", "default":"", "optional":true}
       },
       "default":[
-      {"label": "medicaid", "value": 20, "color":""},
-      {"label": "gap", "value": 40, "color":""},
-      {"label": "sub", "value": 10, "color":""}]
+      {"label": "medicaid", "value": 20, "display_value": "$20", "color":""},
+      {"label": "gap", "value": 40, "display_value": "$40", "color":""},
+      {"label": "sub", "value": 10, "display_value": "$10", "color":""}]
     }
   }
 }
