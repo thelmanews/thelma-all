@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "thumbnail":"bullets.jpg",
   "inputAttr": {
-    "width":{"friendly":"Width(add px)", "type":"string", "default":"250px"},
+    "width":{"friendly":"Width", "type":"int", "default":250},
     "tableData":{"friendly":"Data", "type":"table-repeating","rows":2, 
       "fields":{
         "bullet":{"friendly":"Bullet", "type":"unicode", "default":"\u25CF"},
