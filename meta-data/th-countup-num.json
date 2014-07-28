@@ -5,9 +5,9 @@
   "version": "0.0.1",
   "thumbnail":"counter.jpg",
   "inputAttr": {
-    "width":{"friendly":"Width(add px)", "type":"string", "default":"250px"},
+    "width":{"friendly":"Width", "type":"int", "default":250},
     "content":{"friendly":"Number", "type":"content", "default":"Count to 40"},
-    "numberSize":{"friendly":"Number Size", "type":"string", "default":"40px"}, 
+    "numberSize":{"friendly":"Number Size", "type":"int", "default":40}, 
     "growNumber":{"friendly":"Grow Number?", "type":"boolean", "default":"false"}, 
     "color":{"friendly":"Number Color", "type":"colorPicker", "default":"", "optional":true}, 
     "type":{"friendly":"Type","type":"dropdown", "values": ["headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"], "default": "mainpoint"},
