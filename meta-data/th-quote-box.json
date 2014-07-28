@@ -6,7 +6,7 @@
   "thumbnail":"quote.jpg", 
   "tags":["textual", "image"],
   "inputAttr": {
-    "width":{"friendly":"Width(add px)", "type":"string", "default":"250px"},
+    "width":{"friendly":"Width", "type":"int", "default":250},
     "content":{"friendly":"Quote", "type":"content", "default":"Please enter a quote."},
     "title":{"friendly":"Title", "type":"string", "default":"Name"},
     "details":{"friendly":"Details", "type":"string", "default":"Details (optional)"},

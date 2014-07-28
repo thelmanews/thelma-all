@@ -6,7 +6,7 @@
   "thumbnail":"markdown.jpg",
   "tags":["textual", "Markdown"],
   "inputAttr": {
-    "width":{"friendly":"Width(add px)", "type":"string", "default":"250px"},
+    "width":{"friendly":"Width", "type":"int", "default":280},
     "content":{"friendly":"HTML/Text", "type":"content", "default":"Enter Text..."},
     "type":{
       "friendly":"Type",

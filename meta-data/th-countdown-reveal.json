@@ -5,8 +5,8 @@
   "version": "0.0.1",
   "thumbnail":"countdown.jpg",
   "inputAttr": {
-    "width":{"friendly":"Width(add px)", "type":"string", "default":"270px"},
-    "height":{"friendly":"Height(add px)", "type":"string", "default":"200px"},
+    "width":{"friendly":"Width", "type":"int", "default":270},
+    "height":{"friendly":"Height", "type":"int", "default":200},
     "content":{"friendly":"Content", "type":"content", "default":"5 million low-income Americans still can't get health insurance under Obamacare."},
     "image": {"friendly":"Image", "type":"image", "default":""},
     "startFrom":{"friendly":"Start From", "type":"int", "default":3},
