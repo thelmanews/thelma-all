@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "thumbnail":"stories.jpg",
   "inputAttr": {
-    "width":{"friendly":"Width(add px)", "type":"string", "default":"300px"},
+    "width":{"friendly":"Width", "type":"int", "default":280},
     "themecolor":{"friendly":"Theme","type":"dropdown","default":"dark", "values":["dark","light"]},
     "links":{"friendly":"Data", "type":"table-repeating","rows":3, 
       "fields":{
