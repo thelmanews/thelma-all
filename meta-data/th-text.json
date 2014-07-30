@@ -7,12 +7,18 @@
   "tags":["textual", "Markdown"],
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":280},
-    "content":{"friendly":"HTML/Text", "type":"content", "default":"Enter Text..."},
+    "content":{"friendly":"Text/Markdown", "type":"content", "default":"Enter Text..."},
     "type":{
       "friendly":"Type",
       "type":"dropdown", 
       "values": ["headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"],
       "default": "mainpoint"
+    },
+    "align":{
+      "friendly":"Align",
+      "type":"dropdown", 
+      "values": ["left", "right", "center", "justify"],
+      "default": "left"
     },
     "markdown":{"friendly":"Markdown", "type":"boolean", "default":"true"},
     "color":{"friendly":"Color", "type":"colorPicker", "default":"", "optional":"true"}
