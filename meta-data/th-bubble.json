@@ -1,0 +1,15 @@
+{
+  "name": "th-bubble",
+  "description": "Thelma Growing Bubble",
+  "category":"chart",
+  "version": "0.0.1",
+  "thumbnail":"bubble.jpg",
+  "inputAttr": {
+    "chartSize":{"friendly":"Width", "type":"int", "default":125},
+    "startFrom":{"friendly":"Start From", "type":"int", "default":0}, 
+    "value":{"friendly":"Final Value", "type":"int", "default":77}, 
+    "display_value":{"friendly":"Display Value", "type":"string", "default":"+77%"}, 
+    "color":{"friendly":"Color", "type":"colorPicker", "default":"", "optional":true}, 
+    "duration":{"friendly":"Duration", "type":"int", "default":2}
+  }
+} 
