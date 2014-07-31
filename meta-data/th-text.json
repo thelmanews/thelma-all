@@ -20,6 +20,12 @@
       "values": ["left", "right", "center", "justify"],
       "default": "left"
     },
+    "highlighting":{
+      "friendly":"Hightlighting",
+      "type":"dropdown", 
+      "values": ["black", "white"],
+      "default": ""
+    },
     "markdown":{"friendly":"Markdown", "type":"boolean", "default":"true"},
     "color":{"friendly":"Color", "type":"colorPicker", "default":"", "optional":"true"}
   }
