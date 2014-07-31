@@ -6,8 +6,9 @@
   "thumbnail":"question.jpg",
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":280},
+    "height":{"friendly":"Height", "type":"int", "default":280},
     "question":{"friendly":"Question", "type":"string", "default":"Enter a question."},
-    "afterText":{"friendly":"Answer Text", "type":"string", "default":"The answer is:"},
+    "answerText":{"friendly":"Answer Text", "type":"string", "default":"The answer is:"},
     "choices":{"friendly":"Choices", "type":"table-repeating","rows":2, 
       "fields":{
         "text":{"friendly":"Text", "type":"string", "default": ""},
