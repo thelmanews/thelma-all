@@ -23,7 +23,7 @@
     "highlighting":{
       "friendly":"Hightlighting",
       "type":"dropdown", 
-      "values": ["black", "white"],
+      "values": ["", "black", "white"],
       "default": ""
     },
     "markdown":{"friendly":"Markdown", "type":"boolean", "default":"true"},
