@@ -9,7 +9,7 @@
     "width":{"friendly":"Width", "type":"int", "default":250},
     "content":{"friendly":"Quote", "type":"content", "default":"Please enter a quote."},
     "title":{"friendly":"Title", "type":"string", "default":"Name"},
-    "details":{"friendly":"Details", "type":"string", "default":"Details (optional)"},
-    "image":{"friendly":"Image", "type":"image", "default":"/bower_components/thelma-components/images/person.jpg"}
+    "details":{"friendly":"Details", "type":"string", "default":"Details (optional)", "optional":true},
+    "image":{"friendly":"Image", "type":"image", "default":"/bower_components/thelma-components/images/person.jpg",  "optional":true}
   }
 }
