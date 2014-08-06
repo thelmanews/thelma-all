@@ -10,7 +10,7 @@
     "chartData":{"friendly":"Data", "type":"table-fixed","rows":1, 
       "fields":{
         "value":{"friendly":"Value", "type":"int", "default":65},
-        "color":{"friendly":"Color", "type":"colorPicker", "default":"", "optional":true}
+        "color":{"friendly":"Color", "type":"colorPicker", "default":""}
       },
       "default":[{"value": 65, "color":""}]
     }

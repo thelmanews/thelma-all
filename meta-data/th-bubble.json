@@ -11,10 +11,10 @@
       "fields":{
         "startValue":{"friendly":"Start Value", "type":"int", "default":0},
         "value":{"friendly":"End Value", "type":"int", "default":65},
-        "color":{"friendly":"Color", "type":"colorPicker", "default":"", "optional":true},
-        "prefix":{"friendly":"Number Prefix", "type":"string", "default":"", "optional":true},
-        "suffix":{"friendly":"Number Suffix", "type":"string", "default":"", "optional":true},
-        "label":{"friendly":"Label", "type":"string", "default":"", "optional":true}
+        "color":{"friendly":"Color", "type":"colorPicker", "default":""},
+        "prefix":{"friendly":"Number Prefix", "type":"string", "default":""},
+        "suffix":{"friendly":"Number Suffix", "type":"string", "default":""},
+        "label":{"friendly":"Label", "type":"string", "default":""}
       },
       "default":[{"startValue": 0, "value": 77, "color":"", "prefix":"+", "suffix":"%", "label":""}]
     }

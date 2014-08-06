@@ -9,7 +9,7 @@
     "content":{"friendly":"Number", "type":"content", "default":"Count to 40"},
     "numberSize":{"friendly":"Number Size", "type":"int", "default":40}, 
     "growNumber":{"friendly":"Grow Number?", "type":"boolean", "default":"false"}, 
-    "color":{"friendly":"Number Color", "type":"colorPicker", "default":"", "optional":true}, 
+    "color":{"friendly":"Number Color", "type":"colorPicker", "default":""}, 
     "type":{"friendly":"Type","type":"dropdown", "values": ["headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"], "default": "mainpoint"},
     "startFrom":{"friendly":"Start From", "type":"int", "default":0},
     "startFromSameNumberOfDigit":{"friendly":"Same number dig?", "type":"boolean", "default":"true"},
