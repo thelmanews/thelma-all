@@ -8,6 +8,8 @@
   "inputAttr": {
     "chartWidth":{"friendly":"Width", "type":"int", "default":200},
     "chartHeight":{"friendly":"Height", "type":"int", "default":250},
+    "iconTransition":{"friendly":"Icon Transition", "type":"string", "default":"random"},
+    "animationDuration":{"friendly":"Animation Duration (ms)", "type":"int", "default":200},
     "chartData":{"friendly":"Data", "type":"table-fixed","rows":2, 
        "fields":{
         "label":{"friendly":"Label", "type":"string", "default":"Smoker"},
