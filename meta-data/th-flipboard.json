@@ -1,0 +1,29 @@
+{
+  "name": "th-flipboard",
+  "description": "Thelma Flipboard",
+  "category":"textual",
+  "version": "0.0.1",
+  "thumbnail":"flipboard.jpg",
+  "inputAttr": {
+    "width":{"friendly":"Width", "type":"int", "default":280},
+    "height":{"friendly":"Height", "type":"int", "default":280},
+    "items":{"friendly":"Items", "type":"table-repeating","rows":4, 
+      "fields":{
+        "textFront":{"friendly":"Text (front)", "type":"string", "default":""},
+        "backgroundFront":{"friendly":"Background (front)", "type":"ColorOrImage", "default":""},
+        "colorFront": {"friendly":"Color (front)", "type":"colorPicker","default":"white"},
+        "textBack":{"friendly":"Text (back)", "type":"string", "default":""},
+        "backgroundBack":{"friendly":"Background (back)", "type":"ColorOrImage", "default":""},
+        "colorBack": {"friendly":"Color (back)", "type":"colorPicker","default":"white"}
+      },
+      "default":[ 
+        {textFront: "Front", textBack: "Back"},
+        {textFront: "Front", textBack: "Back"},
+        {textFront: "Front", textBack: "Back"},
+        {textFront: "Front", textBack: "Back"}
+      ]
+    },
+    "itemsPerRow":{"friendly":"Items Per Row", "type":"int", "default":2},
+    "flippable":{"friendly":"Flippable?", "type":"boolean", "default":"true"}
+  }
+}
