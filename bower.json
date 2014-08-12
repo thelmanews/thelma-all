@@ -4,7 +4,8 @@
   "keywords": "seed, polymer, web-components",
   "main": "thelma-components.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#~0.3.1",
+    "polymer": "Polymer/polymer#0.3.4",
+    "platform": "Polymer/platform#0.3.4",
     "thelma-core": "https://github.com/thelmanews/thelma-core.git",
     "thelma-utils": "https://github.com/thelmanews/thelma-utils.git",
     "thelma-charts": "https://github.com/thelmanews/thelma-charts.git",
