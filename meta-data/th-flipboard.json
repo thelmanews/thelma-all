@@ -17,10 +17,10 @@
         "colorBack": {"friendly":"Color (back)", "type":"colorPicker","default":"white"}
       },
       "default":[ 
-        {textFront: "Front", textBack: "Back"},
-        {textFront: "Front", textBack: "Back"},
-        {textFront: "Front", textBack: "Back"},
-        {textFront: "Front", textBack: "Back"}
+        {"textFront": "Front", "textBack": "Back"},
+        {"textFront": "Front", "textBack": "Back"},
+        {"textFront": "Front", "textBack": "Back"},
+        {"textFront": "Front", "textBack": "Back"}
       ]
     },
     "itemsPerRow":{"friendly":"Items Per Row", "type":"int", "default":2},
