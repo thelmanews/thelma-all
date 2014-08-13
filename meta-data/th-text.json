@@ -20,6 +20,7 @@
       "values": ["left", "right", "center", "justify"],
       "default": "left"
     },
+    "color":{"friendly":"Text Color", "type":"colorPicker", "default":""},
     "highlighting":{
       "friendly":"Highlighting", 
       "type":"colorPicker", 
@@ -33,9 +34,8 @@
     "opacity":{
       "friendly":"Background Opacity", 
       "type":"float", 
-      "default":1.0
+      "default":1
     },
-    "markdown":{"friendly":"Markdown", "type":"boolean", "default":"true"},
-    "color":{"friendly":"Text Color", "type":"colorPicker", "default":"", "optional":"true"}
+    "markdown":{"friendly":"Markdown?", "type":"boolean", "default":"true"}
   }
 }
