@@ -21,12 +21,21 @@
       "default": "left"
     },
     "highlighting":{
-      "friendly":"Hightlighting",
-      "type":"dropdown", 
-      "values": ["black", "white"],
-      "default": ""
+      "friendly":"Highlighting", 
+      "type":"colorPicker", 
+      "default":""
+    },
+    "background":{
+      "friendly":"Background Color", 
+      "type":"colorPicker", 
+      "default":""
+    },
+    "opacity":{
+      "friendly":"Background Opacity", 
+      "type":"float", 
+      "default":1.0
     },
     "markdown":{"friendly":"Markdown", "type":"boolean", "default":"true"},
-    "color":{"friendly":"Color", "type":"colorPicker", "default":"", "optional":"true"}
+    "color":{"friendly":"Text Color", "type":"colorPicker", "default":"", "optional":"true"}
   }
 }
