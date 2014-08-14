@@ -9,5 +9,6 @@
     "thelma-utils": "https://github.com/thelmanews/thelma-utils.git",
     "thelma-charts": "https://github.com/thelmanews/thelma-charts.git",
     "thelma-text": "https://github.com/thelmanews/thelma-text.git"
+    "th-google-map": "https://github.com/thelmanews/th-google-map.git"
   }
 }

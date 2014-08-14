@@ -1,0 +1,21 @@
+{
+  "name": "th-google-map",
+  "description": "Wrapper for Google Maps",
+  "category":"map",
+  "version": "0.0.1",
+  "thumbnail":"map.jpg", 
+  "tags":["map", "google"],
+  "inputAttr": {
+    "width":{"friendly":"Width", "type":"int", "default":300},
+    "height":{"friendly":"Height", "type":"int", "default":200},
+    "latitude": {"friendly":"Latitude", "type":"int", "default":40.7127},
+    "longitude": {"friendly":"Longitude", "type":"int", "default":-74.0059},
+    "marks":{"friendly":"Marks", "type":"table-repeating","rows":1, 
+      "fields":{
+        "latitude": {"friendly":"Latitude", "type":"int", "default":40.7127},
+        "longitude": {"friendly":"Longitude", "type":"int", "default":-74.0059},
+        "label" : {"friendly": "Label", "type": "string", "defualt": "NYC"}
+      }
+    }
+  }
+}
