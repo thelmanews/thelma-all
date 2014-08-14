@@ -5,10 +5,11 @@
   "version": "0.0.1",
   "thumbnail":"question.jpg",
   "inputAttr": {
-    "width":{"friendly":"Width", "type":"int", "default":280},
-    "height":{"friendly":"Height", "type":"int", "default":280},
-    "question":{"friendly":"Question", "type":"string", "default":"Enter a question."},
-    "answerText":{"friendly":"Answer Text", "type":"string", "default":"The answer is:"},
+    "width":{"friendly":"Width", "type":"int", "default":250},
+    "height":{"friendly":"Height", "type":"int", "default":200},
+    "question":{"friendly":"Question", "type":"string", "default":"Which one is better?"},
+    "answerText":{"friendly":"Answer Text", "type":"string", "default":"The correct answer is:"},
+    "choicesPerRow":{"friendly":"Choices Per Row", "type":"int", "default":2},
     "choices":{"friendly":"Choices", "type":"table-repeating","rows":2, 
       "fields":{
         "text":{"friendly":"Text", "type":"string", "default": ""},
@@ -16,8 +17,8 @@
         "answer":{"friendly":"Answer", "type":"boolean", "default": false}
       },
       "default":[
-        {"text": "", "image":"/bower_components/thelma-components/images/person.jpg", "answer":"false"},
-        {"text": "", "image":"/bower_components/thelma-components/images/person.jpg", "answer":"true"}
+        {"text": "This guy", "image":"/bower_components/thelma-components/images/person.jpg", "answer":"false"},
+        {"text": "That guy", "image":"/bower_components/thelma-components/images/person.jpg", "answer":"true"}
       ]
     }
   }
