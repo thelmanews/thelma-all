@@ -10,7 +10,7 @@
     "height":{"friendly":"Height", "type":"int", "default":200},
     "latitude": {"friendly":"Latitude", "type":"int", "default":40.7127},
     "longitude": {"friendly":"Longitude", "type":"int", "default":-74.0059},
-    "marks":{"friendly":"Marks", "type":"table-repeating","rows":1, 
+    "markers":{"friendly":"Markers", "type":"table-repeating","rows":2, 
       "fields":{
         "latitude": {"friendly":"Latitude", "type":"int", "default":40.7127},
         "longitude": {"friendly":"Longitude", "type":"int", "default":-74.0059},
