@@ -10,6 +10,11 @@
     "height":{"friendly":"Height", "type":"int", "default":200},
     "latitude": {"friendly":"Latitude", "type":"int", "default":40.7127},
     "longitude": {"friendly":"Longitude", "type":"int", "default":-74.0059},
+    "zoom": {"friendly":"Zoom", "type":"int", "default":10},
+    "showCenterMarker": {"friendly":"Show Center Marker", "type":"boolean", "default": false},
+    "fitToMarkers": {"friendly":"Fit to Markers", "type":"boolean", "default": false},
+    "zoomable": {"friendly":"Zoomable", "type":"boolean", "default": true},
+    "mapType": {"friendly":"Map Type", "type": "dropdown", "default": "roadmap", "values":["roadmap", "satellite", "hybrid", "terrain"]},
     "markers":{"friendly":"Markers", "type":"table-repeating","rows":2, 
       "fields":{
         "latitude": {"friendly":"Latitude", "type":"int", "default":40.7127},
