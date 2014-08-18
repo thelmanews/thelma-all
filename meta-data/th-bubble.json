@@ -10,7 +10,7 @@
     "chartData":{"friendly":"Data", "type":"table-fixed","rows":1, 
       "fields":{
         "startValue":{"friendly":"Start Value", "type":"int", "default":0},
-        "value":{"friendly":"End Value", "type":"int", "default":65},
+        "endValue":{"friendly":"End Value", "type":"int", "default":65},
         "color":{"friendly":"Color", "type":"colorPicker", "default":""},
         "prefix":{"friendly":"Number Prefix", "type":"string", "default":""},
         "suffix":{"friendly":"Number Suffix", "type":"string", "default":""},
