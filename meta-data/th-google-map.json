@@ -3,7 +3,7 @@
   "description": "Wrapper for Google Maps",
   "category":"map",
   "version": "0.0.1",
-  "thumbnail":"map.jpg", 
+  "thumbnail":"google-map.jpg", 
   "tags":["map", "google"],
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":300},
