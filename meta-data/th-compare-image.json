@@ -1,0 +1,15 @@
+{
+  "name": "th-compare-image",
+  "description": "Thelma Compare Image",
+  "category":"image",
+  "version": "0.0.1",
+  "thumbnail":"compare-image.jpg", 
+  "tags":["image"],
+  "inputAttr": {
+    "width":{"friendly":"Width", "type":"int", "default":280},
+    "height":{"friendly":"Height", "type":"int", "default":200},
+    "imageLeft":{"friendly":"Left Image", "type":"image", "default":"/bower_components/thelma-components/images/lowtide.jpg"},
+    "imageRight":{"friendly":"Left Image", "type":"image", "default":"/bower_components/thelma-components/images/hightide.jpg"},
+    "sliderPos":{"friendly":"Slider Position", "type":"string", "default":"50%"}
+  }
+}
