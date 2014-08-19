@@ -9,8 +9,8 @@
     "width":{"friendly":"Width", "type":"int", "default":280},
     "height":{"friendly":"Height", "type":"int", "default":200},
     "sliderPos":{"friendly":"Slider Position", "type":"string", "default":"50%"},
-    "imageLeft":{"friendly":"Left Image", "type":"image", "default":"/bower_components/thelma-components/images/lowtide.jpg"},
-    "imageRight":{"friendly":"Right Image", "type":"image", "default":"/bower_components/thelma-components/images/hightide.jpg"}
+    "imageLeft":{"friendly":"Left Image", "type":"image", "default":"/bower_components/thelma-components/images/person-left.jpg"},
+    "imageRight":{"friendly":"Right Image", "type":"image", "default":"/bower_components/thelma-components/images/person-right.jpg"}
     
   }
 }
