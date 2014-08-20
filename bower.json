@@ -11,6 +11,11 @@
     "thelma-charts": "https://github.com/thelmanews/thelma-charts.git",
     "thelma-text": "https://github.com/thelmanews/thelma-text.git",
     "th-google-map": "https://github.com/thelmanews/th-google-map.git",
-    "image-mask": "~0.0.4"
+    "image-mask": "~0.0.4",
+    "star-rating": "*"
+  },
+  "resolutions": {
+    "polymer": "0.3.4",
+    "platform": "0.3.4"
   }
 }

@@ -1,0 +1,11 @@
+{
+  "name": "star-rating",
+  "description": "Star Rating",
+  "category":"textual",
+  "version": "0.0.1",
+  "thumbnail":"star-rating.jpg", 
+  "tags":["textual", "star rating"],
+  "inputAttr": {
+    "stars":{"friendly":"Star Count", "type":"int", "default":5}
+  }
+}
