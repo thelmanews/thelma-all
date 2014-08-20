@@ -6,6 +6,7 @@
   "thumbnail":"star-rating.jpg", 
   "tags":["textual", "star rating"],
   "inputAttr": {
-    "stars":{"friendly":"Star Count", "type":"int", "default":5}
+    "stars":{"friendly":"Star Count", "type":"int", "default":5},
+    "icon": {"friendly":"Icon", "type": "dropdown", "default": "star", "values":["star","heart","face"]}
   }
 }
