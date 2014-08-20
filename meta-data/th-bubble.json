@@ -17,7 +17,7 @@
         "suffix":{"friendly":"Number Suffix", "type":"string", "default":""},
         "label":{"friendly":"Label", "type":"string", "default":""}
       },
-      "default":[{"startValue": 0, "value": 77, "color":"", "prefix":"+", "suffix":"%", "label":""}]
+      "default":[{"startValue": 0, "endValue": 77, "color":"", "prefix":"+", "suffix":"%", "label":""}]
     }
   }
 } 
