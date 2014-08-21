@@ -1,6 +1,6 @@
 {
   "name": "th-n-bar-chart",
-  "description": "Thelma n bar chart",
+  "description": "Thelma Bar Chart",
   "category":"chart",
   "version": "0.0.1",
   "thumbnail":"nbar.jpg", 
@@ -8,6 +8,8 @@
   "inputAttr": {
     "chartWidth":{"friendly":"Width", "type":"int", "default":200},
     "chartHeight":{"friendly":"Height", "type":"int", "default":250},
+    "wrapLabels":{"friendly":"Wrap Labels?", "type":"boolean", "default": true},
+    "showHorizontalAxis":{"friendly":"Show Axis?", "type":"boolean", "default": false},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
       "fields":{
         "label":{"friendly":"Label", "type":"string", "default":"Player"},
