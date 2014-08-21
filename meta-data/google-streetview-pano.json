@@ -1,0 +1,13 @@
+{
+  "name": "google-streetview-pano",
+  "description": "Panorama view",
+  "category":"map",
+  "version": "0.0.1",
+  "thumbnail":"google-pano.jpg", 
+  "tags":["map", "google", "panorama"],
+  "inputAttr": {
+    "width":{"friendly":"Width", "type":"int", "default":300},
+    "height":{"friendly":"Height", "type":"int", "default":200},
+    "panoid": {"friendly":"Pano ID", "type":"string", "default":"CWskcsTEZBNXaD8gG-zATA"}
+  }
+}
