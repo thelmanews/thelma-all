@@ -3,7 +3,7 @@
   "description": "Wrapper for Google Maps",
   "category":"map",
   "version": "0.0.1",
-  "thumbnail":"map.jpg", 
+  "thumbnail":"google-map.jpg", 
   "tags":["map", "google"],
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":300},
@@ -11,11 +11,11 @@
     "latitude": {"friendly":"Latitude", "type":"int", "default":40.7127},
     "longitude": {"friendly":"Longitude", "type":"int", "default":-74.0059},
     "zoom": {"friendly":"Zoom", "type":"int", "default":10},
+    "useTheme": {"friendly":"Use Card Theme", "type":"boolean", "default": true},
     "showCenterMarker": {"friendly":"Show Center Marker", "type":"boolean", "default": false},
     "fitToMarkers": {"friendly":"Fit to Markers", "type":"boolean", "default": false},
     "zoomable": {"friendly":"Zoomable", "type":"boolean", "default": true},
     "mapType": {"friendly":"Map Type", "type": "dropdown", "default": "roadmap", "values":["roadmap", "satellite", "hybrid", "terrain"]},
-    "useTheme": {"friendly":"Use Card Theme", "type":"boolean", "default": true},
     "markers":{"friendly":"Markers", "type":"table-repeating","rows":2, 
       "fields":{
         "latitude": {"friendly":"Latitude", "type":"int", "default":40.7127},
