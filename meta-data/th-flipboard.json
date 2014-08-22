@@ -17,7 +17,7 @@
         "colorBack": {"friendly":"Color (back)", "type":"colorPicker", "default":""}
       },
       "default":[ 
-        {"textFront": "Front", "backgroundFront":"/bower_components/thelma-components/images/person.jpg", "colorFront":"", "textBack":"Back", "backgroundBack":"", "colorBack":""},
+        {"textFront": "Front", "backgroundFront":"", "colorFront":"", "textBack":"Back", "backgroundBack":"", "colorBack":""},
         {"textFront": "Front", "backgroundFront":"", "colorFront":"", "textBack":"Back", "backgroundBack":"", "colorBack":""},
         {"textFront": "Front", "backgroundFront":"", "colorFront":"", "textBack":"Back", "backgroundBack":"", "colorBack":""},
         {"textFront": "Front", "backgroundFront":"", "colorFront":"", "textBack":"Back", "backgroundBack":"", "colorBack":""}
