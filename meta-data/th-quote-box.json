@@ -3,7 +3,7 @@
   "description": "Thelma Quote",
   "category":"textual",
   "version": "0.0.1",
-  "thumbnail":"quote.jpg", 
+  "thumbnail":"boxed-quote.jpg", 
   "tags":["textual", "image"],
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":250},
