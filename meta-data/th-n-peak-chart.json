@@ -1,6 +1,6 @@
 {
   "name": "th-n-peak-chart",
-  "description": "Thelma n peak chart",
+  "description": "Thelma Peak Chart",
   "category":"chart",
   "version": "0.0.1",
   "thumbnail":"n-peak-chart.jpg", 
@@ -8,6 +8,7 @@
   "inputAttr": {
     "chartWidth":{"friendly":"Width", "type":"int", "default":200},
     "chartHeight":{"friendly":"Height", "type":"int", "default":250},
+    "wrapLabels":{"friendly":"Wrap Labels?", "type":"boolean", "default": false},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
       "fields":{
         "label":{"friendly":"Label", "type":"string", "default":"Player"},
