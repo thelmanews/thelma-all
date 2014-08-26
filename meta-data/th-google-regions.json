@@ -1,0 +1,31 @@
+{
+  "name": "th-google-regions",
+  "description": "Thelma World Regions Map",
+  "category":"chart",
+  "version": "0.0.1",
+  "thumbnail":"map.jpg", 
+  "tags":["chart", "map"],
+  "inputAttr": {
+    "chartWidth":{"friendly":"Width", "type":"int", "default":280},
+    "chartHeight":{"friendly":"Height", "type":"int", "default":400},
+    "region":{"friendly":"Scope of Map", "type":"String", "default":"155"},
+    "resolution":{"friendly":"Boundaries", "type":"dropdown","default":"countries", "values":["countries","provinces","metros"]},
+    "dataLabel":{"friendly":"Data Label", "type":"String", "default":"Popularity"},
+    "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
+      "fields":{
+        "region":{"friendly":"Region", "type":"string", "default":""},
+        "value":{"friendly":"Value", "type":"int", "default":""}
+      },
+      "default":[
+            {"region": "Germany", "value": 100},
+            {"region": "Switzerland", "value": 50},
+            {"region": "France", "value": 300},
+            {"region": "Austria", "value": 200},
+            {"region": "Netherlands", "value": 500}
+        ]
+    },
+    "displayMode":{"friendly":"Display Type", "type":"dropdown","default":"fill", "values":["fill","markers", "text"]},
+    "color":{"friendly":"Color", "type":"colorPicker", "default":""}, 
+    "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "default":""}
+  }
+}
