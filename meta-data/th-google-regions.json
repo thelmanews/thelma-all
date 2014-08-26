@@ -7,9 +7,9 @@
   "tags":["chart", "map"],
   "inputAttr": {
     "chartWidth":{"friendly":"Width", "type":"int", "default":280},
-    "chartHeight":{"friendly":"Height", "type":"int", "default":400},
-    "region":{"friendly":"Scope of Map", "type":"String", "default":"155"},
+    "chartHeight":{"friendly":"Height", "type":"int", "default":400},    
     "resolution":{"friendly":"Boundary Detail", "type":"dropdown","default":"countries", "values":["countries","provinces","metros"]},
+    "regionCode":{"friendly":"Scope of Map", "type":"String", "default":"155"},
     "dataLabel":{"friendly":"Data Label", "type":"String", "default":"Popularity"},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
       "fields":{
