@@ -21,7 +21,7 @@
         "latitude": {"friendly":"Latitude", "type":"int", "default":40.7127},
         "longitude": {"friendly":"Longitude", "type":"int", "default":-74.0059},
         "label" : {"friendly": "Label", "type": "string", "defualt": "NYC"},
-        "icon" : {"friendly": "Icon", "type": "image", "defualt": ""}
+        "image" : {"friendly": "Icon", "type": "image", "defualt": ""}
       },
       "default":[
         {"latitude": 40.71, "longitude": -74.0059, "label": "NYC"  }, 
