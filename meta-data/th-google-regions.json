@@ -3,7 +3,7 @@
   "description": "Thelma World Regions Map",
   "category":"chart",
   "version": "0.0.1",
-  "thumbnail":"map.jpg", 
+  "thumbnail":"google-regions.jpg", 
   "tags":["chart", "map"],
   "inputAttr": {
     "chartWidth":{"friendly":"Width", "type":"int", "default":280},
