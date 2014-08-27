@@ -10,6 +10,7 @@
     "height":{"friendly":"Height", "type":"int", "default":280},
     "sliderPos":{"friendly":"Slider Position", "type":"string", "default":"50%"},
     "imageLeft":{"friendly":"Left Image", "type":"image", "default":"/bower_components/thelma-components/images/person-left.jpg"},
+    "dummy":{"friendly":" ", "type":"string", "default":"dummy field for spacing"},
     "imageRight":{"friendly":"Right Image", "type":"image", "default":"/bower_components/thelma-components/images/person-right.jpg"}
     
   }
