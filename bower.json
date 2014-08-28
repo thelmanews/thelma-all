@@ -13,6 +13,7 @@
     "th-google-map": "https://github.com/thelmanews/th-google-map.git",
     "th-google-regions": "https://github.com/thelmanews/th-google-regions.git",
     "th-google-form": "https://github.com/thelmanews/th-google-form.git",
+    "th-google-pie": "https://github.com/thelmanews/th-google-pie.git",
     "image-mask": "~0.0.4",
     "star-rating": "https://github.com/sepans/star-rating.git"
   },
