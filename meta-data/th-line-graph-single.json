@@ -19,6 +19,7 @@
     "dataPosition":{"friendly":"Data Position","type":"dropdown","default":"left", "values":["left","right"]},
     "color":{"friendly":"Color", "type":"colorPicker", "default":""}, 
     "defaultDisplayValues":{"friendly":"Use Default Display Values", "type":"boolean", "default": true},
+    "dateType":{"friendly":"Data Format","type":"dropdown","default":"YYYY", "values":["DD-MM-YY", "DD-MM", "DD-Mth", "MM-YY", "Mth-YY", "YY", "YYYY"]},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":5, 
       "fields":{
         "label":{"friendly":"Label", "type":"string", "default":"2010"},
