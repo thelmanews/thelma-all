@@ -13,8 +13,7 @@
       "fields":{
         "state":{"friendly":"State", "type":"string", "readonly": "true"},
         "value":{"friendly":"Value", "type":"int", "default":15},
-        "crossed":{"friendly":"Cross Mark", "type":"boolean"},
-        "color":{"friendly":"Color", "type":"colorPicker", "default":""}
+        "crossed":{"friendly":"Cross Mark", "type":"boolean"}
       },
       "default":[
             {"state":"Alabama","value":0.16490015, "crossed": true},

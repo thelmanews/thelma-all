@@ -1,0 +1,13 @@
+{
+  "name": "th-google-form",
+  "description": "Thelma Google Form",
+  "category":"textual",
+  "version": "0.0.1",
+  "thumbnail":"google-form.jpg", 
+  "tags":["survey", "form", "text"],
+  "inputAttr": {
+    "width":{"friendly":"Width", "type":"int", "default":280},
+    "height":{"friendly":"Height", "type":"int", "default":400},   
+    "src":{"friendly":"Form URL", "type":"string", "default":"https://docs.google.com/forms/d/18KBVx88jEDb8KP4NjsK4e5g2ieggQ6XlPH5WoJMf_u4/viewform"}
+  }
+}
