@@ -11,17 +11,17 @@
     "interval":{"friendly":"Interval", "type":"int", "default": 3000},
     "width":{"friendly":"Width", "type":"int", "default":280},
     "height":{"friendly":"Height", "type":"int", "default":280},
-    "fontSize":{"friendly":"Font Size", "type":"int", "default":18},
+    "fontSize":{"friendly":"Font Size", "type":"int", "default":60},
     "items":{"friendly":"Items", "type":"table-repeating","rows":4, 
       "fields":{
         "text":{"friendly":"Text", "type":"string", "default":""},
         "image": {"friendly":"Image", "type":"image", "default":""}
       },
       "default":[  
-        {"text": "", "image": "/bower_components/thelma-components/images/person.jpg"},
-        {"text": "", "image": "/bower_components/thelma-components/images/person-right.jpg"},
-        {"text": "", "image": "/bower_components/thelma-components/images/person.jpg"},
-        {"text": "", "image": "/bower_components/thelma-components/images/person-right.jpg"}  
+        {"text": "1", "image": ""},
+        {"text": "2", "image": ""},
+        {"text": "3", "image": ""},
+        {"text": "4", "image": ""}  
       ]
     }
   }
