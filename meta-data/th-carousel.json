@@ -9,7 +9,6 @@
     "isHorizontal":{"friendly":"Horizontal Rotation?", "type":"boolean", "default": true},
     "animateOn":{"friendly":"Animate On","type":"dropdown","default":"tap", "values":["tap","interval"]},
     "interval":{"friendly":"Interval", "type":"int", "default": 3000},
-    "backfaces":{"friendly":"Backfaces", "type":"boolean", "default": false},
     "width":{"friendly":"Width", "type":"int", "default":280},
     "height":{"friendly":"Height", "type":"int", "default":280},
     "fontSize":{"friendly":"Font Size", "type":"int", "default":18},
