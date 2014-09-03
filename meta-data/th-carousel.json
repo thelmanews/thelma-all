@@ -6,8 +6,7 @@
   "thumbnail":"carousel.jpg", 
   "tags":["textual", "image", "carousel"],
   "inputAttr": {
-    "content":{"friendly":"Content", "type":"content", "default":""},
-    "isHorizontal":{"friendly":"Horizontal?", "type":"boolean", "default": true},
+    "isHorizontal":{"friendly":"Horizontal Rotation?", "type":"boolean", "default": true},
     "animateOn":{"friendly":"Animate On","type":"dropdown","default":"tap", "values":["tap","interval"]},
     "interval":{"friendly":"Interval", "type":"int", "default": 3000},
     "backfaces":{"friendly":"Backfaces", "type":"boolean", "default": false},
@@ -20,10 +19,10 @@
         "image": {"friendly":"Image", "type":"image", "default":""}
       },
       "default":[  
-        {"text": "", "image": "../thelma-all/images/person.jpg"},
-        {"text": "", "image": "../thelma-all/images/person-right.jpg"},
-        {"text": "", "image": "../thelma-all/images/person.jpg"},
-        {"text": "", "image": "../thelma-all/images/person-right.jpg"}  
+        {"text": "", "image": "/bower_components/thelma-components/images/person.jpg"},
+        {"text": "", "image": "/bower_components/thelma-components/images/person-right.jpg"},
+        {"text": "", "image": "/bower_components/thelma-components/images/person.jpg"},
+        {"text": "", "image": "/bower_components/thelma-components/images/person-right.jpg"}  
       ]
     }
   }
