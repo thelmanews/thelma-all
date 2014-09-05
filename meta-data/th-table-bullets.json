@@ -11,7 +11,7 @@
         "bullet":{"friendly":"Bullet", "type":"unicode", "default":"\u25CF"},
         "text":{"friendly":"Text", "type":"string", "default":"This is a bullet"},
         "image": {"friendly":"Image", "type":"image", "default":""},
-        "color": {"friendly":"Color", "type":"colorPicker", "default":""}
+        "color": {"friendly":"Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}
       },
       "default":[ 
           { "bullet": "\u25CF", "text": "First bullet.", "image": "", "color":""},

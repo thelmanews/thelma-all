@@ -28,7 +28,7 @@
         {"label": "IRN", "valueX": 72.49, "valueY": 1.7, "valueSize": 73137148, "valueColor": "Middle East"}  
       ]
     },
-    "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "default":""},
+    "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "colorDefault":"background", "default":""},
     "legend":{"friendly":"Show Legend?", "type":"boolean", "default": true}
   }
 }
