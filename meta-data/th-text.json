@@ -11,7 +11,7 @@
     "type":{
       "friendly":"Type",
       "type":"dropdown", 
-      "values": ["headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"],
+      "values": ["title","headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"],
       "default": "mainpoint"
     },
     "align":{
