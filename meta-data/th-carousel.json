@@ -6,12 +6,23 @@
   "thumbnail":"carousel.jpg", 
   "tags":["textual", "image", "carousel"],
   "inputAttr": {
-    "content":{"friendly":"Content", "type":"content", "default":""},
-    "isHorizontal":{"friendly":"Horizontal?", "type":"boolean", "default": true},
+    "isHorizontal":{"friendly":"Horizontal Rotation?", "type":"boolean", "default": true},
     "animateOn":{"friendly":"Animate On","type":"dropdown","default":"tap", "values":["tap","interval"]},
     "interval":{"friendly":"Interval", "type":"int", "default": 3000},
-    "backfaces":{"friendly":"Backfaces", "type":"boolean", "default": false},
     "width":{"friendly":"Width", "type":"int", "default":280},
-    "fontSize":{"friendly":"Font Size", "type":"int", "default":18}
+    "height":{"friendly":"Height", "type":"int", "default":280},
+    "fontSize":{"friendly":"Font Size", "type":"int", "default":60},
+    "items":{"friendly":"Items", "type":"table-repeating","rows":4, 
+      "fields":{
+        "text":{"friendly":"Text", "type":"string", "default":""},
+        "image": {"friendly":"Image", "type":"image", "default":""}
+      },
+      "default":[  
+        {"text": "1", "image": ""},
+        {"text": "2", "image": ""},
+        {"text": "3", "image": ""},
+        {"text": "4", "image": ""}  
+      ]
+    }
   }
 }

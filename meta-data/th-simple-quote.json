@@ -1,0 +1,15 @@
+{
+  "name": "th-simple-quote",
+  "description": "Thelma Simple Quote",
+  "category":"textual",
+  "version": "0.0.1",
+  "thumbnail":"quote.jpg", 
+  "tags":["textual", "image"],
+  "inputAttr": {
+    "width":{"friendly":"Width", "type":"int", "default":280},
+    "content":{"friendly":"Quote", "type":"content", "default":"You're only given a little spark of madness. You mustn't lose it."},
+    "title":{"friendly":"Title", "type":"string", "default":"Robin Williams"},
+    "details":{"friendly":"Details", "type":"string", "default":""},
+    "color":{"friendly":"Color", "type":"colorPicker", "default":""}
+  }
+}
