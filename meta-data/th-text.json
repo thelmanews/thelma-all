@@ -20,15 +20,17 @@
       "values": ["left", "right", "center", "justify"],
       "default": "left"
     },
-    "color":{"friendly":"Text Color", "type":"colorPicker", "default":""},
+    "color":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
     "highlighting":{
       "friendly":"Highlighting", 
       "type":"colorPicker", 
+      "colorDefault":"", 
       "default":""
     },
     "background":{
       "friendly":"Background Color", 
       "type":"colorPicker", 
+      "colorDefault":"", 
       "default":""
     },
     "opacity":{

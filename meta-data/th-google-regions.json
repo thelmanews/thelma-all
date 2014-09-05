@@ -25,8 +25,8 @@
         ]
     },
     "displayMode":{"friendly":"Display Type", "type":"dropdown","default":"fill", "values":["fill","markers", "text"]},
-    "color":{"friendly":"Color", "type":"colorPicker", "default":""}, 
-    "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "default":""},
+    "color":{"friendly":"Color", "type":"colorPicker", "colorDefault":"accent", "default":""}, 
+    "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "colorDefault":"background", "default":""},
     "legend":{"friendly":"Show Legend?", "type":"boolean", "default": false}
   }
 }

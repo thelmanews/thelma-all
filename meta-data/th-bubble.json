@@ -11,7 +11,7 @@
       "fields":{
         "startValue":{"friendly":"Start Value", "type":"int", "default":0},
         "endValue":{"friendly":"End Value", "type":"int", "default":65},
-        "color":{"friendly":"Color", "type":"colorPicker", "default":""},
+        "color":{"friendly":"Color", "type":"colorPicker", "colorDefault":"accent", "default":""},
         "image":{"friendly":"Image", "type":"image", "default":""},
         "prefix":{"friendly":"Number Prefix", "type":"string", "default":""},
         "suffix":{"friendly":"Number Suffix", "type":"string", "default":""},

@@ -13,7 +13,7 @@
         "label":{"friendly":"Label", "type":"string", "default":"Player"},
         "value":{"friendly":"Value", "type":"int", "default":15},
         "display_value":{"friendly":"Display Value", "type":"string", "default":"$15"},
-        "color":{"friendly":"Color", "type":"colorPicker", "default":""}
+        "color":{"friendly":"Color", "type":"colorPicker", "colorDefault":"accent", "default":""}
       },
       "default":[
         {"label": "Player", "value": 15, "display_value": "$15", "color":""},

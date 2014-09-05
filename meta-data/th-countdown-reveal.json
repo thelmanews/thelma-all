@@ -11,6 +11,6 @@
     "image": {"friendly":"Image", "type":"image", "default":""},
     "startFrom":{"friendly":"Start From", "type":"int", "default":3},
     "animationSpeed":{"friendly":"Countdown Speed", "type":"int", "default":2},
-    "color":{"friendly":"Number Color", "type":"colorPicker", "default":""}
+    "color":{"friendly":"Number Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}
   }
 } 
