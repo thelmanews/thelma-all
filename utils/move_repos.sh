@@ -20,9 +20,11 @@ all_files=(`cd $repo && ls $prefix*`)
 count=0
 for i in `find $repo -name $prefix'*.html' -type f`; do
 	echo $i
-	if [ $count -gt 2 ] ; then
-		break;
-	fi
+	
+	# if [ $count -gt 2 ] ; then
+	# 	break;
+	# fi
+
 	#remove the path
 	componentFilename=${i/$repo\//''}
 	componentName=${componentFilename/.html/''}
@@ -41,13 +43,16 @@ for i in `find $repo -name $prefix'*.html' -type f`; do
 	mkdir $componentName 
 
 	echo 'copyting seed directory'
-	cp -r $seed_dir/* $componentName
+	cp -r $seed_dir $componentName
 
 	echo 'copyting component file'
 	cp $repo/$componentFilename $componentName/$componentFilename
 	
 	echo 'copyting bower.json file (needs to be trimmed if needed)'
 	cp $repo/bower.json $componentName/bower.json
+	bower_replace=s/thelma-components/$componentName/g
+	#replace thelma-components with component name in bower.json
+	sed -i '' $bower_replace $componentName/bower.json
 
 	echo 'removing see-element files'
 	rm  $componentName/seed-element.*
@@ -73,7 +78,8 @@ for i in `find $repo -name $prefix'*.html' -type f`; do
 	# github_response=$(curl --user "$GIT_USERNAME:$GIT_PASSWORD" -H "Content-Type: application/json" -d '{"name":"'"$componentName"'","private":false, "team_id": 867465}' https://api.github.com/orgs/thelmanews/repos)
 	# echo $github_response
 	
-
+	#TODO: use github_response to get repo url
+	
 	# github_url=git@github.com:thelmanews/$componentName.git
 
 	# echo $github_url
