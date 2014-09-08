@@ -5,6 +5,10 @@ repo=$dev_dir/thelma-charts
 seed_dir=$dev_dir/seed-element
 
 GIT_USERNAME='sepans'
+GIT_PASSWORD=''
+
+echo  'github Password for user $GIT_USERNAME (to push repos to github.com):' 
+read -s GIT_PASSWORD
 
 #cd $repo
 prefix='th-'
@@ -16,7 +20,7 @@ all_files=(`cd $repo && ls $prefix*`)
 count=0
 for i in `find $repo -name $prefix'*.html' -type f`; do
 	echo $i
-	if [ $count -gt 1 ] ; then
+	if [ $count -gt 2 ] ; then
 		break;
 	fi
 	#remove the path
@@ -59,7 +63,7 @@ for i in `find $repo -name $prefix'*.html' -type f`; do
 
 
 
-	echo 'creating repo'
+	echo 'creating repo locally'
 	cd $componentName
 	git init
 	git add .
@@ -67,40 +71,20 @@ for i in `find $repo -name $prefix'*.html' -type f`; do
 
 
 	
-	github_response=$(curl -u "sepans" -H "Content-Type: application/json" -d '{"name":"'"$componentName"'","private":false, "team_id": 867465}' https://api.github.com/orgs/thelmanews/repos)
+	# echo 'pushing to github'
+	# github_response=$(curl --user "$GIT_USERNAME:$GIT_PASSWORD" -H "Content-Type: application/json" -d '{"name":"'"$componentName"'","private":false, "team_id": 867465}' https://api.github.com/orgs/thelmanews/repos)
+	# echo $github_response
 	
-	# #curl -u "sepans" -H "Content-Type: application/json" -d '{"name":""$componentName"","private":false, "team_id": 867465}' https://api.github.com/orgs/thelmanews/repos
 
-	echo $github_response
-	
-	github_url=https://github.com/thelmanews/$componentName.git
+	# github_url=git@github.com:thelmanews/$componentName.git
 
-	echo $github_url
+	# echo $github_url
 
-	git remote add origin "$github_url"
+	# git remote add origin "$github_url"
 
-	git push origin master 
+	# git push origin master 
 
 
 	echo $count
 	count=$((count+1))
 done
-
-# /usr/bin/expect << EOF
-
-# 	pwd
-
-# 	spawn yo polymer:seed
-
-# 	expect "What is your GitHub username?"
-# 	send "$GIT_USERNAME\r"
-
-# 	expect "What is your element's name:"
-# 	send "\r"
-
-# 	expect "Answer:"
-# 	send "1\r"
-
-# 	expect eof
-
-# EOF
