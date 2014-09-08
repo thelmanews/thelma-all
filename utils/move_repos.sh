@@ -26,8 +26,6 @@ for i in `find $repo -name $prefix'*.html' -type f`; do
 	#remove the path
 	componentFilename=${i/$repo\//''}
 	componentName=${componentFilename/.html/''}
-	#ls -l "$repo/!($componentFilename)"
-	#ls -l "$repo/!(utility.js)"
 	
 	otherFiles=${all_files[@]/$componentFilename}
 
