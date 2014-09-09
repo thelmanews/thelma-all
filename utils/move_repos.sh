@@ -1,9 +1,15 @@
 #!/bin/sh
 
+# root development directory (where all polymer directories are)
 dev_dir=~/Projects/thelma_components/move
-repo=$dev_dir/thelma-charts
+
+# repo you want to split into multiple ones
+repo=$dev_dir/thelma-text
+
+# directory where seed-element template is to copy it as a base for new repo
 seed_dir=$dev_dir/seed-element
 
+# 'github' username, You will be prompted for the password
 GIT_USERNAME='sepans'
 GIT_PASSWORD=''
 
@@ -20,8 +26,9 @@ all_files=(`cd $repo && ls $prefix*`)
 count=0
 for i in `find $repo -name $prefix'*.html' -type f`; do
 	echo $i
-	
-	# if [ $count -gt 2 ] ; then
+
+	#to limit the execution to one component. for testing
+	# if [ $count -gt 0 ] ; then
 	# 	break;
 	# fi
 
@@ -40,10 +47,17 @@ for i in `find $repo -name $prefix'*.html' -type f`; do
 	cd $dev_dir
 	pwd
 	echo '# component name '$componentName
+
+	if [ -d "$componentName" ]; then
+  		echo 'component directory already exists. remove or rename it.'
+  		exit
+	fi
 	mkdir $componentName 
 
 	echo 'copyting seed directory'
-	cp -r $seed_dir $componentName
+	rsync -av --exclude=.git $seed_dir/ $componentName/
+	#cp -r $seed_dir/ $componentName/
+	#rm -rf $componentName/.git
 
 	echo 'copyting component file'
 	cp $repo/$componentFilename $componentName/$componentFilename
@@ -66,29 +80,30 @@ for i in `find $repo -name $prefix'*.html' -type f`; do
 
 
 
+	#create local repo
 	echo 'creating repo locally'
 	cd $componentName
 	git init
 	git add .
-	git commit . -m '.'
+	git commit . -m 'commit by  bash script'
 
 
 	
-	# echo 'pushing to github'
-	# github_response=$(curl --user "$GIT_USERNAME:$GIT_PASSWORD" -H "Content-Type: application/json" -d '{"name":"'"$componentName"'","private":false, "team_id": 867465}' https://api.github.com/orgs/thelmanews/repos)
-	# echo $github_response
+	# create github repo
+	echo 'pushing to github'
+	github_response=$(curl --user "$GIT_USERNAME:$GIT_PASSWORD" -H "Content-Type: application/json" -d '{"name":"'"$componentName"'","private":false, "team_id": 867465}' https://api.github.com/orgs/thelmanews/repos)
+	echo $github_response
 	
 	#TODO: use github_response to get repo url
-	
-	# github_url=git@github.com:thelmanews/$componentName.git
+	github_url=git@github.com:thelmanews/$componentName.git
 
-	# echo $github_url
+	echo $github_url
 
-	# git remote add origin "$github_url"
+	git remote add origin "$github_url"
 
-	# git push origin master 
+	# push to github
+	git push origin master 
 
-
-	echo $count
 	count=$((count+1))
+
 done
