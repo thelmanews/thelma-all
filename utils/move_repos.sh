@@ -16,7 +16,7 @@ GIT_PASSWORD=''
 echo  'github Password for user $GIT_USERNAME (to push repos to github.com):' 
 read -s GIT_PASSWORD
 
-#cd $repo
+#the components .html prefix
 prefix='th-'
 
 all_files=(`cd $repo && ls $prefix*`)
@@ -40,7 +40,7 @@ for i in `find $repo -name $prefix'*.html' -type f`; do
 
 	#echo $otherFiles
 
-	# not working
+	# not working (the original idea was to do filter-branch to preserve history)
 	#cd $repo
 	#git filter-branch --index-filter `git rm --cached -r --ignore-unmatch  $otherFiles` --prune-empty -- --all
 	
