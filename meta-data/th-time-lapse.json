@@ -3,7 +3,7 @@
   "description": "Thelma Time Lapse",
   "category":"numberic",
   "version": "0.0.1",
-  "thumbnail":"timelapse.jpg",
+  "thumbnail":"blank.jpg",
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":280},
     "height":{"friendly":"Height", "type":"int", "default":200},
