@@ -1,0 +1,18 @@
+{
+  "name": "th-time-lapse",
+  "description": "Thelma Time Lapse",
+  "category":"numberic",
+  "version": "0.0.1",
+  "thumbnail":"timelapse.jpg",
+  "inputAttr": {
+    "width":{"friendly":"Width", "type":"int", "default":280},
+    "height":{"friendly":"Height", "type":"int", "default":200},
+    "rate":{"friendly":"Rate", "type":"int", "default":40}, 
+    "frequency": {"friendly":"Frequency", "type": "dropdown", "default": "minute", "values":["second", "minute", "hour", "day", "week", "month", "year"]},
+    "units":{"friendly":"Units", "type":"string", "default":""},
+    "timePeriod": {"friendly":"Time Period", "type": "dropdown", "default": "hour", "values":["minute", "hour", "day", "week", "month", "year"]},
+    "altText":{"friendly":"AltText", "type":"string", "default":""},
+    "numberSize":{"friendly":"Number Size", "type":"int", "default":40}, 
+    "textType":{ "friendly":"Text Type", "type":"dropdown", "default": "mainpoint", "values": ["large-headline","headline","mainpoint", "submainpoint", "subpoint", "chart", "label"]}
+  }
+} 
