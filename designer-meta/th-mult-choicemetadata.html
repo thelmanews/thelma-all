@@ -1,7 +1,9 @@
-<x-meta id="th-mult-choice" label="Thelma Multiple Choice Question" group="Thelma textual">	<template>		<th-mult-choice></th-mult-choice></template>			<property name="width" kind="Number"/>
-			<property name="height" kind="Number"/>
-			<property name="question" kind="String"/>
-			<property name="answerText" kind="String"/>
-			<property name="choicesPerRow" kind="Number"/>
-			<property name="choices" kind="JSON"/>
+<x-meta id="th-mult-choice" label="Thelma Multiple Choice Question" group="Thelma textual">			<template>			<th-mult-choice></th-mult-choice></template>
+			<template id="imports">			<link rel="import" href="th-mult-choice.html"/></template>
+			<property name="width" kind="number"/>
+			<property name="height" kind="number"/>
+			<property name="question" kind="string"/>
+			<property name="answerText" kind="string"/>
+			<property name="choicesPerRow" kind="number"/>
+			<property name="choices" kind="json"/>
 </x-meta>
