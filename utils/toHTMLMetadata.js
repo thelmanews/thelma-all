@@ -43,7 +43,7 @@ fs.readdir(dir,function(err,files){
                                                 };
                   var templates = [];
                   var template1 = {};
-                  template1[metadata.name] = "";
+                  template1[metadata.name] = {"@animateOnInit": true};
                   templates.push(template1);
 
                   templates.push({"@id": "imports", link: {"@rel": "import", "@href": metadata.name+".html"}});
@@ -71,18 +71,18 @@ fs.readdir(dir,function(err,files){
 
                   var xml = converter.json2xml(xmlSource, '\t');
 
-               fs.writeFile(designerDir+"/"+metadata.name+"metadata.html", xml, function(err) {
-                            if(err) {
-                                console.log(err);
-                            } 
-                        }); 
+               // fs.writeFile(designerDir+"/"+metadata.name+"metadata.html", xml, function(err) {
+               //              if(err) {
+               //                  console.log(err);
+               //              } 
+               //          }); 
                         
                         
                   fs.writeFile("../../"+metadata.name+"/metadata.html", xml, function(err) {
-                            if(err) {
-                                console.log(err);
-                            } 
-                        }); 
+                      if(err) {
+                          console.log(err);
+                      } 
+                  }); 
 
                   console.log(xml);
             }
