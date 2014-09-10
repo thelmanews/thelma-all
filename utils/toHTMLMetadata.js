@@ -9,15 +9,15 @@ var dir='../meta-data/';
 var designerDir = '../designer-meta'
 
 var composerToEditorTypes = {
-      "int": "Number",
-      "string": "String",
-      "dropdown": "Select",
-      "colorPicker": "Color",
-      "boolean": "Boolean",
-      "image": "Color",  //for now
-      "table-fixed": "JSON",
-      "table-repeating": "JSON",
-      "content": "Text"
+      "int": "number",
+      "string": "string",
+      "dropdown": "select",
+      "colorPicker": "color",
+      "boolean": "boolean",
+      "image": "color",  //for now
+      "table-fixed": "json",
+      "table-repeating": "json",
+      "content": "text"
 };
 
 fs.readdir(dir,function(err,files){
@@ -41,9 +41,17 @@ fs.readdir(dir,function(err,files){
 
 
                                                 };
+                  var templates = [];
+                  var template1 = {};
+                  template1[metadata.name] = "";
+                  templates.push(template1);
 
-                  xmlSource['x-meta'].template = {};
-                  xmlSource['x-meta'].template[metadata.name] = "";
+                  templates.push({"@id": "imports", link: {"@rel": "import", "@href": metadata.name+".html"}});
+
+                  xmlSource['x-meta']['template'] = templates;
+
+                  //xmlSource['x-meta'].template = {};
+                  //xmlSource['x-meta'].template[metadata.name] = "";
 
                   var properties = [];
                   for(var key in metadata.inputAttr) {
@@ -63,11 +71,13 @@ fs.readdir(dir,function(err,files){
 
                   var xml = converter.json2xml(xmlSource, '\t');
 
-    //            fs.writeFile(designerDir+"/"+metadata.name+"metadata.html", xml, function(err) {
-                        //     if(err) {
-                        //         console.log(err);
-                        //     } 
-                        // }); 
+               fs.writeFile(designerDir+"/"+metadata.name+"metadata.html", xml, function(err) {
+                            if(err) {
+                                console.log(err);
+                            } 
+                        }); 
+                        
+                        
                   fs.writeFile("../../"+metadata.name+"/metadata.html", xml, function(err) {
                             if(err) {
                                 console.log(err);
