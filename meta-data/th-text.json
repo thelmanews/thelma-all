@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "thumbnail":"markdown.jpg",
   "tags":["textual", "Markdown"],
+  "helpLink":"http://composer.thelma.co/admin/composer/demos/markdown",
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":280},
     "content":{"friendly":"Text/Markdown", "type":"content", "default":"Enter Text..."},

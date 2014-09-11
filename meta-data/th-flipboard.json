@@ -4,6 +4,7 @@
   "category":"textual",
   "version": "0.0.1",
   "thumbnail":"flipboard.jpg",
+  "helpLink":"http://composer.thelma.co/admin/composer/demos/flipboard",
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":280},
     "height":{"friendly":"Height", "type":"int", "default":280},

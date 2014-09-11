@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "thumbnail":"n-peak-chart.jpg", 
   "tags":["chart", "bar"],
+  "helpLink":"http://composer.thelma.co/admin/composer/demos/chartlabels",
   "inputAttr": {
     "chartWidth":{"friendly":"Width", "type":"int", "default":200},
     "chartHeight":{"friendly":"Height", "type":"int", "default":250},

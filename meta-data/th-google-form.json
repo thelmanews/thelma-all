@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "thumbnail":"google-form.jpg", 
   "tags":["survey", "form", "text"],
+  "helpLink":"http://composer.thelma.co/admin/composer/demos/survey",
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":280},
     "height":{"friendly":"Height", "type":"int", "default":400},   
