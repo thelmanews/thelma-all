@@ -4,6 +4,7 @@
   "category":"textual",
   "version": "0.0.1",
   "thumbnail":"stories.jpg",
+  "helpLink":"http://composer.thelma.co/admin/composer/demos/stories",
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":285},
     "bgColor":{"friendly":"Background Color", "type":"colorPicker", "colorDefault":"background", "default":""},
