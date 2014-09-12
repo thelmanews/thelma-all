@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "thumbnail":"spectrum.jpg", 
   "tags":["chart", "column", "animated"],
+  "helpLink":"http://composer.thelma.co/admin/composer/demos/chartlabels",
   "content":false,
   "inputAttr": {
     "chartWidth":{"friendly":"Width", "type":"int", "default":275},

@@ -4,6 +4,7 @@
   "category":"numberic",
   "version": "0.0.1",
   "thumbnail":"timelapse.jpg",
+  "helpLink":"http://composer.thelma.co/admin/composer/demos/time-lapse",
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":280},
     "height":{"friendly":"Height", "type":"int", "default":200},
