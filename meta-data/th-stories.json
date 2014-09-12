@@ -6,7 +6,7 @@
   "thumbnail":"stories.jpg",
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":285},
-    "themecolor":{"friendly":"Theme","type":"dropdown","default":"dark", "values":["dark","light"]},
+    "bgColor":{"friendly":"Background Color", "type":"colorPicker", "colorDefault":"background", "default":""},
     "links":{"friendly":"Data", "type":"table-repeating","rows":3, 
       "fields":{
         "leadIn":{"friendly":"Lead-in", "type":"string", "default":""},
