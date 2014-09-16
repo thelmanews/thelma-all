@@ -6,27 +6,42 @@
 
   <script src="../platform/platform.js"></script>
 
-  <link rel="import" href="../thelma-utils/th-theme.html">
+  <link rel="import" href="../th-theme/th-theme.html">
 
-  <link rel="import" href="../thelma-charts/th-donut-chart.html">
-  <link rel="import" href="../thelma-charts/th-n-bar-chart.html">
-  <link rel="import" href="../thelma-charts/th-line-graph-single.html">
-  <link rel="import" href="../thelma-charts/th-spectrum-chart.html">
-  <link rel="import" href="../thelma-charts/th-stacked-chart.html">
-  <link rel="import" href="../thelma-charts/th-n-peak-chart.html">
-  <link rel="import" href="../thelma-charts/th-n-bar-chart-horizontal.html">
-  <link rel="import" href="../thelma-charts/th-map-us.html">
-  <link rel="import" href="../thelma-charts/th-split-donut-chart.html">
-  <link rel="import" href="../thelma-charts/th-compare-grid-chart.html">
-  <link rel="import" href="../thelma-charts/th-compare-balance-chart.html">
-  <link rel="import" href="../thelma-charts/th-line-graph-single.html">
-  <link rel="import" href="../thelma-charts/th-line-graph-single.html">
-
-  <link rel="import" href="../thelma-text/th-text.html">
-  <link rel="import" href="../thelma-text/th-countup-num.html">
-  <link rel="import" href="../thelma-text/th-countdown-reveal.html">
-  <link rel="import" href="../thelma-text/th-stories.html">
-  <link rel="import" href="../thelma-text/th-mult-choice.html">
+  <link rel="import" href="../th-donut-chart/th-donut-chart.html">
+  <link rel="import" href="../th-n-bar-chart/th-n-bar-chart.html">
+  <link rel="import" href="../th-line-graph-single/th-line-graph-single.html">
+  <link rel="import" href="../th-spectrum-chart/th-spectrum-chart.html">
+  <link rel="import" href="../th-stacked-chart/th-stacked-chart.html">
+  <link rel="import" href="../th-n-peak-chart/th-n-peak-chart.html">
+  <link rel="import" href="../th-n-bar-chart-horizontal/th-n-bar-chart-horizontal.html">
+  <link rel="import" href="../th-map-us/th-map-us.html">
+  <link rel="import" href="../th-split-donut-chart/th-split-donut-chart.html">
+  <link rel="import" href="../th-compare-grid-chart/th-compare-grid-chart.html">
+  <link rel="import" href="../th-compare-balance-chart/th-compare-balance-chart.html">
+  <link rel="import" href="../th-line-graph-single/th-line-graph-single.html">
+  <link rel="import" href="../th-line-graph-single/th-line-graph-single.html">
+  <link rel="import" href="../th-text/th-text.html">
+  <link rel="import" href="../th-countup-num/th-countup-num.html">
+  <link rel="import" href="../th-countdown-reveal/th-countdown-reveal.html">
+  <link rel="import" href="../th-stories/th-stories.html">
+  <link rel="import" href="../th-mult-choice/th-mult-choice.html">
+  <link rel="import" href="../th-carousel/th-carousel.html">
+  <link rel="import" href="../th-clock/th-clock.html">
+  <link rel="import" href="../th-time-lapse/th-time-lapse.html">
+  <link rel="import" href="../th-flipboard/th-flipboard.html">
+  <link rel="import" href="../th-quote-box/th-quote-box.html">
+  <link rel="import" href="../th-simple-quote/th-simple-quote.html">
+  <link rel="import" href="../th-table-bullets/th-table-bullets.html">
+  <link rel="import" href="../th-tweet/th-tweet.html">
+  <link rel="import" href="../th-youtube/th-youtube.html">
+  <link rel="import" href="../th-google-scatter-bubble/th-google-scatter-bubble.html">
+  <link rel="import" href="../th-bubble/th-bubble.html">
+  <link rel="import" href="../th-compare-image/th-compare-image.html">
+  <link rel="import" href="../th-google-map/th-google-map.html">
+  <link rel="import" href="../th-google-regions/th-google-regions.html">
+  <link rel="import" href="../th-google-form/th-google-form.html">
+  
 
   <style>
   	body {
@@ -39,43 +54,67 @@
 </head>
 <body unresolved>
 
-  <p>thelma-components looks like this:</p>
+  <h2>Thelma Text & Image Components:</h2>
+  <th-text width="300">
+      # Level one header #
+      ### Level three header ###
+      [I'm an inline-style link](https://www.google.com)
 
-  <th-text>Text component</th-text>
+      * This
+      * is
+      * a list
 
-
-  <th-countup-num type="headline" animateOnInit="true" width="350" numberSize="80" growNumber="true"> Count to 479 </th-countup-num>
-
+      ** BOLD **
+      *italic*
+      1. with
+      1. numbers
+  </th-text>
+  <th-carousel animateOnInit="true" width="200" height="200" style="margin: 20px"></th-carousel>
+  <th-countup-num type="headline" animateOnInit="true" width="350" numberSize="80" growNumber="true" style="margin: 20px"> Count to 479 </th-countup-num>
   <th-countdown-reveal animateOnInit="true" startFrom="3" width="270" height="200" style="margin: 20px"> 5 million low-income Americans still can't get health insurance under Obamacare.</th-countdown-reveal>
-
   <th-stories width="300" style="margin: 20px"></th-stories>
-
-
-  <th-donut-chart animateOnInit="true" style="margin: 20px;"></th-donut-chart>
-
-  <th-n-bar-chart animateOnInit="true" style="margin: 20px;"></th-n-bar-chart>
-
-  <th-line-graph-single animateOnInit="true" style="margin: 20px;"></th-line-graph-single>
-
-  <th-spectrum-chart animateOnInit="true" chartWidth="225" style="margin: 20px;"></th-spectrum-chart>
-
-  <th-stacked-chart animateOnInit="true" style="margin: 20px;"></th-stacked-chart>
-
-  <th-n-peak-chart animateOnInit="true" style="margin: 20px;"></th-n-peak-chart>
-
-  <th-n-bar-chart-horizontal animateOnInit="true" chartWidth="200" style="margin: 20px;"></th-n-bar-chart-horizontal>
-
-  <th-map-us animateAfter="3000" chartWidth="400" style="margin: 20px;"></th-map-us>
-
-  <th-split-donut-chart animateOnInit="true" chartWidth="200" style="margin: 20px;"></th-split-donut-chart>
-
-  <th-compare-grid-chart animateOnInit="true" style="margin: 20px;"></th-compare-grid-chart>
-
-  <th-compare-balance-chart animateOnInit="true" chartWidth="300" chartHeight="150" style="margin: 20px;"></th-compare-balance-chart>
-
-  <th-gauge-chart animateOnInit="true" style="margin: 20px;"></th-gauge-chart>
+  <th-mult-choice width="300" style="margin: 20px"></th-mult-choice>
+  <th-clock width="300" animateOnInit="true" style="margin: 20px"></th-clock>
+  <th-time-lapse animateOnInit="true" style="margin: 20px"></th-time-lapse>
+  <th-flipboard style="margin: 20px" width="200" height="200"></th-flipboard>
+  <th-tweet twitterHandle="@username" width="200px" tweet="Enter tweet here." image="../thelma-all/images/person.jpg"  style="margin: 20px"></th-tweet>
+  <th-quote-box title="Name" width="250" image="../thelma-all/images/person.jpg"  style="margin: 20px" style="margin: 20px">Please enter a quote.</th-quote-box>
+  <th-simple-quote width="280" title="Robin Williams" style="margin: 20px">You're only given a little spark of madness. You mustn't lose it.</th-simple-quote>
+  <th-compare-image animateOnInit="true" style="margin: 20px"></th-compare-image>
+  <th-table-bullets width="200" style="margin: 20px"></th-table-bullets>
+  <th-google-form width="250" height="350" src="https://docs.google.com/forms/d/18KBVx88jEDb8KP4NjsK4e5g2ieggQ6XlPH5WoJMf_u4/viewform" style="margin: 20px" ></th-google-form>
+   
   
-  <th-mult-choice width="280" height="280"></th-mult-choice>
+  
+  <hr></hr>
+  
+  <h2>Thelma Charts:</h2>
+  <th-donut-chart animateOnInit="true" style="margin: 20px;"></th-donut-chart>
+  <th-split-donut-chart animateOnInit="true" chartWidth="200" style="margin: 20px;"></th-split-donut-chart>
+  <th-n-bar-chart animateOnInit="true" style="margin: 20px;"></th-n-bar-chart>
+  <th-line-graph-single animateOnInit="true" style="margin: 20px;"></th-line-graph-single>
+  <th-spectrum-chart animateOnInit="true" chartWidth="225" style="margin: 20px;"></th-spectrum-chart>
+  <th-stacked-chart animateOnInit="true" style="margin: 20px;"></th-stacked-chart>
+  <th-n-peak-chart animateOnInit="true" style="margin: 20px;"></th-n-peak-chart>
+  <th-n-bar-chart-horizontal animateOnInit="true" chartWidth="200" style="margin: 20px;"></th-n-bar-chart-horizontal>
+  
+  <th-compare-grid-chart animateOnInit="true" style="margin: 20px;"></th-compare-grid-chart>
+  <th-compare-balance-chart animateOnInit="true" chartWidth="300" chartHeight="150" style="margin: 20px;"></th-compare-balance-chart>
+  <th-bubble animateAfter="2000" chartData="[{'startValue': '10', 'endValue': '95', 'suffix': '%', 'label': 'below poverty line' }]"></th-bubble>
+  <th-gauge-chart animateOnInit="true" style="margin: 20px;"></th-gauge-chart>
+  <th-google-scatter-bubble></th-google-scatter-bubble>
+   
+  
+  <hr></hr>
+  <h2>Thelma Maps:</h2>
+  <th-map-us animateAfter="3000" chartWidth="400" style="margin: 20px;"></th-map-us>
+  <th-google-map></th-google-map>
+  <th-google-regions></th-google-regions>
+  
+  <hr></hr>
+  <h2>Thelma Media Components:</h2>
+  <th-youtube></th-youtube>
+
 
 </body>
 </html>
