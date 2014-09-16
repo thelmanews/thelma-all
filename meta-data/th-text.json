@@ -39,7 +39,6 @@
       "type":"int", 
       "default":1
     },
-    "markdown":{"friendly":"Markdown?", "type":"boolean", "default":"true"},
-    "fullWidth":{"friendly":"Full Width?", "type":"boolean", "default":"false"}
+    "markdown":{"friendly":"Markdown?", "type":"boolean", "default":"true"}
   }
 }
