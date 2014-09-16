@@ -8,6 +8,7 @@
     "width":{"friendly":"Width", "type":"int", "default":250},
     "content":{"friendly":"Number", "type":"content", "default":"Count to 40"},
     "numberSize":{"friendly":"Number Size", "type":"int", "default":40}, 
+    "numberColor":{"friendly":"Number Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
     "growNumber":{"friendly":"Grow Number?", "type":"boolean", "default":"false"}, 
     "color":{"friendly":"Number Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
     "type":{"friendly":"Type","type":"dropdown", "values": ["headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"], "default": "mainpoint"},
