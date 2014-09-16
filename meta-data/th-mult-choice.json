@@ -20,6 +20,7 @@
         {"text": "This guy", "image":"/bower_components/thelma-components/images/person.jpg", "answer":"false"},
         {"text": "That guy", "image":"/bower_components/thelma-components/images/person.jpg", "answer":"true"}
       ]
-    }
+    },
+    "textColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}
   }
 } 
