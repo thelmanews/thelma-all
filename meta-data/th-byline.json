@@ -1,0 +1,15 @@
+{
+  "name": "th-byline",
+  "description": "Thelma Byline",
+  "category":"numberic",
+  "version": "0.0.1",
+  "thumbnail":"byline.jpg",
+  "inputAttr": {
+    "name":{"friendly":"Name", "type":"string", "default":"Your Name"},
+    "image":{"friendly":"Image", "type":"image"}
+    "wsjLogo":{"friendly":"WSJ?", "type":"boolean", "default":"false"},
+    "textColor":{ "friendly":"Text Color", "type":"dropdown", "default": "", "values": ["","white","black"]},
+    "date":{"friendly":"Date", "type":"string"},
+    "timestamp":{"friendly":"Time", "type":"string"}
+  }
+} 
