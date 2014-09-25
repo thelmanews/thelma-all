@@ -4,6 +4,7 @@
   "category":"chart",
   "version": "0.0.1",
   "thumbnail":"bubble.jpg",
+  "helpLink":"",
   "inputAttr": {
     "chartSize":{"friendly":"Width", "type":"int", "default":125},
     "duration":{"friendly":"Duration", "type":"int", "default":2},
