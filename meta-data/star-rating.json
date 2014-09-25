@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "thumbnail":"star-rating.jpg", 
   "tags":["textual", "star rating"],
+  "helpLink":"",
   "inputAttr": {
     "stars":{"friendly":"Star Count", "type":"int", "default":5},
     "icon": {"friendly":"Icon", "type": "dropdown", "default": "star", "values":["star","heart","face"]}

@@ -4,6 +4,7 @@
   "category":"numberic",
   "version": "0.0.1",
   "thumbnail":"counter.jpg",
+  "helpLink":"",
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":250},
     "content":{"friendly":"Number", "type":"content", "default":"Count to 40"}, 

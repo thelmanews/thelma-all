@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "thumbnail":"mask.jpg", 
   "tags":["textual", "image"],
+  "helpLink":"",
   "inputAttr": {
     "size":{"friendly":"size", "type":"int", "default":250},
     "shape": {"friendly":"Shape", "type": "dropdown", "default": "circle", "values":["circle", "square", "hexagon", "triangle", "ios-app"]},

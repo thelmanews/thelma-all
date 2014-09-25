@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "thumbnail":"carousel.jpg", 
   "tags":["textual", "image", "carousel"],
+  "helpLink":"",
   "inputAttr": {
     "isHorizontal":{"friendly":"Horizontal Rotation?", "type":"boolean", "default": true},
     "animateOn":{"friendly":"Animate On","type":"dropdown","default":"tap", "values":["tap","interval"]},

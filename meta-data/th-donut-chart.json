@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "thumbnail":"single-donut.jpg",
   "tags":["graph", "pie", "data", "animated"],
+  "helpLink":"",
   "inputAttr": {
     "chartSize":{"friendly":"Width", "type":"int", "default":200},
     "chartData":{"friendly":"Data", "type":"table-fixed","rows":1, 

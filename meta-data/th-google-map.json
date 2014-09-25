@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "thumbnail":"google-map.jpg", 
   "tags":["map", "google"],
+  "helpLink":"",
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":300},
     "height":{"friendly":"Height", "type":"int", "default":200},

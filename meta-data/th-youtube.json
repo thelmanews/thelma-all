@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "thumbnail":"youtube.jpg", 
   "tags":["video", "media"],
+  "helpLink":"",
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":280},
     "height":{"friendly":"Height", "type":"int", "default":280},

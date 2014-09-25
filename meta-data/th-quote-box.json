@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "thumbnail":"boxed-quote.jpg", 
   "tags":["textual", "image"],
+  "helpLink":"",
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":250},
     "content":{"friendly":"Quote", "type":"content", "default":"Please enter a quote."},

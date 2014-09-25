@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "thumbnail":"gauge.jpg", 
   "tags":["graph", "gauge", "data", "animated"],
+  "helpLink":"",
   "inputAttr": {
     "chartWidth":{"friendly":"Width", "type":"int", "default":260},
     "chartData":{"friendly":"Data", "type":"table-fixed","rows":1, 

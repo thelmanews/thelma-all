@@ -4,6 +4,7 @@
   "category":"numberic",
   "version": "0.0.1",
   "thumbnail":"byline.jpg",
+  "helpLink":"",
   "inputAttr": {
     "name":{"friendly":"Name", "type":"string", "default":"Your Name"},
     "image":{"friendly":"Image", "type":"image", "default": ""},

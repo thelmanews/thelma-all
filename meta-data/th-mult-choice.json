@@ -4,6 +4,7 @@
   "category":"textual",
   "version": "0.0.1",
   "thumbnail":"question.jpg",
+  "helpLink":"",
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":250},
     "height":{"friendly":"Height", "type":"int", "default":200},

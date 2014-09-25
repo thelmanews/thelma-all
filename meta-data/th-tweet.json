@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "thumbnail":"twitter.jpg", 
   "tags":["textual", "image"],
+  "helpLink":"",
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":250},
     "twitterHandle":{"friendly":"Twitter Handle", "type":"string", "default":"username"},

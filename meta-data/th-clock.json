@@ -4,6 +4,7 @@
   "category":"numberic",
   "version": "0.0.1",
   "thumbnail":"clock.jpg",
+  "helpLink":"",
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":280},
     "color":{"friendly":"Color", "type":"colorPicker", "colorDefault":"accent", "default":""}

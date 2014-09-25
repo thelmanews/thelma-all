@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "thumbnail":"n-bar-chart-horizontal.jpg", 
   "tags":["chart", "bar"],
+  "helpLink":"",
   "inputAttr": {
     "chartWidth":{"friendly":"Width", "type":"int", "default":200},
     "chartHeight":{"friendly":"Height", "type":"int", "default":250},
