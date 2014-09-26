@@ -6,6 +6,7 @@
   "thumbnail":"byline.jpg",
   "helpLink":"",
   "inputAttr": {
+    "height":{"friendly":"Height", "type":"int", "default":35},
     "name":{"friendly":"Name", "type":"string", "default":"Your Name"},
     "image":{"friendly":"Image", "type":"image", "default": ""},
     "wsjLogo":{"friendly":"WSJ?", "type":"boolean", "default":"false"},
