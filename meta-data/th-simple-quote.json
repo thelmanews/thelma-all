@@ -9,7 +9,7 @@
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":280},
     "content":{"friendly":"Quote", "type":"content", "default":"You're only given a little spark of madness. You mustn't lose it."},
-    "title":{"friendly":"Title", "type":"string", "default":"Robin Williams"},
+    "qtitle":{"friendly":"Title", "type":"string", "default":"Robin Williams"},
     "details":{"friendly":"Details", "type":"string", "default":""},
     "color":{"friendly":"Quote Color", "type":"colorPicker", "colorDefault":"accent", "default":""},
     "textColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
