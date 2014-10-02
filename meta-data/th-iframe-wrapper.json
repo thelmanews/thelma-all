@@ -9,6 +9,7 @@
   "inputAttr": {
     "width":{"friendly":"Width", "type":"int", "default":280},
     "height":{"friendly":"Height", "type":"int", "default":400},   
-    "content":{"friendly":"iFrame", "type":"content", "default":""}
+    "content":{"friendly":"iFrame", "type":"content", "default":""},
+    "url":{"friendly":"URL", "type":"string", "default":""}
   }
 }
