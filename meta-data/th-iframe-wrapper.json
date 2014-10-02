@@ -1,0 +1,14 @@
+{
+  "name": "th-iframe-wrapper",
+  "description": "Thelma iFrame",
+  "category":"textual",
+  "version": "0.0.1",
+  "thumbnail":"iframe.jpg", 
+  "tags":["iframe"],
+  "helpLink":"",
+  "inputAttr": {
+    "width":{"friendly":"Width", "type":"int", "default":280},
+    "height":{"friendly":"Height", "type":"int", "default":400},   
+    "content":{"friendly":"iFrame", "type":"content", "default":""}
+  }
+}
