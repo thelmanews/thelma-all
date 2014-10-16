@@ -10,7 +10,14 @@
     "width":{"friendly":"Width", "type":"int", "default":288},
     "height":{"friendly":"Height", "type":"int", "default":503},
     "mapId":{"friendly":"Map ID", "type":"string", "default":"examples.map-i87786ca"},
-    "layers":{"friendly":"Layers (optional)", "type":"table-repeating","rows":1,"default":["examples.bike-lanes"]},
+    "layers":{"friendly":"Layers (optional)", "type":"table-repeating","rows":1,
+      "fields": {
+          "layerId" : {"friendly": "Layer ID", "type": "string"},
+        },
+      "default":[
+        {"layerId": "examples.bike-lanes"}
+      ]
+    },
     "startingZoom":{"friendly":"Starting Zoom", "type":"int", "default":12},
     "startingLat":{"friendly":"Starting Latitude", "type":"int", "default":38.8922},
     "startingLng":{"friendly":"Starting Longitude", "type":"int", "default":-77.0348},
