@@ -12,7 +12,7 @@
     "mapId":{"friendly":"Map ID", "type":"string", "default":"examples.map-i87786ca"},
     "layers":{"friendly":"Layers (optional)", "type":"table-repeating","rows":1,
       "fields": {
-          "layerId" : {"friendly": "Layer ID", "type": "string"},
+          "layerId": {"friendly": "Layer ID", "type": "string"}
         },
       "default":[
         {"layerId": "examples.bike-lanes"}
