@@ -9,6 +9,7 @@
   "inputAttr": {
     "chartWidth":{"friendly":"Width", "type":"int", "default":300},
     "chartHeight":{"friendly":"Height", "type":"int", "default":350},
+    "animateMarker":{"friendly":"Animate Marker?", "type":"boolean", "default": true},
     "fillArea":{"friendly":"Fill Area", "type":"boolean", "default": false},
     "yAxisMin":{"friendly":"Y-axis Min Value", "type":"int"},
     "yAxisMax":{"friendly":"Y-axis Max Value", "type":"int"},
@@ -24,11 +25,11 @@
         "display_value":{"friendly":"Display Value", "type":"string", "default":"$100"}
       },
       "default":[
-        {"label": 2010, "value": 104, "display_value": ""},
-        {"label": 2011, "value": 108, "display_value": ""},
-        {"label": 2012, "value": 107, "display_value": ""},
-        {"label": 2013, "value": 110, "display_value": ""},
-        {"label": 2014, "value": 112, "display_value": ""}
+        {"label": "December 3, 2011", "value": 104, "display_value": "$104"},
+        {"label": "March 30, 2012", "value": 106, "display_value": "$106"},
+        {"label": "August 21, 2013", "value": 107, "display_value": "$107"},
+        {"label": "January 1, 2014", "value": 110, "display_value": "$110"},
+        {"label": "January 1, 2015", "value": 112, "display_value": "$112"}
       ]
     }
   }
