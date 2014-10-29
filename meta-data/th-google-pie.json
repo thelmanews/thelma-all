@@ -11,11 +11,12 @@
     "chartHeight":{"friendly":"Height", "type":"int", "default":300},    
     "type":{"friendly":"Pie or Donut", "type":"dropdown", "values": ["pie","donut"], "default": "pie"},
     "dataLabel":{"friendly":"Data Label", "type":"string", "default":"Popularity"},
+    "tooltipText":{"friendly":"Tooltip Text", "type":"dropdown", "values": ["both","value","percentage"], "default": "both"},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
       "fields":{
         "label":{"friendly":"Label", "type":"string", "default":""},
         "value":{"friendly":"Value", "type":"int", "default":""},
-	"split":{"friendly":"Split", "type": "int", "default": ""}
+	     "split":{"friendly":"Split", "type": "int", "default": ""}
       },
       "default":[
             {"label": "Germany", "value": 100},
