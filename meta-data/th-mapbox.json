@@ -3,7 +3,7 @@
   "description": "Wrapper for MapBox",
   "category":"map",
   "version": "0.0.1",
-  "thumbnail":"blank.jpg", 
+  "thumbnail":"mapbox.jpg", 
   "tags":["map", "mapbox"],
   "helpLink":"",
   "inputAttr": {

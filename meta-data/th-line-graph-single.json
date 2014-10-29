@@ -3,7 +3,7 @@
   "description": "Thelma line graph",
   "category":"chart",
   "version": "0.0.1",
-  "thumbnail":"chart.jpg", 
+  "thumbnail":"joystick-line.jpg", 
   "tags":["chart", "line", "animated"],
   "helpLink":"",
   "inputAttr": {
