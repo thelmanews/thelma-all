@@ -58,10 +58,7 @@
     "th-two-column": "https://github.com/thelmanews/th-two-column.git",
     "th-youtube": "https://github.com/thelmanews/th-youtube.git",
     "image-mask": "https://github.com/sepans/image-mask.git",
-    "star-rating": "https://github.com/sepans/star-rating.git",
-    "th-connector": "https://github.com/thelmanews/th-connector.git",
-    "th-enigma": "https://github.com/thelmanews/th-enigma.git",
-    "th-chart-data-filter": "https://github.com/thelmanews/th-chart-data-filter.git"
+    "star-rating": "https://github.com/sepans/star-rating.git"
 
   }
 }
