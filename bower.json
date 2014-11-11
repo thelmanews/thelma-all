@@ -59,6 +59,8 @@
     "th-youtube": "https://github.com/thelmanews/th-youtube.git",
     "image-mask": "https://github.com/sepans/image-mask.git",
     "star-rating": "https://github.com/sepans/star-rating.git"
-
+  },
+  "resolutions": {
+    "webcomponentsjs": "master"
   }
 }
