@@ -58,7 +58,9 @@
     "th-two-column": "https://github.com/thelmanews/th-two-column.git",
     "th-youtube": "https://github.com/thelmanews/th-youtube.git",
     "image-mask": "https://github.com/sepans/image-mask.git",
-    "star-rating": "https://github.com/sepans/star-rating.git"
+    "star-rating": "https://github.com/sepans/star-rating.git",
+    "core-ajax": "Polymer/core-ajax#0.4.2",
+    "core-style": "Polymer/core-style#0.4.2"
   },
   "resolutions": {
     "webcomponentsjs": "master"
