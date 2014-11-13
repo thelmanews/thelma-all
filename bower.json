@@ -63,6 +63,12 @@
     "core-style": "Polymer/core-style#0.4.2"
   },
   "resolutions": {
-    "webcomponentsjs": "master"
+    "webcomponentsjs": "master",
+    "polymer": "^0.4.0",
+    "platform": "^0.4.0",
+    "core-ajax": "0.4.2",
+    "core-component-page": "^0.4.0",
+    "google-apis": "~0.4.1",
+    "core-shared-lib": "~0.4.2"
   }
 }
