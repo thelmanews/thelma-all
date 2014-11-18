@@ -6,8 +6,10 @@
   "thumbnail":"split-donut.jpg",
   "tags":["graph", "pie", "data", "animated"],
   "helpLink":"",
+  "width":150,
+  "height":180,
   "inputAttr": {
-    "chartSize":{"friendly":"Width", "type":"int", "default":200},    
+    "chartSize":{"friendly":"Width", "type":"string", "default":"100%"},    
     "chartData":{"friendly":"Data", "type":"table-fixed","rows":2, 
       "fields":{
         "label":{"friendly":"Label", "type":"string", "default": "U.S."},

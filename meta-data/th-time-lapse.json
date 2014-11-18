@@ -5,9 +5,11 @@
   "version": "0.0.1",
   "thumbnail":"timelapse.jpg",
   "helpLink":"http://composer.thelma.co/admin/composer/demos/time-lapse",
+  "width":280,
+  "height":200,
   "inputAttr": {
-    "width":{"friendly":"Width", "type":"int", "default":280},
-    "height":{"friendly":"Height", "type":"int", "default":200},
+    "width":{"friendly":"Width", "type":"string", "default":"100%"},
+    "height":{"friendly":"Height", "type":"string", "default":"100%"},
     "rate":{"friendly":"Rate", "type":"int", "default":40}, 
     "frequency": {"friendly":"Frequency", "type": "dropdown", "default": "minute", "values":["second", "minute", "hour", "day", "week", "month", "year"]},
     "units":{"friendly":"Units", "type":"string", "default":""},

@@ -6,9 +6,11 @@
   "thumbnail":"interactive-line.jpg", 
   "tags":["chart", "line", "animated"],
   "helpLink":"",
+  "width":280,
+  "height":300,
   "inputAttr": {
-    "chartWidth":{"friendly":"Width", "type":"int", "default":300},
-    "chartHeight":{"friendly":"Height", "type":"int", "default":350},
+    "chartWidth":{"friendly":"Width", "type":"string", "default":"100%"},
+    "chartHeight":{"friendly":"Height", "type":"string", "default":"100%"},
     "animateMarker":{"friendly":"Animate Marker?", "type":"boolean", "default": true},
     "fillArea":{"friendly":"Fill Area", "type":"boolean", "default": false},
     "yAxisMin":{"friendly":"Y-axis Min Value", "type":"int", "default":""},

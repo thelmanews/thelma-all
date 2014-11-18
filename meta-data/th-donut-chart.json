@@ -6,8 +6,10 @@
   "thumbnail":"single-donut.jpg",
   "tags":["graph", "pie", "data", "animated"],
   "helpLink":"",
+  "width":200,
+  "height":200,
   "inputAttr": {
-    "chartSize":{"friendly":"Width", "type":"int", "default":200},
+    "chartSize":{"friendly":"Width", "type":"string", "default":"100%"},
     "chartData":{"friendly":"Data", "type":"table-fixed","rows":1, 
       "fields":{
         "value":{"friendly":"Value", "type":"int", "default":65},
