@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "thumbnail":"comparison.jpg", 
   "tags":["chart", "image"],
-  "helpLink":""
+  "helpLink":"",
   "width":200,
   "height":250,
   "inputAttr": {
