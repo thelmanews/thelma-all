@@ -20,12 +20,13 @@
         "range_max_value":{"friendly":"Max Val", "type":"int", "default":50},
         "range_max_display_value":{"friendly":"Max Disp", "type":"string", "default":"$50"},
         "color":{"friendly":"Color", "type":"colorPicker", "colorDefault":"accent", "default":""},
-        "pattern":{"friendly":"Pattern", "type":"string", "default":"stripe"}
+        "pattern":{"friendly":"Pattern", "type":"string", "default":"stripe"},
+        "offset":{"friendly":"Offset", "type":"int", "default":0}
       },
       "default":[
-        {"label": "Medicaid", "color": "", "pattern": "",  "range_min_value": 10, "range_min_display_value": "$10", "range_max_value": 50, "range_max_display_value": "$50"},
-        {"label": "Federal", "color": "", "pattern": "",  "range_min_value": 40, "range_min_display_value": "$40", "range_max_value": 60, "range_max_display_value": "$60"},
-        {"label": "Medicare",  "color": "", "pattern": "stripe", "range_min_value": 70, "range_min_display_value": "$70", "range_max_value": 100, "range_max_display_value": "$100"}]
+        {"label": "Medicaid", "color": "", "pattern": "",  "range_min_value": 10, "range_min_display_value": "$10", "range_max_value": 50, "range_max_display_value": "$50", "offset": 0},
+        {"label": "Federal", "color": "", "pattern": "",  "range_min_value": 40, "range_min_display_value": "$40", "range_max_value": 60, "range_max_display_value": "$60", "offset": 0},
+        {"label": "Medicare",  "color": "", "pattern": "stripe", "range_min_value": 70, "range_min_display_value": "$70", "range_max_value": 100, "range_max_display_value": "$100", "offset": 0}]
     }
   }
 }
