@@ -27,9 +27,9 @@
       },
       "default":[
         {"label": "Q1 2014", "value": 104, "display_value": "$104"},
-        {"label": "Q1 2014", "value": 106, "display_value": "$106"},
-        {"label": "Q1 2014", "value": 110, "display_value": "$107"},
-        {"label": "Q1 2014", "value": 108, "display_value": "$110"}
+        {"label": "Q2 2014", "value": 106, "display_value": "$106"},
+        {"label": "Q3 2014", "value": 110, "display_value": "$107"},
+        {"label": "Q4 2014", "value": 108, "display_value": "$110"}
       ]
     }
   }
