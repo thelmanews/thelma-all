@@ -9,7 +9,6 @@
   "width":200,
   "height":200,
   "inputAttr": {
-    "size":{"friendly":"size", "type":"string", "default":"100%"},
     "shape": {"friendly":"Shape", "type": "dropdown", "default": "circle", "values":["circle", "square", "hexagon", "triangle", "ios-app"]},
     "src":{"friendly":"Image", "type":"image", "default":"/bower_components/thelma-components/images/person.jpg"}
   }
