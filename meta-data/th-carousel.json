@@ -12,6 +12,7 @@
     "isHorizontal":{"friendly":"Horizontal Rotation?", "type":"boolean", "default": true},
     "animateOn":{"friendly":"Animate On","type":"dropdown","default":"tap", "values":["tap","interval"]},
     "interval":{"friendly":"Interval", "type":"int", "default": 3000},
+    "textColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
     "fontSize":{"friendly":"Font Size", "type":"int", "default":60},
     "items":{"friendly":"Items", "type":"table-repeating","rows":4, 
       "fields":{
