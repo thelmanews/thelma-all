@@ -15,7 +15,7 @@
     "textColor":{ "friendly":"Text Color", "type":"dropdown", "default": "white", "values": ["white","black"]},
     "date":{"friendly":"Date", "type":"string", "default": ""},
     "timestamp":{"friendly":"Time", "type":"string", "default": ""},
-    "bgColor":{ "friendly":"Background Color", "type":"dropdown", "default": "", "values": ["none","white","black"]},
+    "bgColor":{ "friendly":"Background Color", "type":"dropdown", "default": "none", "values": ["none","white","black"]},
     "bgOpacity":{"friendly":"Background Opacity", "type":"int", "default":1}
   }
 } 
