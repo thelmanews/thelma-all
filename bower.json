@@ -8,7 +8,7 @@
     "th-google-map": "https://github.com/thelmanews/th-google-map.git",
     "th-google-regions": "https://github.com/thelmanews/th-google-regions.git",
     "th-google-form": "https://github.com/thelmanews/th-google-form.git",
-    "th-google-line": "https://github.com/thelmanews/th-google-line.git",
+    "th-google-line": "thelmanews/th-google-line#thelma",
     "th-google-pie": "https://github.com/thelmanews/th-google-pie.git",
     "th-google-scatter-bubble": "https://github.com/thelmanews/th-google-scatter-bubble.git",
     "th-animated": "https://github.com/thelmanews/th-animated.git",

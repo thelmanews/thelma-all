@@ -28,6 +28,7 @@
         ]
     },
     "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "default":""},
+    "thelma":{"friendly":"Thelma", "type":"hidden", "default": true},
     "legend":{"friendly":"Show Legend?", "type":"boolean", "default": true}
   }
 }
