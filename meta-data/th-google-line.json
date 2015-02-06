@@ -1,0 +1,33 @@
+{
+  "name": "th-google-line",
+  "description": "Multi Line Chart by Google",
+  "category":"chart",
+  "version": "0.0.1",
+  "thumbnail":"google-pie.jpg", 
+  "tags":["chart", "line"],
+  "helpLink":"",
+  "width":280,
+  "height":200,
+  "inputAttr": {
+    "labelName":{"friendly":"Label Name", "type":"string", "default":"Year"},
+    "series1Name":{"friendly":"Series 1 Name", "type":"string", "default":"Germany"},
+    "series2Name":{"friendly":"Series 2 Name", "type":"string", "default":"France"},
+    "series3Name":{"friendly":"Series 3 Name", "type":"string", "default":""},
+    "chartData":{"friendly":"Data", "type":"table-repeating","rows":3, 
+      "fields":{
+        "label":{"friendly":"X Label", "type":"string", "default":""},
+        "series1":{"friendly":"Y Series 1", "type":"int", "default":""},
+        "series2":{"friendly":"Y Series 2", "type":"int", "default":""},
+        "series3":{"friendly":"Y Series 3", "type":"int", "default":""}
+      },
+      "default":[
+            {"label": "2012", "series1": 100, "series2": 100 },
+            {"label": "2013", "series1": 50, "series2": 150 },
+            {"label": "2014", "series1": 300, "series2": 200 },
+            {"label": "2015", "series1": 200, "series2": 110 }
+        ]
+    },
+    "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "default":""},
+    "legend":{"friendly":"Show Legend?", "type":"boolean", "default": true}
+  }
+}
