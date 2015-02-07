@@ -3,7 +3,7 @@
   "description": "Multi Line Chart by Google",
   "category":"chart",
   "version": "0.0.1",
-  "thumbnail":"google-pie.jpg", 
+  "thumbnail":"google-line.jpg", 
   "tags":["chart", "line"],
   "helpLink":"",
   "width":280,
