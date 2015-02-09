@@ -14,10 +14,10 @@
     "series3Name":{"friendly":"Series 3 Name", "type":"string", "default":""},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":3, 
       "fields":{
-        "label":{"friendly":"X Label", "type":"string", "default":""},
-        "series1":{"friendly":"Y Series 1", "type":"int", "default":""},
-        "series2":{"friendly":"Y Series 2", "type":"int", "default":""},
-        "series3":{"friendly":"Y Series 3", "type":"int", "default":""}
+        "label":{"friendly":"Label (x)", "type":"string", "default":""},
+        "series1":{"friendly":"Series 1 (y)", "type":"int", "default":""},
+        "series2":{"friendly":"Series 2 (y)", "type":"int", "default":""},
+        "series3":{"friendly":"Series 3 (y)", "type":"int", "default":""}
       },
       "default":[
             {"label": "2012", "series1": 100, "series2": 100 },
