@@ -9,7 +9,6 @@
   "width":280,
   "height":200,
   "inputAttr": {
-    "labelName":{"friendly":"Label Name", "type":"string", "default":"Year"},
     "series1Name":{"friendly":"Series 1 Name", "type":"string", "default":"Germany"},
     "series2Name":{"friendly":"Series 2 Name", "type":"string", "default":"France"},
     "series3Name":{"friendly":"Series 3 Name", "type":"string", "default":""},
