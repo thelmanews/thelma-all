@@ -10,15 +10,15 @@
   "height":200,
   "inputAttr": {
     "gridlines":{"friendly":"Number of Gridlines", "type":"int", "default":"5"},
-    "series1Name":{"friendly":"Series 1 Name", "type":"string", "default":"Germany"},
-    "series2Name":{"friendly":"Series 2 Name", "type":"string", "default":"France"},
-    "series3Name":{"friendly":"Series 3 Name", "type":"string", "default":""},
+    "series1Name":{"friendly":"Bar 1 Name", "type":"string", "default":"Germany"},
+    "series2Name":{"friendly":"Bar 2 Name", "type":"string", "default":"France"},
+    "series3Name":{"friendly":"Bar 3 Name", "type":"string", "default":""},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":3, 
       "fields":{
         "label":{"friendly":"Label (x)", "type":"string", "default":""},
-        "series1":{"friendly":"Series 1 (y)", "type":"int", "default":""},
-        "series2":{"friendly":"Series 2 (y)", "type":"int", "default":""},
-        "series3":{"friendly":"Series 3 (y)", "type":"int", "default":""}
+        "series1":{"friendly":"Bar 1 (y)", "type":"int", "default":""},
+        "series2":{"friendly":"Bar 2 (y)", "type":"int", "default":""},
+        "series3":{"friendly":"Bar 3 (y)", "type":"int", "default":""}
       },
       "default":[
             {"label": "2012", "series1": 100, "series2": 100 },
