@@ -9,6 +9,10 @@
   "width":280,
   "height":200,
   "inputAttr": {
+    "orientation": {"friendly":"Orientation", "type": "dropdown", "default": "horizontal", "values":["horizontal", "vertical"]},
+    "fontSize":{"friendly":"Font Size", "type":"int", "default":""},
+    "textColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
+    "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "colorDefault":"background", "default":""},
     "gridlines":{"friendly":"Number of Gridlines", "type":"int", "default":"5"},
     "series1Name":{"friendly":"Line 1 Name", "type":"string", "default":"Germany"},
     "series2Name":{"friendly":"Line 2 Name", "type":"string", "default":"France"},
@@ -27,7 +31,11 @@
             {"label": "2015", "series1": 200, "series2": 110 }
         ]
     },
-    "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "default":""},
+    "chartTitle":{"friendly":"Title", "type":"string", "default":""},
+    "vAxisTitle":{"friendly":"Vertical Axis Title", "type":"string", "default":""},
+    "hAxisTitle":{"friendly":"Horizontal Axis Title", "type":"string", "default":""},
+    "yAxisMin":{"friendly":"Y Axis Min", "type":"int", "default":""},
+    "yAxisMax":{"friendly":"Y Axis Max", "type":"int", "default":""},
     "thelma":{"friendly":"Thelma", "type":"hidden", "default": true},
     "legend":{"friendly":"Show Legend?", "type":"boolean", "default": true}
   }
