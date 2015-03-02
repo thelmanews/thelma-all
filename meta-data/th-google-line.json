@@ -13,6 +13,7 @@
     "fontSize":{"friendly":"Font Size", "type":"int", "default":""},
     "textColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
     "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "colorDefault":"background", "default":""},
+    "gridlinesColor":{"friendly":"Gridlines Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
     "gridlines":{"friendly":"Number of Gridlines", "type":"int", "default":"5"},
     "series1Name":{"friendly":"Line 1 Name", "type":"string", "default":"Germany"},
     "series2Name":{"friendly":"Line 2 Name", "type":"string", "default":"France"},
