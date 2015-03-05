@@ -13,8 +13,8 @@
     "color":{"friendly":"Shape Color", "type":"colorPicker", "colorDefault":"accent", "default":""}, 
     "textColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
     "opacity":{"friendly":"Opacity", "type":"int", "default":1},
-    "percentWidth":{"friendly":"Percent Width", "type":"int", "default":1},
-    "percentHeight":{"friendly":"Percent Height", "type":"int", "default":1},
+    "horizontalScale":{"friendly":"Horizontal Scale", "type":"int", "default":1},
+    "verticalScale":{"friendly":"Vertical Scale", "type":"int", "default":1},
     "positionX":{"friendly":"X Position", "type":"int", "default":0.5},
     "positionY":{"friendly":"Y Position", "type":"int", "default":0.5}
   }
