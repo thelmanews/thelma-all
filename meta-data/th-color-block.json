@@ -1,0 +1,21 @@
+{
+  "name": "th-color-block",
+  "description": "Thelma Color Block",
+  "category":"textual",
+  "version": "0.0.1",
+  "thumbnail":"colorblock.jpg",
+  "helpLink":"",
+  "width":291,
+  "height": 150,
+  "inputAttr": {
+    "content":{"friendly":"Text/Markdown", "type":"content", "default":""},
+    "shape":{ "friendly":"Shape", "type":"dropdown", "default": "rectangle", "values": ["rectangle","square", "circle", "ellipse"]},
+    "color":{"friendly":"Shape Color", "type":"colorPicker", "colorDefault":"accent", "default":""}, 
+    "textColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
+    "opacity":{"friendly":"Opacity", "type":"int", "default":1},
+    "percentWidth":{"friendly":"Percent Width", "type":"int", "default":1},
+    "percentHeight":{"friendly":"Percent Height", "type":"int", "default":1},
+    "positionX":{"friendly":"X Position", "type":"int", "default":0.5},
+    "positionY":{"friendly":"Y Position", "type":"int", "default":0.5}
+  }
+} 
