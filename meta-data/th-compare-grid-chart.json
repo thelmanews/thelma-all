@@ -9,7 +9,7 @@
   "width":200,
   "height":250,
   "inputAttr": {
-    "iconTransition":{"friendly":"Icon Transition", "type":"string", "default":"random"},
+    "iconTransition":{"friendly":"Icon Transition", "type":"dropdown","default":"random", "values":["random", "drop"]},
     "animationDuration":{"friendly":"Animation Duration (ms)", "type":"int", "default":200},
     "chartData":{"friendly":"Data", "type":"table-fixed","rows":2, 
        "fields":{
