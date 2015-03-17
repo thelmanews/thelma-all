@@ -6,8 +6,9 @@
   "thumbnail":"quote.jpg", 
   "tags":["textual", "image"],
   "helpLink":"",
+  "width":280,
+  "height":200,
   "inputAttr": {
-    "width":{"friendly":"Width", "type":"int", "default":280},
     "content":{"friendly":"Quote", "type":"content", "default":"You're only given a little spark of madness. You mustn't lose it."},
     "qtitle":{"friendly":"Title", "type":"string", "default":"Robin Williams"},
     "details":{"friendly":"Details", "type":"string", "default":""},

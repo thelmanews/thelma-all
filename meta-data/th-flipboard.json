@@ -5,10 +5,10 @@
   "version": "0.0.1",
   "thumbnail":"flipboard.jpg",
   "helpLink":"http://composer.thelma.co/admin/composer/demos/flipboard",
+  "width":250,
+  "height":250,
   "inputAttr": {
-    "width":{"friendly":"Width", "type":"int", "default":280},
-    "height":{"friendly":"Height", "type":"int", "default":280},
-    "items":{"friendly":"Items", "type":"table-repeating","rows":4, 
+   "items":{"friendly":"Items", "type":"table-repeating","rows":4, 
       "fields":{
         "textFront":{"friendly":"Text (front)", "type":"string", "default":""},
         "backgroundFront":{"friendly":"BG (front)", "type":"colorImagePicker", "colorDefault":"accent", "default":""},

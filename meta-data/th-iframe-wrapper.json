@@ -6,11 +6,12 @@
   "thumbnail":"iframe.jpg", 
   "tags":["iframe"],
   "helpLink":"",
+  "width":280,
+  "height":400,
   "inputAttr": {
-    "width":{"friendly":"Width", "type":"int", "default":280},
-    "height":{"friendly":"Height", "type":"int", "default":400},   
     "scale":{"friendly":"Scale content", "type":"int", "default":1.0},   
     "content":{"friendly":"iFrame", "type":"content", "default":""},
-    "url":{"friendly":"URL", "type":"string", "default":""}
+    "url":{"friendly":"URL", "type":"string", "default":""},
+    "scrolling": {"friendly":"Scrolling?", "type": "dropdown", "default": "no", "values":["no", "yes"]}
   }
 }

@@ -6,8 +6,9 @@
   "thumbnail":"twitter.jpg", 
   "tags":["textual", "image"],
   "helpLink":"",
+  "width":280,
+  "height":200,
   "inputAttr": {
-    "width":{"friendly":"Width", "type":"int", "default":250},
     "twitterHandle":{"friendly":"Twitter Handle", "type":"string", "default":"username"},
     "tweet":{"friendly":"Tweet", "type":"string", "default":"Enter tweet here."},
     "image":{"friendly":"Image", "type":"image", "default":"/bower_components/thelma-components/images/person.jpg"},

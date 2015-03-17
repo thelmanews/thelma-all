@@ -6,8 +6,9 @@
   "thumbnail":"mask.jpg", 
   "tags":["textual", "image"],
   "helpLink":"",
+  "width":200,
+  "height":200,
   "inputAttr": {
-    "size":{"friendly":"size", "type":"int", "default":250},
     "shape": {"friendly":"Shape", "type": "dropdown", "default": "circle", "values":["circle", "square", "hexagon", "triangle", "ios-app"]},
     "src":{"friendly":"Image", "type":"image", "default":"/bower_components/thelma-components/images/person.jpg"}
   }

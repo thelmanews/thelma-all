@@ -5,9 +5,11 @@
   "version": "0.0.1",
   "thumbnail":"counter.jpg",
   "helpLink":"",
+  "width":200,
+  "height":45,
   "inputAttr": {
-    "width":{"friendly":"Width", "type":"int", "default":250},
     "content":{"friendly":"Number", "type":"content", "default":"Count to 40"}, 
+    "alignment":{"friendly":"Align","type":"dropdown", "values": ["left","right", "center", "justify"], "default": "left"},
     "growNumber":{"friendly":"Grow Number?", "type":"boolean", "default":"false"}, 
     "numberSize":{"friendly":"Number Size", "type":"int", "default":40}, 
     "numberColor":{"friendly":"Number Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 

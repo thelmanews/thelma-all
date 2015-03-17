@@ -5,15 +5,17 @@
   "version": "0.0.1",
   "thumbnail":"byline.jpg",
   "helpLink":"",
+  "width":280,
+  "height":33,
   "inputAttr": {
-    "height":{"friendly":"Height", "type":"int", "default":33},
     "name":{"friendly":"Name", "type":"string", "default":"Your Name"},
     "image":{"friendly":"Image", "type":"image", "default": ""},
     "wsjLogo":{"friendly":"WSJ?", "type":"boolean", "default":"false"},
-    "textColor":{ "friendly":"Text Color", "type":"dropdown", "default": "", "values": ["","white","black"]},
+    "marketWatchLogo":{"friendly":"MarketWatch?", "type":"boolean", "default":"false"},
+    "textColor":{ "friendly":"Text Color", "type":"dropdown", "default": "white", "values": ["white","black"]},
     "date":{"friendly":"Date", "type":"string", "default": ""},
     "timestamp":{"friendly":"Time", "type":"string", "default": ""},
-    "bgColor":{ "friendly":"Background Color", "type":"dropdown", "default": "", "values": ["","white","black"]},
+    "bgColor":{ "friendly":"Background Color", "type":"dropdown", "default": "none", "values": ["none","white","black"]},
     "bgOpacity":{"friendly":"Background Opacity", "type":"int", "default":1}
   }
 } 

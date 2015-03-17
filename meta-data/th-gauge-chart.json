@@ -6,8 +6,9 @@
   "thumbnail":"gauge.jpg", 
   "tags":["graph", "gauge", "data", "animated"],
   "helpLink":"",
+  "width":200,
+  "height":125,
   "inputAttr": {
-    "chartWidth":{"friendly":"Width", "type":"int", "default":260},
     "chartData":{"friendly":"Data", "type":"table-fixed","rows":1, 
       "fields":{
         "value":{"friendly":"Value", "type":"int", "default":65},

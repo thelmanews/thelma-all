@@ -6,8 +6,9 @@
   "thumbnail":"boxed-quote.jpg", 
   "tags":["textual", "image"],
   "helpLink":"",
+  "width":250,
+  "height":200,
   "inputAttr": {
-    "width":{"friendly":"Width", "type":"int", "default":250},
     "content":{"friendly":"Quote", "type":"content", "default":"Please enter a quote."},
     "qtitle":{"friendly":"Title", "type":"string", "default":"Name"},
     "details":{"friendly":"Details", "type":"string", "default":""},

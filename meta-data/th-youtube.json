@@ -6,9 +6,9 @@
   "thumbnail":"youtube.jpg", 
   "tags":["video", "media"],
   "helpLink":"",
+  "width":280,
+  "height":400,
   "inputAttr": {
-    "width":{"friendly":"Width", "type":"int", "default":280},
-    "height":{"friendly":"Height", "type":"int", "default":280},
     "videoid":{"friendly":"URL or Video ID", "type":"string", "default":""}
   }
 }

@@ -6,12 +6,13 @@
   "thumbnail":"carousel.jpg", 
   "tags":["textual", "image", "carousel"],
   "helpLink":"",
+  "width":200,
+  "height":200,
   "inputAttr": {
     "isHorizontal":{"friendly":"Horizontal Rotation?", "type":"boolean", "default": true},
     "animateOn":{"friendly":"Animate On","type":"dropdown","default":"tap", "values":["tap","interval"]},
     "interval":{"friendly":"Interval", "type":"int", "default": 3000},
-    "width":{"friendly":"Width", "type":"int", "default":280},
-    "height":{"friendly":"Height", "type":"int", "default":280},
+    "textColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
     "fontSize":{"friendly":"Font Size", "type":"int", "default":60},
     "items":{"friendly":"Items", "type":"table-repeating","rows":4, 
       "fields":{

@@ -6,9 +6,9 @@
   "thumbnail":"n-peak-chart.jpg", 
   "tags":["chart", "bar"],
   "helpLink":"http://composer.thelma.co/admin/composer/demos/chartlabels",
+  "width":280,
+  "height":200,
   "inputAttr": {
-    "chartWidth":{"friendly":"Width", "type":"int", "default":200},
-    "chartHeight":{"friendly":"Height", "type":"int", "default":250},
     "wrapLabels":{"friendly":"Wrap Labels?", "type":"boolean", "default": false},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
       "fields":{

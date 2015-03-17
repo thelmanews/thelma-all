@@ -6,9 +6,9 @@
   "thumbnail":"map.jpg", 
   "tags":["chart", "bar"],
   "helpLink":"",
+  "width":280,
+  "height":200,
   "inputAttr": {
-    "chartWidth":{"friendly":"Width", "type":"int", "default":300},
-    "chartHeight":{"friendly":"Height", "type":"int", "default":200},
     "dataLabel":{"friendly":"Data Label", "type":"string", "default":"Medicaid Coverage"},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
       "fields":{

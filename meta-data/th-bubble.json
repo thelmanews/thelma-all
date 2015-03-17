@@ -5,8 +5,9 @@
   "version": "0.0.1",
   "thumbnail":"bubble.jpg",
   "helpLink":"",
+  "width":125,
+  "height":125,
   "inputAttr": {
-    "chartSize":{"friendly":"Width", "type":"int", "default":125},
     "duration":{"friendly":"Duration", "type":"int", "default":2},
     "showNumber":{"friendly":"Show Number?", "type":"boolean", "default": true},
     "linearlyScale": {"friendly": "Scale in proportion", "type":"boolean", "default": false},

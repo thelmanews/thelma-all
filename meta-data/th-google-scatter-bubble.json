@@ -6,20 +6,20 @@
   "thumbnail":"google-scatter.jpg", 
   "tags":["chart", "scatter","bubble"],
   "helpLink":"",
+  "width":280,
+  "height":200,
   "inputAttr": {
-    "chartWidth":{"friendly":"Width", "type":"int", "default":280},
-    "chartHeight":{"friendly":"Height", "type":"int", "default":400},    
-    "dataLabelX":{"friendly":"Data Label X", "type":"string", "default":""},
-    "dataLabelY":{"friendly":"Data Label Y", "type":"string", "default":""},
-    "dataLabelSize":{"friendly":"Data Label Size", "type":"string", "default":""},
-    "dataLabelColor":{"friendly":"Data Label Color", "type":"string", "default":""},
+    "dataLabelX":{"friendly":"X Label", "type":"string", "default":"Life Expectancy"},
+    "dataLabelY":{"friendly":"Y Label", "type":"string", "default":"Fertility Rate"},
+    "dataLabelSize":{"friendly":"Size Label", "type":"string", "default":"Population"},
+    "dataLabelColor":{"friendly":"Color Label", "type":"string", "default":"Region"},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
       "fields":{
         "label":{"friendly":"Label", "type":"string", "default":""},
-        "valueX":{"friendly":"Value", "type":"int", "default":""},
-        "valueY":{"friendly":"Value", "type":"int", "default":""},
-        "valueSize":{"friendly":"Value", "type":"int", "default":""},
-        "valueColor":{"friendly":"Value", "type":"String", "default":""}
+        "valueX":{"friendly":"X Value", "type":"int", "default":""},
+        "valueY":{"friendly":"Y Value", "type":"int", "default":""},
+        "valueSize":{"friendly":"Size Value", "type":"int", "default":""},
+        "valueColor":{"friendly":"Color Value", "type":"String", "default":""}
       },
       "default":[
         {"label": "CAN", "valueX": 80.66, "valueY": 1.67, "valueSize": 33739900, "valueColor": "North America"},

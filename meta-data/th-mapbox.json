@@ -6,9 +6,9 @@
   "thumbnail":"mapbox.jpg", 
   "tags":["map", "mapbox"],
   "helpLink":"",
+  "width":280,
+  "height":430,
   "inputAttr": {
-    "width":{"friendly":"Width", "type":"int", "default":288},
-    "height":{"friendly":"Height", "type":"int", "default":503},
     "mapId":{"friendly":"Map ID", "type":"string", "default":"examples.map-i87786ca"},
     "startingZoom":{"friendly":"Starting Zoom", "type":"int", "default":12},
     "startingLat":{"friendly":"Starting Latitude", "type":"int", "default":38.8922},
