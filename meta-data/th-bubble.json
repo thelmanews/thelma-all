@@ -9,6 +9,7 @@
     "chartSize":{"friendly":"Width", "type":"int", "default":125},
     "duration":{"friendly":"Duration", "type":"int", "default":2},
     "showNumber":{"friendly":"Show Number?", "type":"boolean", "default": true},
+    "linearlyScale": {"friendly": "Scale in proportion", "type":"boolean", "default": false},
     "chartData":{"friendly":"Data", "type":"table-fixed","rows":1, 
       "fields":{
         "startValue":{"friendly":"Start Value", "type":"int", "default":0},
