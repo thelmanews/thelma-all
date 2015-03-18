@@ -53,7 +53,8 @@
     "th-tweet": "https://github.com/thelmanews/th-tweet.git",
     "th-youtube": "https://github.com/thelmanews/th-youtube.git",
     "image-mask": "thelmanews/image-mask#master",
-    "star-rating": "https://github.com/sepans/star-rating.git"
+    "star-rating": "https://github.com/sepans/star-rating.git",
+    "google-chart": "lenses/google-chart#master"
   },
   "resolutions": {
     "polymer": "~0.5.1",
