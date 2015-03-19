@@ -12,24 +12,25 @@
     "orientation": {"friendly":"Orientation", "type": "dropdown", "default": "horizontal", "values":["horizontal", "vertical"]},
     "fontSize":{"friendly":"Font Size", "type":"int", "default":""},
     "textColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
-    "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "colorDefault":"background", "default":""},
+    "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "colorDefault":"", "default":""},
     "gridlinesColor":{"friendly":"Gridlines Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
     "gridlines":{"friendly":"Number of Gridlines", "type":"int", "default":"5"},
     "series1Name":{"friendly":"Bar 1 Name", "type":"string", "default":"Germany"},
     "series2Name":{"friendly":"Bar 2 Name", "type":"string", "default":"France"},
     "series3Name":{"friendly":"Bar 3 Name", "type":"string", "default":""},
+    "numberPattern":{"friendly":"Number Pattern", "type":"string", "default":""},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":3, 
       "fields":{
         "label":{"friendly":"Label (x)", "type":"string", "default":""},
-        "series1":{"friendly":"Bar 1 (y)", "type":"int", "default":""},
-        "series2":{"friendly":"Bar 2 (y)", "type":"int", "default":""},
-        "series3":{"friendly":"Bar 3 (y)", "type":"int", "default":""}
+        "series1":{"friendly":"Bar 1 (y)", "type":"string", "default":""},
+        "series2":{"friendly":"Bar 2 (y)", "type":"string", "default":""},
+        "series3":{"friendly":"Bar 3 (y)", "type":"string", "default":""}
       },
       "default":[
-            {"label": "2012", "series1": 100, "series2": 100 },
-            {"label": "2013", "series1": 50, "series2": 150 },
-            {"label": "2014", "series1": 300, "series2": 200 },
-            {"label": "2015", "series1": 200, "series2": 110 }
+            {"label": "2012", "series1": "100", "series2": "100" },
+            {"label": "2013", "series1": "50", "series2": "150" },
+            {"label": "2014", "series1": "300", "series2": "200" },
+            {"label": "2015", "series1": "200", "series2": "110" }
         ]
     },
     "chartTitle":{"friendly":"Title", "type":"string", "default":""},
@@ -37,6 +38,8 @@
     "hAxisTitle":{"friendly":"Horizontal Axis Title", "type":"string", "default":""},
     "yAxisMin":{"friendly":"Y Axis Min", "type":"int", "default":""},
     "yAxisMax":{"friendly":"Y Axis Max", "type":"int", "default":""},
+    "chartAreaWidth":{"friendly":"Chart Area (width)", "type":"string", "default":"80%"},
+    "chartAreaHeight":{"friendly":"Chart Area (height)", "type":"string", "default":"80%"},
     "thelma":{"friendly":"Thelma", "type":"hidden", "default": true},
     "legend":{"friendly":"Show Legend?", "type":"boolean", "default": true}
   }
