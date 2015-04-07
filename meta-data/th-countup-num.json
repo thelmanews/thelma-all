@@ -10,6 +10,7 @@
   "inputAttr": {
     "content":{"friendly":"Number", "type":"content", "default":"Count to 40"}, 
     "alignment":{"friendly":"Align","type":"dropdown", "values": ["left","right", "center", "justify"], "default": "left"},
+    "decimalPlaces":{"friendly":"Decimal Places", "type":"int", "default":0}, 
     "growNumber":{"friendly":"Grow Number?", "type":"boolean", "default":"false"}, 
     "numberSize":{"friendly":"Number Size", "type":"int", "default":40}, 
     "numberColor":{"friendly":"Number Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
