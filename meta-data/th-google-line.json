@@ -15,10 +15,6 @@
     "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "colorDefault":"", "default":""},
     "gridlinesColor":{"friendly":"Gridlines Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
     "gridlines":{"friendly":"Number of Gridlines", "type":"int", "default":"5"},
-    "series1Name":{"friendly":"Line 1 Name", "type":"string", "default":"Germany"},
-    "series2Name":{"friendly":"Line 2 Name", "type":"string", "default":"France"},
-    "series3Name":{"friendly":"Line 3 Name", "type":"string", "default":""},
-    "numberPattern":{"friendly":"Number Pattern", "type":"string", "default":""},
     "lineColors":{"friendly":"Line Colors (in order)", "type":"table-repeating","rows":3, 
       "fields":{
         "color":{"friendly":"Line Colors (in order)", "type":"colorPicker", "colorDefault":"accent", "default":""}
@@ -29,6 +25,10 @@
         {"color": ""}
       ]
     },
+    "series1Name":{"friendly":"Line 1 Name", "type":"string", "default":"Germany"},
+    "series2Name":{"friendly":"Line 2 Name", "type":"string", "default":"France"},
+    "series3Name":{"friendly":"Line 3 Name", "type":"string", "default":""},
+    "numberPattern":{"friendly":"Number Pattern", "type":"string", "default":""},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":3, 
       "fields":{
         "label":{"friendly":"Label (x)", "type":"string", "default":""},
