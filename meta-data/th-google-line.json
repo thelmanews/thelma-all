@@ -15,6 +15,16 @@
     "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "colorDefault":"", "default":""},
     "gridlinesColor":{"friendly":"Gridlines Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
     "gridlines":{"friendly":"Number of Gridlines", "type":"int", "default":"5"},
+    "lineColors":{"friendly":"Line Colors (in order)", "type":"table-repeating","rows":3, 
+      "fields":{
+        "color":{"friendly":"Line Colors (in order)", "type":"colorPicker", "colorDefault":"accent", "default":""}
+      },
+      "default": [
+        {"color": ""},
+        {"color": ""},
+        {"color": ""}
+      ]
+    },
     "series1Name":{"friendly":"Line 1 Name", "type":"string", "default":"Germany"},
     "series2Name":{"friendly":"Line 2 Name", "type":"string", "default":"France"},
     "series3Name":{"friendly":"Line 3 Name", "type":"string", "default":""},
