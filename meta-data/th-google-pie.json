@@ -16,7 +16,8 @@
       "fields":{
         "label":{"friendly":"Label", "type":"string", "default":""},
         "value":{"friendly":"Value", "type":"string", "default":""},
-	     "split":{"friendly":"Split", "type": "int", "default": ""}
+	      "split":{"friendly":"Split", "type": "int", "default": ""},
+        "color":{"friendly":"Color", "type": "colorPicker", "colorDefault":"accent", "default": ""}
       },
       "default":[
             {"label": "Germany", "value": "100"},
