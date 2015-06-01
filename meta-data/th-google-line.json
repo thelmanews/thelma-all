@@ -19,6 +19,16 @@
     "series2Name":{"friendly":"Line 2 Name", "type":"string", "default":"France"},
     "series3Name":{"friendly":"Line 3 Name", "type":"string", "default":""},
     "numberPattern":{"friendly":"Number Pattern", "type":"string", "default":""},
+    "lineColors":{"friendly":"Line Colors (in order)", "type":"table-repeating","rows":3, 
+      "fields":{
+        "color":{"friendly":"Line Colors (in order)", "type":"colorPicker", "colorDefault":"accent", "default":""}
+      },
+      "default": [
+        {"color": ""},
+        {"color": ""},
+        {"color": ""}
+      ]
+    },
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":3, 
       "fields":{
         "label":{"friendly":"Label (x)", "type":"string", "default":""},
