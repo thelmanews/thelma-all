@@ -9,7 +9,7 @@
   "width":280,
   "height":280,
   "inputAttr": {
-    "lineStyle":{"friendly":"Line Style", "type":"dropdown","default":"cardinal", "values":["linear", "basis", "cardinal", "monotone", "step-before", "step-after"]},
+    "lineStyle":{"friendly":"Line Style", "type":"dropdown","default":"linear", "values":["linear", "basis", "cardinal", "monotone", "step-before", "step-after"]},
     "animateStyle":{"friendly":"Animate Style","type":"dropdown","default":"draw", "values":["draw","raise"]},
     "fillArea":{"friendly":"Fill Area", "type":"boolean", "default": false},
     "xAxisLabels":{"friendly":"X-axis Labels", "type":"boolean", "default": true},
