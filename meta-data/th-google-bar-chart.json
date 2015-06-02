@@ -14,7 +14,6 @@
     "textColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
     "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "colorDefault":"", "default":""},
     "gridlinesColor":{"friendly":"Gridlines Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
-    "gridlines":{"friendly":"Number of Gridlines", "type":"int", "default":"5"},
     "barColors":{"friendly":"Bar Colors (in order)", "type":"table-repeating","rows":3, 
       "fields":{
         "color":{"friendly":"Bar Colors (in order)", "type":"colorPicker", "colorDefault":"accent", "default":""}
@@ -25,6 +24,7 @@
         {"color": ""}
       ]
     },
+    "gridlines":{"friendly":"Number of Gridlines", "type":"int", "default":"5"},
     "series1Name":{"friendly":"Bar 1 Name", "type":"string", "default":"Germany"},
     "series2Name":{"friendly":"Bar 2 Name", "type":"string", "default":"France"},
     "series3Name":{"friendly":"Bar 3 Name", "type":"string", "default":""},
