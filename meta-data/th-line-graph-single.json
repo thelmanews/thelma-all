@@ -20,7 +20,6 @@
     "dataPosition":{"friendly":"Data Position","type":"dropdown","default":"left", "values":["left","right"]},
     "color":{"friendly":"Line Color", "type":"colorPicker", "colorDefault":"accent", "default":""}, 
     "textColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
-    "defaultDisplayValues":{"friendly":"Use Default Display Values", "type":"boolean", "default": true},
     "dateType":{"friendly":"Data Format","type":"dropdown","default":"YYYY", "values":["DD-MM-YY", "DD-MM", "DD-Mth", "MM-YY", "Mth-YY", "YY", "YYYY"]},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":5, 
       "fields":{
@@ -30,11 +29,11 @@
         "note":{"friendly":"Note", "type":"string", "default":""}
       },
       "default":[
-        {"label": 2010, "value": 104, "display_value": "", "note": ""},
-        {"label": 2011, "value": 108, "display_value": "", "note": ""},
-        {"label": 2012, "value": 107, "display_value": "", "note": ""},
-        {"label": 2013, "value": 110, "display_value": "", "note": ""},
-        {"label": 2014, "value": 112, "display_value": "", "note": ""}
+        {"label": 2010, "value": 104, "display_value": "$104", "note": "Sample note to describe data point."},
+        {"label": 2011, "value": 108, "display_value": "$108", "note": ""},
+        {"label": 2012, "value": 107, "display_value": "$107", "note": "Another sample note."},
+        {"label": 2013, "value": 110, "display_value": "$110", "note": ""},
+        {"label": 2014, "value": 112, "display_value": "$112", "note": ""}
       ]
     }
   }
