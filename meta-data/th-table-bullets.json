@@ -20,6 +20,12 @@
           { "bullet": "\u25CF", "text": "Second bullet.", "image": "", "color":""},
           { "bullet": "\u25CF", "text": "Third bullet.", "image": "", "color":""}
       ]
+    },
+    "textType":{
+      "friendly":"Text Type",
+      "type":"dropdown", 
+      "values": ["large-headline","headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"],
+      "default": "mainpoint"
     }
   }
 }
