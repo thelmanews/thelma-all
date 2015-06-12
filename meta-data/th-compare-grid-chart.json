@@ -11,6 +11,7 @@
   "inputAttr": {
     "iconTransition":{"friendly":"Icon Transition", "type":"dropdown","default":"random", "values":["random", "drop"]},
     "animationDuration":{"friendly":"Animation Duration (ms)", "type":"int", "default":200},
+    "imagesPerRow":{"friendly":"Images per Row", "type":"int", "default":-1},
     "chartData":{"friendly":"Data", "type":"table-fixed","rows":2, 
        "fields":{
         "label":{"friendly":"Label", "type":"string", "default":"Smoker"},
