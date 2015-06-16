@@ -1,6 +1,6 @@
 {
   "name": "th-bubble",
-  "description": "Thelma Growing Bubble",
+  "description": "Thelma Growing Shape",
   "category":"chart",
   "version": "0.0.1",
   "thumbnail":"bubble.jpg",
@@ -8,6 +8,7 @@
   "width":125,
   "height":125,
   "inputAttr": {
+    "shape":{ "friendly":"Shape", "type":"dropdown", "default": "square", "values": ["square", "circle"]},
     "duration":{"friendly":"Duration", "type":"int", "default":2},
     "showNumber":{"friendly":"Show Number?", "type":"boolean", "default": true},
     "linearlyScale": {"friendly": "Scale in proportion", "type":"boolean", "default": false},
