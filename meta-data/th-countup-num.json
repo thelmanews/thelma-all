@@ -8,7 +8,7 @@
   "width":200,
   "height":45,
   "inputAttr": {
-    "content":{"friendly":"Number", "type":"content", "default":"Count to 40"}, 
+    "content":{"friendly":"Enter number and text (markdown friendly)", "type":"content", "default":"Count to 40"}, 
     "alignment":{"friendly":"Align","type":"dropdown", "values": ["left","right", "center", "justify"], "default": "left"},
     "growNumber":{"friendly":"Grow Number?", "type":"boolean", "default":"false"}, 
     "numberSize":{"friendly":"Number Size", "type":"int", "default":40}, 
@@ -17,6 +17,7 @@
     "type":{"friendly":"Type","type":"dropdown", "values": ["headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"], "default": "mainpoint"},
     "startFrom":{"friendly":"Start From", "type":"int", "default":0},
     "startFromSameNumberOfDigit":{"friendly":"Same number dig?", "type":"boolean", "default":"true"},
-    "duration":{"friendly":"Duration", "type":"int", "default":2}
+    "duration":{"friendly":"Duration", "type":"int", "default":2},
+    "markdown":{"friendly":"Allow Markdown?", "type":"boolean", "default":"true"}
   }
 } 
