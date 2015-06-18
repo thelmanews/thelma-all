@@ -9,7 +9,7 @@
   "width":280,
   "height":300,
   "inputAttr": {
-    "tooltips":{"friendly":"Show all values?", "type":"boolean", "default": false},
+    "tooltips":{"friendly":"Show all values?", "type":"boolean", "default": true},
     "animateMarker":{"friendly":"Animate Marker?", "type":"boolean", "default": true},
     "fillArea":{"friendly":"Fill Area", "type":"boolean", "default": false},
     "yAxisMin":{"friendly":"Y-axis Min Value", "type":"int", "default":""},
