@@ -8,15 +8,16 @@
   "width":200,
   "height":45,
   "inputAttr": {
-    "content":{"friendly":"Number", "type":"content", "default":"Count to 40"}, 
-    "alignment":{"friendly":"Align","type":"dropdown", "values": ["left","right", "center", "justify"], "default": "left"},
-    "growNumber":{"friendly":"Grow Number?", "type":"boolean", "default":"false"}, 
-    "numberSize":{"friendly":"Number Size", "type":"int", "default":40}, 
-    "numberColor":{"friendly":"Number Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
+    "content":{"friendly":"Enter number and text (markdown friendly)", "type":"content", "default":"Count to 40"}, 
     "color":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
-    "type":{"friendly":"Type","type":"dropdown", "values": ["headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"], "default": "mainpoint"},
+    "numberColor":{"friendly":"Number Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
+    "numberSizeEm":{"friendly":"Number Size Ratio", "type":"int", "default":1.5},  
+    "growNumber":{"friendly":"Grow Number?", "type":"boolean", "default":false}, 
+    "duration":{"friendly":"Duration", "type":"int", "default":2},   
+    "startFromSameNumberOfDigit":{"friendly":"Start from same number digits?", "type":"boolean", "default":"true"},
     "startFrom":{"friendly":"Start From", "type":"int", "default":0},
-    "startFromSameNumberOfDigit":{"friendly":"Same number dig?", "type":"boolean", "default":"true"},
-    "duration":{"friendly":"Duration", "type":"int", "default":2}
+    "alignment":{"friendly":"Align","type":"dropdown", "values": ["left","right", "center", "justify"], "default": "left"},
+    "type":{"friendly":"Text Type","type":"dropdown", "values": ["headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"], "default": "mainpoint"},
+    "markdown":{"friendly":"Allow Markdown?", "type":"boolean", "default":true}
   }
 } 
