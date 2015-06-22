@@ -14,6 +14,7 @@
     "numberSizeEm":{"friendly":"Number Size Ratio", "type":"int", "default":1.5},  
     "growNumber":{"friendly":"Grow Number?", "type":"boolean", "default":false}, 
     "duration":{"friendly":"Duration", "type":"int", "default":2},   
+    "separator":{"friendly":"Thousands Separator", "type":"string", "default":","},
     "startFromSameNumberOfDigit":{"friendly":"Start from same number digits?", "type":"boolean", "default":"true"},
     "startFrom":{"friendly":"Start From", "type":"int", "default":0},
     "alignment":{"friendly":"Align","type":"dropdown", "values": ["left","right", "center", "justify"], "default": "left"},
