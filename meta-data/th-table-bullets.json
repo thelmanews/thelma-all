@@ -24,7 +24,7 @@
     "textType":{
       "friendly":"Text Type",
       "type":"dropdown", 
-      "values": ["large-headline","headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"],
+      "values": ["large-headline","medium-headline","headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"],
       "default": "mainpoint"
     }
   }

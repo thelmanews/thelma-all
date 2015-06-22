@@ -15,6 +15,6 @@
     "altText":{"friendly":"Alternate Text", "type":"string", "default":""},
     "numberSize":{"friendly":"Number Size", "type":"int", "default":40}, 
     "displayWholeNum":{"friendly":"Display Whole Number?", "type":"boolean", "default":"false"},
-    "textType":{ "friendly":"Text Type", "type":"dropdown", "default": "mainpoint", "values": ["large-headline","headline","mainpoint", "submainpoint", "subpoint", "chart", "label"]}
+    "textType":{ "friendly":"Text Type", "type":"dropdown", "default": "mainpoint", "values": ["large-headline","medium-headline","headline","mainpoint", "submainpoint", "subpoint", "chart", "label"]}
   }
 } 
