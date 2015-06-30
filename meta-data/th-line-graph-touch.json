@@ -41,8 +41,8 @@
         "yAxisMin":{"friendly":"Y-axis min value", "type":"int", "default":""},
         "yAxisMax":{"friendly":"Y-axis max value", "type":"int", "default":""},
         "tooltips":{"friendly":"Show all values", "type":"boolean", "default": true},
-        "valueSize":{"friendly":"Value font size", "type":"int", "default":"", "showIf":"!tooltips"},
-        "valuePosition":{"friendly":"Value position","type":"dropdown","default":"left", "values":["left","right"]}
+        "valueSize":{"friendly":"Value font size", "type":"int", "default":"", "showIf":{"tooltips": false}},
+        "valuePosition":{"friendly":"Value position","type":"dropdown","default":"left", "values":["left","right"],  "showIf":{"tooltips": false}}
       }
     }
   }
