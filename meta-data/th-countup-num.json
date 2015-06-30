@@ -19,8 +19,8 @@
         "numberColor":{"friendly":"Number color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
         "numberSizeEm":{"friendly":"Number size ratio", "type":"int", "default":1.5},  
         "separator":{"friendly":"Thousands separator", "type":"string", "default":","},
-        "startFromSameNumberOfDigit":{"friendly":"Consistent digits switch", "type":"boolean", "default":"true"},
-        "growNumber":{"friendly":"Grow number switch", "type":"boolean", "default":false}
+        "startFromSameNumberOfDigit":{"friendly":"Consistent digits", "type":"boolean", "default":"true"},
+        "growNumber":{"friendly":"Grow number", "type":"boolean", "default":false}
       }
     },
     "textStyle":{
@@ -29,7 +29,7 @@
       "inputAttr": {
         "color":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
         "type":{"friendly":"Text type","type":"dropdown", "values": ["large-headline","medium-headline","headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"], "default": "mainpoint"},
-        "markdown":{"friendly":"Markdown switch", "type":"boolean", "default":true}
+        "markdown":{"friendly":"Markdown", "type":"boolean", "default":true}
       }
     }
   }
