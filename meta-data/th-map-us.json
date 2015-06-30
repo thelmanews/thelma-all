@@ -9,7 +9,6 @@
   "width":280,
   "height":200,
   "inputAttr": {
-    "dataLabel":{"friendly":"Data Label", "type":"string", "default":"Medicaid Coverage"},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
       "fields":{
         "state":{"friendly":"State", "type":"string", "readonly": "true"},
@@ -70,6 +69,7 @@
             {"state":"Wyoming","value":0.58640553}
 
         ]
-    }
+    },
+    "dataLabel":{"friendly":"Data label", "type":"string", "default":"Medicaid Coverage"}
   }
 }
