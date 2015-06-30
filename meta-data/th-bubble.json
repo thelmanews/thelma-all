@@ -8,10 +8,6 @@
   "width":125,
   "height":125,
   "inputAttr": {
-    "shape":{ "friendly":"Shape", "type":"dropdown", "default": "square", "values": ["square", "circle"]},
-    "duration":{"friendly":"Duration", "type":"int", "default":2},
-    "showNumber":{"friendly":"Show Number?", "type":"boolean", "default": true},
-    "linearlyScale": {"friendly": "Scale in proportion", "type":"boolean", "default": false},
     "chartData":{"friendly":"Data", "type":"table-fixed","rows":1, 
       "fields":{
         "startValue":{"friendly":"Start Value", "type":"int", "default":0},
@@ -24,6 +20,10 @@
       },
       "default":[{"startValue": 0, "endValue": 77, "color":"", "prefix":"+", "suffix":"%", "label":""}]
     },
+    "shape":{ "friendly":"Shape", "type":"dropdown", "default": "square", "values": ["square", "circle"]},
+    "duration":{"friendly":"Duration", "type":"int", "default":2},
+    "showNumber":{"friendly":"Show number", "type":"boolean", "default": true},
+    "linearlyScale": {"friendly": "Scale in proportion", "type":"boolean", "default": false},
     "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
   }
 } 

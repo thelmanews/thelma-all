@@ -12,6 +12,6 @@
     "scale":{"friendly":"Scale content", "type":"int", "default":1.0},   
     "content":{"friendly":"iFrame", "type":"content", "default":""},
     "url":{"friendly":"URL", "type":"string", "default":""},
-    "scrolling": {"friendly":"Scrolling?", "type": "dropdown", "default": "no", "values":["no", "yes"]}
+    "scrolling": {"friendly":"Scrolling", "type": "dropdown", "default": "no", "values":["no", "yes"]}
   }
 }
