@@ -13,6 +13,7 @@
     "startFrom":{"friendly":"Start From", "type":"int", "default":3},
     "animationSpeed":{"friendly":"Countdown Speed", "type":"int", "default":2},
     "countdownColor":{"friendly":"Number Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
-    "revealTextColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}
+    "revealTextColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
+    "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
   }
 } 

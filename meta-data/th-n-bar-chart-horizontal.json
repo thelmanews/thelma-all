@@ -22,6 +22,7 @@
         {"label": "Cheerleader", "value": 40, "display_value": "$40", "color":""},
         {"label": "Designer", "value": 70, "display_value": "$70", "color":""}
       ]
-    }
+    },
+    "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
   }
 }

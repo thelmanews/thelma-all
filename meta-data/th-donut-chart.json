@@ -15,6 +15,7 @@
         "color":{"friendly":"Color", "type":"colorPicker", "colorDefault":"accent", "default":""}
       },
       "default":[{"value": 65, "color":""}]
-    }
+    },
+    "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
   }
 }

@@ -23,7 +23,8 @@
         "label":{"friendly":"Label", "type":"string", "default":""}
       },
       "default":[{"startValue": 0, "endValue": 77, "color":"", "prefix":"+", "suffix":"%", "label":""}]
-    }
+    },
+    "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
   }
 } 
 
