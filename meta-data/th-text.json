@@ -1,6 +1,6 @@
 {
   "name": "th-text",
-  "description": "Th text w/Markdown",
+  "description": "Text with Markdown",
   "category":"textual",
   "version": "0.0.1",
   "thumbnail":"markdown.jpg",
@@ -9,37 +9,66 @@
   "width":281,
   "height":100,
   "inputAttr": {
-    "content":{"friendly":"Text/Markdown", "type":"content", "default":"Enter Text..."},
+    "content":{
+      "friendly":"Text/Markdown", 
+      "type":"content", 
+      "default":"Enter Text..."
+    },
+    "markdown":{
+      "friendly":"Markdown", 
+      "type":"boolean", 
+      "default":"true"
+    },
     "type":{
-      "friendly":"Type",
+      "friendly":"Text size",
       "type":"dropdown", 
       "values": ["large-headline","medium-headline","headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"],
       "default": "mainpoint"
     },
+    "textStyle":{
+      "friendly":"Text style",
+      "type":"dropdown",
+      "default":"", 
+      "values":["","serif","sans-serif"], 
+      "applyTo":"class"
+    },
     "align":{
-      "friendly":"Align",
+      "friendly":"Text align",
       "type":"dropdown", 
       "values": ["left", "right", "center", "justify"],
       "default": "left"
     },
-    "color":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
-    "highlighting":{
-      "friendly":"Highlighting", 
-      "type":"colorPicker", 
-      "colorDefault":"", 
-      "default":""
-    },
-    "background":{
-      "friendly":"Background Color", 
-      "type":"colorPicker", 
-      "colorDefault":"", 
-      "default":""
-    },
-    "opacity":{
-      "friendly":"Background Opacity", 
-      "type":"int", 
-      "default":1
-    },
-    "markdown":{"friendly":"Markdown?", "type":"boolean", "default":"true"}
+    "style": {
+      "friendly":"Style",
+      "type":"group",
+      "inputAttr":{
+        "color":{
+          "friendly":"Text Color", 
+          "type":"colorPicker", 
+          "colorDefault":"foreground1", 
+          "default":""
+        },
+        "highlighting":{
+          "friendly":"Highlighting", 
+          "type":"colorPicker", 
+          "colorDefault":"", 
+          "default":""
+        },
+        "background":{
+          "friendly":"Background Color", 
+          "type":"colorPicker", 
+          "colorDefault":"", 
+          "default":""
+        },
+        "opacity":{
+          "friendly":"Background Opacity", 
+          "type":"int", 
+          "default":1,
+          "showIf": {
+            "background":true
+          }
+        }
+      }
+    }
   }
 }
