@@ -9,11 +9,6 @@
   "width":200,
   "height":200,
   "inputAttr": {
-    "isHorizontal":{"friendly":"Horizontal Rotation?", "type":"boolean", "default": true},
-    "animateOn":{"friendly":"Animate On","type":"dropdown","default":"tap", "values":["tap","interval"]},
-    "interval":{"friendly":"Interval", "type":"int", "default": 3000},
-    "textColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
-    "fontSize":{"friendly":"Font Size", "type":"int", "default":60},
     "items":{"friendly":"Items", "type":"table-repeating","rows":4, 
       "fields":{
         "text":{"friendly":"Text", "type":"string", "default":""},
@@ -25,6 +20,18 @@
         {"text": "3", "image": ""},
         {"text": "4", "image": ""}  
       ]
+    },
+    "animateOn":{"friendly":"Animation","type":"dropdown","default":"tap", "values":["tap","interval"]},
+    "interval":{"friendly":"Interval speed (ms)", "type":"int", "default": 3000, "showIf":{"animateOn":"interval"}},
+    "isHorizontal":{"friendly":"Horizontal Rotation", "type":"boolean", "default": true},
+    "textStyle":{
+      "friendly": "Text style",
+      "type": "group",
+      "inputAttr": {
+        "textColor":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
+        "fontSize":{"friendly":"Font size", "type":"int", "default":60},
+        "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+      }
     }
   }
 }

@@ -9,7 +9,6 @@
   "width":280,
   "height":200,
   "inputAttr": {
-    "wrapLabels":{"friendly":"Wrap Labels?", "type":"boolean", "default": false},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
       "fields":{
         "label":{"friendly":"Label", "type":"string", "default":"Player"},
@@ -23,6 +22,8 @@
         {"label": "Silver", "value": 30, "display_value": "$30", "color":""},
         {"label": "Bronze", "value": 25, "display_value": "$25", "color":""}
       ]
-  }
+    },
+    "wrapLabels":{"friendly":"Wrap Labels", "type":"boolean", "default": false},
+    "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
   }
 }
