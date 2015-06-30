@@ -25,6 +25,7 @@
       ]
     },
     "flippable":{"friendly":"Flippable", "type":"boolean", "default":"true"},
-    "itemsPerRow":{"friendly":"Items per row", "type":"int", "default":2} 
+    "itemsPerRow":{"friendly":"Items per row", "type":"int", "default":2},
+    "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"} 
   }
 }

@@ -70,6 +70,7 @@
 
         ]
     },
-    "dataLabel":{"friendly":"Data label", "type":"string", "default":"Medicaid Coverage"}
+    "dataLabel":{"friendly":"Data label", "type":"string", "default":"Medicaid Coverage"},
+    "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
   }
 }

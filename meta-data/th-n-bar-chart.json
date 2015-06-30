@@ -23,6 +23,7 @@
       ]
     },
     "wrapLabels":{"friendly":"Wrap labels?", "type":"boolean", "default": true},
-    "showHorizontalAxis":{"friendly":"Show axis?", "type":"boolean", "default": false} 
+    "showHorizontalAxis":{"friendly":"Show axis?", "type":"boolean", "default": false},
+    "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"} 
   }
 }
