@@ -11,10 +11,11 @@
     "rate":{"friendly":"Rate", "type":"int", "default":40}, 
     "frequency": {"friendly":"Frequency", "type": "dropdown", "default": "minute", "values":["second", "minute", "hour", "day", "week", "month", "year"]},
     "units":{"friendly":"Units", "type":"string", "default":""},
-    "timePeriod": {"friendly":"Time Period", "type": "dropdown", "default": "hour", "values":["minute", "hour", "day", "month", "year"]},
-    "altText":{"friendly":"Alternate Text", "type":"string", "default":""},
-    "numberSize":{"friendly":"Number Size", "type":"int", "default":40}, 
-    "displayWholeNum":{"friendly":"Display Whole Number?", "type":"boolean", "default":"false"},
-    "textType":{ "friendly":"Text Type", "type":"dropdown", "default": "mainpoint", "values": ["large-headline","medium-headline","headline","mainpoint", "submainpoint", "subpoint", "chart", "label"]}
+    "timePeriod": {"friendly":"Time period", "type": "dropdown", "default": "hour", "values":["minute", "hour", "day", "month", "year"]},
+    "altText":{"friendly":"Alternate text", "type":"string", "default":""},
+    "numberSize":{"friendly":"Number size", "type":"int", "default":40}, 
+    "displayWholeNum":{"friendly":"Display whole number?", "type":"boolean", "default":"false"},
+    "textType":{ "friendly":"Text size", "type":"dropdown", "default": "mainpoint", "values": ["large-headline","medium-headline","headline","mainpoint", "submainpoint", "subpoint", "chart", "label"]},
+    "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
   }
 } 
