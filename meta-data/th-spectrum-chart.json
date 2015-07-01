@@ -26,6 +26,6 @@
         {"label": "Federal", "color": "", "pattern": "",  "range_min_value": 40, "range_min_display_value": "$40", "range_max_value": 60, "range_max_display_value": "$60", "offset": 0},
         {"label": "Medicare",  "color": "", "pattern": "stripe", "range_min_value": 70, "range_min_display_value": "$70", "range_max_value": 100, "range_max_display_value": "$100", "offset": 0}]
     },
-    "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+    "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
   }
 }

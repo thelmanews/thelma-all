@@ -24,7 +24,7 @@
     "duration":{"friendly":"Duration", "type":"int", "default":2},
     "showNumber":{"friendly":"Show number", "type":"boolean", "default": true},
     "linearlyScale": {"friendly": "Scale in proportion", "type":"boolean", "default": false},
-    "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+    "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
   }
 } 
 

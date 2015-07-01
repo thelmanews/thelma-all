@@ -20,7 +20,7 @@
         "endQuotes":{"friendly":"End quote", "type":"boolean", "default":false},
         "color":{"friendly":"Quote color", "type":"colorPicker", "colorDefault":"accent", "default":""},
         "textColor":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
-        "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
       }
     }
   }

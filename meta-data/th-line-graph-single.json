@@ -35,7 +35,7 @@
         "joyStick":{"friendly":"Joystick", "type":"boolean", "default": true},
         "dataPosition":{"friendly":"Value position","type":"dropdown","default":"left", "values":["left","right"], "showIf":{"joyStick":true}},
         "textColor":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
-        "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
       }
     },
     "axisOptions":{

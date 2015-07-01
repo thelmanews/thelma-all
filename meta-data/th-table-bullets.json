@@ -27,6 +27,6 @@
       "values": ["large-headline","medium-headline","headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"],
       "default": "mainpoint"
     },
-    "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+    "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
   }
 }

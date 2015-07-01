@@ -9,6 +9,6 @@
   "height":50,
   "inputAttr": {
     "color":{"friendly":"Color", "type":"colorPicker", "colorDefault":"accent", "default":""},
-    "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+    "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
   }
 } 

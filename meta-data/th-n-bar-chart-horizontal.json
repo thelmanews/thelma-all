@@ -23,6 +23,6 @@
         {"label": "Designer", "value": 70, "display_value": "$70", "color":""}
       ]
     },
-    "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+    "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
   }
 }

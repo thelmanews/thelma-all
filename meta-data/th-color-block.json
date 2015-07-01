@@ -21,7 +21,7 @@
         "color":{"friendly":"Shape color", "type":"colorPicker", "colorDefault":"accent", "default":""}, 
         "textColor":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
         "opacity":{"friendly":"Opacity", "type":"int", "default":1},
-        "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
       }
     }
   }

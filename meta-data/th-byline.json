@@ -21,7 +21,7 @@
         "bgColor":{ "friendly":"Background color", "type":"dropdown", "default": "none", "values": ["none","white","black"]},
         "bgOpacity":{"friendly":"Background opacity", "type":"int", "default":1},
         "textColor":{ "friendly":"Text color", "type":"dropdown", "default": "", "values": ["", "white","black"]},
-        "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
       }
     }
   }  

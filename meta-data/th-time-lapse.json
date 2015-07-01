@@ -16,6 +16,6 @@
     "numberSize":{"friendly":"Number size", "type":"int", "default":40}, 
     "displayWholeNum":{"friendly":"Display whole number?", "type":"boolean", "default":"false"},
     "textType":{ "friendly":"Text size", "type":"dropdown", "default": "mainpoint", "values": ["large-headline","medium-headline","headline","mainpoint", "submainpoint", "subpoint", "chart", "label"]},
-    "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+    "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
   }
 } 

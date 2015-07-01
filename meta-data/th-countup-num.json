@@ -24,13 +24,13 @@
       }
     },
     "textStyle":{
-      "friendly": "Text Style",
+      "friendly": "Text style",
       "type": "group",
       "inputAttr": {
         "color":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
         "type":{"friendly":"Text type","type":"dropdown", "values": ["large-headline","medium-headline","headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"], "default": "mainpoint"},
         "markdown":{"friendly":"Markdown", "type":"boolean", "default":true},
-        "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
       }
     }
   }

@@ -24,13 +24,13 @@
     "animateOn":{"friendly":"Animation","type":"dropdown","default":"tap", "values":["tap","interval"]},
     "interval":{"friendly":"Interval speed (ms)", "type":"int", "default": 3000, "showIf":{"animateOn":"interval"}},
     "isHorizontal":{"friendly":"Horizontal Rotation", "type":"boolean", "default": true},
-    "textStyle":{
+    "testStyle":{
       "friendly": "Text style",
       "type": "group",
       "inputAttr": {
         "textColor":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
         "fontSize":{"friendly":"Font size", "type":"int", "default":60},
-        "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-s`erif"], "applyTo":"class"}
       }
     }
   }

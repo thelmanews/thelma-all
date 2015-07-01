@@ -24,6 +24,6 @@
       ]
     },
     "wrapLabels":{"friendly":"Wrap Labels", "type":"boolean", "default": false},
-    "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+    "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
   }
 }

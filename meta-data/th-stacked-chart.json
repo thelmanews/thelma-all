@@ -22,6 +22,6 @@
       {"label": "gap", "value": 40, "display_value": "$40", "color":"", "offset": 0},
       {"label": "sub", "value": 10, "display_value": "$10", "color":"", "offset": 0}]
     },
-    "textStyle":{"friendly":"Text style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+    "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
   }
 }
