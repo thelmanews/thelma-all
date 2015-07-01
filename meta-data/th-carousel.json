@@ -30,7 +30,7 @@
       "inputAttr": {
         "textColor":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
         "fontSize":{"friendly":"Font size", "type":"int", "default":60},
-        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-s`erif"], "applyTo":"class"}
+        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
       }
     }
   }
