@@ -38,8 +38,8 @@
       "values": ["left", "right", "center", "justify"],
       "default": "left"
     },
-    "style": {
-      "friendly":"Style",
+    "colorOptions": {
+      "friendly":"Color options",
       "type":"group",
       "inputAttr":{
         "color":{
