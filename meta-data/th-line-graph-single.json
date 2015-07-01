@@ -25,7 +25,7 @@
       ]
     },
     "chartStyles":{
-      "friendly":"Chart Styles",
+      "friendly":"Chart Style",
       "type":"group",
       "inputAttr":{
         "lineStyle":{"friendly":"Line style", "type":"dropdown","default":"linear", "values":["linear", "basis", "cardinal", "monotone", "step-before", "step-after"]},

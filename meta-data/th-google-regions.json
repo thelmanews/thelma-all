@@ -1,6 +1,6 @@
 {
   "name": "th-google-regions",
-  "description": "Thelma World Regions Map",
+  "description": "Google World Regions Map",
   "category":"chart",
   "version": "0.0.1",
   "thumbnail":"google-regions.jpg", 
@@ -9,9 +9,6 @@
   "width":280,
   "height":200,
   "inputAttr": {
-    "resolution":{"friendly":"Boundary Detail", "type":"dropdown","default":"countries", "values":["countries","provinces","metros"]},
-    "regionCode":{"friendly":"Scope of Map", "type":"string", "default":"155"},
-    "dataLabel":{"friendly":"Data Label", "type":"string", "default":"Popularity"},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
       "fields":{
         "region":{"friendly":"Region", "type":"string", "default":""},
@@ -25,9 +22,19 @@
             {"region": "Netherlands", "value": 500}
         ]
     },
-    "displayMode":{"friendly":"Display Type", "type":"dropdown","default":"fill", "values":["fill","markers", "text"]},
-    "color":{"friendly":"Color", "type":"colorPicker", "colorDefault":"accent", "default":""}, 
-    "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "colorDefault":"background", "default":""},
-    "legend":{"friendly":"Show Legend?", "type":"boolean", "default": false}
+    "resolution":{"friendly":"Areas displayed", "type":"dropdown","default":"countries", "values":["countries","provinces","metros"]},
+    "regionCode":{"friendly":"Scope of map", "type":"string", "default":"155"},
+    "dataLabel":{"friendly":"Data label", "type":"string", "default":"Popularity"},
+    "displayMode":{"friendly":"Display type", "type":"dropdown","default":"fill", "values":["fill","markers", "text"]},
+    "legend":{"friendly":"Show Legend?", "type":"boolean", "default": false},
+    "style":{
+      "friendly": "Style",
+      "type": "group",
+      "inputAttr": {
+        "color":{"friendly":"Color", "type":"colorPicker", "colorDefault":"accent", "default":""}, 
+        "backgroundColor":{"friendly":"Background color", "type":"colorPicker", "colorDefault":"background", "default":""}
+      }
+    }
+    
   }
 }

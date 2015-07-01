@@ -1,6 +1,6 @@
 {
   "name": "th-google-scatter-bubble",
-  "description": "Scatter chart by Google",
+  "description": "Google Scatter Chart",
   "category":"chart",
   "version": "0.0.1",
   "thumbnail":"google-scatter.jpg", 
@@ -9,17 +9,13 @@
   "width":280,
   "height":200,
   "inputAttr": {
-    "dataLabelX":{"friendly":"X Label", "type":"string", "default":"Life Expectancy"},
-    "dataLabelY":{"friendly":"Y Label", "type":"string", "default":"Fertility Rate"},
-    "dataLabelSize":{"friendly":"Size Label", "type":"string", "default":"Population"},
-    "dataLabelColor":{"friendly":"Color Label", "type":"string", "default":"Region"},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
       "fields":{
         "label":{"friendly":"Label", "type":"string", "default":""},
-        "valueX":{"friendly":"X Value", "type":"int", "default":""},
-        "valueY":{"friendly":"Y Value", "type":"int", "default":""},
-        "valueSize":{"friendly":"Size Value", "type":"int", "default":""},
-        "valueColor":{"friendly":"Color Value", "type":"String", "default":""}
+        "valueX":{"friendly":"X value", "type":"int", "default":""},
+        "valueY":{"friendly":"Y value", "type":"int", "default":""},
+        "valueSize":{"friendly":"Size value", "type":"int", "default":""},
+        "valueColor":{"friendly":"Color value", "type":"String", "default":""}
       },
       "default":[
         {"label": "CAN", "valueX": 80.66, "valueY": 1.67, "valueSize": 33739900, "valueColor": "North America"},
@@ -29,7 +25,11 @@
         {"label": "IRN", "valueX": 72.49, "valueY": 1.7, "valueSize": 73137148, "valueColor": "Middle East"}  
       ]
     },
-    "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "colorDefault":"background", "default":""},
-    "legend":{"friendly":"Show Legend?", "type":"boolean", "default": true}
+    "dataLabelX":{"friendly":"X label", "type":"string", "default":"Life Expectancy"},
+    "dataLabelY":{"friendly":"Y label", "type":"string", "default":"Fertility Rate"},
+    "dataLabelSize":{"friendly":"Size label", "type":"string", "default":"Population"},
+    "dataLabelColor":{"friendly":"Color label", "type":"string", "default":"Region"},
+    "backgroundColor":{"friendly":"Background color", "type":"colorPicker", "colorDefault":"background", "default":""},
+    "legend":{"friendly":"Legend", "type":"boolean", "default": true}
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "th-google-pie",
-  "description": "Pie Chart by Google",
+  "description": "Google Pie Chart",
   "category":"chart",
   "version": "0.0.1",
   "thumbnail":"google-pie.jpg", 
@@ -9,14 +9,11 @@
   "width":280,
   "height":200,
   "inputAttr": {
-    "type":{"friendly":"Pie or Donut", "type":"dropdown", "values": ["pie","donut"], "default": "pie"},
-    "tooltipText":{"friendly":"Tooltip Text", "type":"dropdown", "values": ["both","value","percentage"], "default": "both"},
-    "numberPattern":{"friendly":"Number Pattern", "type":"string", "default":""},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
       "fields":{
         "label":{"friendly":"Label", "type":"string", "default":""},
         "value":{"friendly":"Value", "type":"string", "default":""},
-	      "split":{"friendly":"Split", "type": "int", "default": ""},
+        "split":{"friendly":"Split", "type": "int", "default": ""},
         "color":{"friendly":"Color", "type": "colorPicker", "colorDefault":"accent", "default": ""}
       },
       "default":[
@@ -26,9 +23,12 @@
             {"label": "Austria", "value": "200"}
         ]
     },
-    "chartAreaWidth":{"friendly":"Chart Area (width)", "type":"string", "default":"80%"},
-    "chartAreaHeight":{"friendly":"Chart Area (height)", "type":"string", "default":"80%"},
+    "type":{"friendly":"Pie or Donut", "type":"dropdown", "values": ["pie","donut"], "default": "pie"},
+    "tooltipText":{"friendly":"Tooltip Text", "type":"dropdown", "values": ["both","value","percentage"], "default": "both"},
+    "numberPattern":{"friendly":"Number Pattern", "type":"string", "default":""},
     "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "colorDefault":"", "default":""},
-    "legend":{"friendly":"Show Legend?", "type":"boolean", "default": true}
+    "legend":{"friendly":"Show Legend?", "type":"boolean", "default": true},
+    "chartAreaWidth":{"friendly":"Chart Area (width)", "type":"string", "default":"80%"},
+    "chartAreaHeight":{"friendly":"Chart Area (height)", "type":"string", "default":"80%"}
   }
 }

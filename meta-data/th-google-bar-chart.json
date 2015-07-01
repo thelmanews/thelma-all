@@ -1,6 +1,6 @@
 {
   "name": "th-google-bar-chart",
-  "description": "Multi Bar Chart by Google",
+  "description": "Google Multi Bar Chart",
   "category":"chart",
   "version": "0.0.1",
   "thumbnail":"google-bar.jpg", 
@@ -9,26 +9,6 @@
   "width":280,
   "height":200,
   "inputAttr": {
-    "orientation": {"friendly":"Orientation", "type": "dropdown", "default": "horizontal", "values":["horizontal", "vertical"]},
-    "fontSize":{"friendly":"Font Size", "type":"int", "default":""},
-    "textColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
-    "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "colorDefault":"", "default":""},
-    "gridlinesColor":{"friendly":"Gridlines Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
-    "barColors":{"friendly":"Bar Colors (in order)", "type":"table-repeating","rows":3, 
-      "fields":{
-        "color":{"friendly":"Bar Colors (in order)", "type":"colorPicker", "colorDefault":"accent", "default":""}
-      },
-      "default": [
-        {"color": ""},
-        {"color": ""},
-        {"color": ""}
-      ]
-    },
-    "gridlines":{"friendly":"Number of Gridlines", "type":"int", "default":"5"},
-    "series1Name":{"friendly":"Bar 1 Name", "type":"string", "default":"Germany"},
-    "series2Name":{"friendly":"Bar 2 Name", "type":"string", "default":"France"},
-    "series3Name":{"friendly":"Bar 3 Name", "type":"string", "default":""},
-    "numberPattern":{"friendly":"Number Pattern", "type":"string", "default":""},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":3, 
       "fields":{
         "label":{"friendly":"Label (x)", "type":"string", "default":""},
@@ -43,14 +23,47 @@
             {"label": "2015", "series1": "200", "series2": "110" }
         ]
     },
-    "chartTitle":{"friendly":"Title", "type":"string", "default":""},
-    "vAxisTitle":{"friendly":"Vertical Axis Title", "type":"string", "default":""},
-    "hAxisTitle":{"friendly":"Horizontal Axis Title", "type":"string", "default":""},
-    "yAxisMin":{"friendly":"Y Axis Min", "type":"int", "default":""},
-    "yAxisMax":{"friendly":"Y Axis Max", "type":"int", "default":""},
-    "chartAreaWidth":{"friendly":"Chart Area (width)", "type":"string", "default":"80%"},
-    "chartAreaHeight":{"friendly":"Chart Area (height)", "type":"string", "default":"80%"},
-    "thelma":{"friendly":"Thelma", "type":"hidden", "default": true},
-    "legend":{"friendly":"Show Legend?", "type":"boolean", "default": true}
+    "series1Name":{"friendly":"Bar 1 name", "type":"string", "default":"Germany"},
+    "series2Name":{"friendly":"Bar 2 name", "type":"string", "default":"France"},
+    "series3Name":{"friendly":"Bar 3 name", "type":"string", "default":""},
+    "barColors":{"friendly":"Bar colors (in order)", "type":"table-repeating","rows":3, 
+      "fields":{
+        "color":{"friendly":"Bar colors (in order)", "type":"colorPicker", "colorDefault":"accent", "default":""}
+      },
+      "default": [
+        {"color": ""},
+        {"color": ""},
+        {"color": ""}
+      ]
+    },
+    "style":{
+      "friendly": "Style",
+      "type": "group",
+      "inputAttr": {
+        "orientation": {"friendly":"Orientation", "type": "dropdown", "default": "horizontal", "values":["horizontal", "vertical"]},
+        "numberPattern":{"friendly":"Number pattern", "type":"string", "default":""},
+        "fontSize":{"friendly":"Font size", "type":"int", "default":""},
+        "textColor":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
+        "backgroundColor":{"friendly":"Background Color", "type":"colorPicker", "colorDefault":"", "default":""},
+        "gridlinesColor":{"friendly":"Gridlines color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
+        "gridlines":{"friendly":"Number of gridlines", "type":"int", "default":"5"},
+        "chartAreaWidth":{"friendly":"Chart area (width)", "type":"string", "default":"80%"},
+        "chartAreaHeight":{"friendly":"Chart area (height)", "type":"string", "default":"80%"}
+      }
+    },
+    "axis":{
+      "friendly": "Title, Axis, Legend",
+      "type": "group",
+      "inputAttr": {
+        "chartTitle":{"friendly":"Title", "type":"string", "default":""},
+        "vAxisTitle":{"friendly":"Vertical axis title", "type":"string", "default":""},
+        "hAxisTitle":{"friendly":"Horizontal axis title", "type":"string", "default":""},
+        "yAxisMin":{"friendly":"Y axis min", "type":"int", "default":""},
+        "yAxisMax":{"friendly":"Y axis max", "type":"int", "default":""},
+        "gridlines":{"friendly":"Number of gridlines", "type":"int", "default":"5"},
+        "legend":{"friendly":"Legend", "type":"boolean", "default": true},
+        "thelma":{"friendly":"Thelma", "type":"hidden", "default": true}
+      }
+    } 
   }
 }

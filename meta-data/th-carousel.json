@@ -24,7 +24,7 @@
     "animateOn":{"friendly":"Animation","type":"dropdown","default":"tap", "values":["tap","interval"]},
     "interval":{"friendly":"Interval speed (ms)", "type":"int", "default": 3000, "showIf":{"animateOn":"interval"}},
     "isHorizontal":{"friendly":"Horizontal Rotation", "type":"boolean", "default": true},
-    "testStyle":{
+    "textStyle":{
       "friendly": "Text style",
       "type": "group",
       "inputAttr": {
