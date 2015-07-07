@@ -12,16 +12,16 @@
     "image":{"friendly":"Image", "type":"image", "default": ""},
     "date":{"friendly":"Date", "type":"string", "default": ""},
     "timestamp":{"friendly":"Time", "type":"string", "default": ""},
-    "wsjLogo":{"friendly":"WSJ", "type":"boolean", "default":"false"},
-    "marketWatchLogo":{"friendly":"MarketWatch", "type":"boolean", "default":"false"},
     "style":{
       "friendly": "Style",
       "type": "group",
       "inputAttr": {
+        "textColor":{ "friendly":"Text color", "type":"dropdown", "default": "", "values": ["", "white","black"]},
         "bgColor":{ "friendly":"Background color", "type":"dropdown", "default": "none", "values": ["none","white","black"]},
         "bgOpacity":{"friendly":"Background opacity", "type":"int", "default":1},
-        "textColor":{ "friendly":"Text color", "type":"dropdown", "default": "", "values": ["", "white","black"]},
-        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"},
+        "wsjLogo":{"friendly":"WSJ", "type":"boolean", "default":"false"},
+        "marketWatchLogo":{"friendly":"MarketWatch", "type":"boolean", "default":"false"}
       }
     }
   }  
