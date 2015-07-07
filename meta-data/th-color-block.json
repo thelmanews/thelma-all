@@ -10,12 +10,19 @@
   "inputAttr": {
     "content":{"friendly":"Text/Markdown", "type":"content", "default":""},
     "shape":{ "friendly":"Shape", "type":"dropdown", "default": "rectangle", "values": ["rectangle","square", "circle", "ellipse"]},
-    "color":{"friendly":"Shape Color", "type":"colorPicker", "colorDefault":"accent", "default":""}, 
-    "textColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
-    "opacity":{"friendly":"Opacity", "type":"int", "default":1},
+    "positionX":{"friendly":"X Position", "type":"int", "default":0.5},
+    "positionY":{"friendly":"Y Position", "type":"int", "default":0.5},
     "horizontalScale":{"friendly":"Horizontal Scale", "type":"int", "default":1},
     "verticalScale":{"friendly":"Vertical Scale", "type":"int", "default":1},
-    "positionX":{"friendly":"X Position", "type":"int", "default":0.5},
-    "positionY":{"friendly":"Y Position", "type":"int", "default":0.5}
+    "style":{
+      "friendly": "Style",
+      "type": "group",
+      "inputAttr": {
+        "color":{"friendly":"Shape color", "type":"colorPicker", "colorDefault":"accent", "default":""}, 
+        "textColor":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
+        "opacity":{"friendly":"Opacity", "type":"int", "default":1},
+        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+      }
+    }
   }
 } 

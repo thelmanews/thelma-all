@@ -1,6 +1,6 @@
 {
   "name": "th-compare-grid-chart",
-  "description": "Thelma Compare Grid Chart",
+  "description": "Thelma Compare Grid",
   "category":"textual",
   "version": "0.0.1",
   "thumbnail":"comparison.jpg", 
@@ -9,9 +9,6 @@
   "width":200,
   "height":250,
   "inputAttr": {
-    "iconTransition":{"friendly":"Icon Transition", "type":"dropdown","default":"random", "values":["random", "drop"]},
-    "animationDuration":{"friendly":"Animation Duration (ms)", "type":"int", "default":200},
-    "imagesPerRow":{"friendly":"Images per Row", "type":"int", "default":-1},
     "chartData":{"friendly":"Data", "type":"table-fixed","rows":2, 
        "fields":{
         "label":{"friendly":"Label", "type":"string", "default":"Smoker"},
@@ -22,6 +19,9 @@
         {"label": "Non-Smoker", "value": 33, "image": "/bower_components/thelma-components/images/kid.png"},
         {"label": "Smoker", "value": 1, "image": "/bower_components/thelma-components/images/kid-smoker.png"}
       ]
-  }
+    },
+    "imagesPerRow":{"friendly":"Images per row", "type":"int", "default":-1},
+    "animationDuration":{"friendly":"Animation duration (ms)", "type":"int", "default":200},
+    "iconTransition":{"friendly":"Icon transition", "type":"dropdown","default":"random", "values":["random", "drop"]}
   }
 }

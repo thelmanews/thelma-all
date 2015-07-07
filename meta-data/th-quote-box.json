@@ -1,6 +1,6 @@
 {
   "name": "th-quote-box",
-  "description": "Thelma Quote",
+  "description": "Thelma Image Quote",
   "category":"textual",
   "version": "0.0.1",
   "thumbnail":"boxed-quote.jpg", 
@@ -9,11 +9,18 @@
   "width":250,
   "height":200,
   "inputAttr": {
-    "content":{"friendly":"Quote (markdown friendly)", "type":"content", "default":"Please enter a quote."},
-    "qtitle":{"friendly":"Title", "type":"string", "default":"Name"},
+    "content":{"friendly":"Quote", "type":"content", "default":"Please enter a quote."},
+    "qtitle":{"friendly":"Source", "type":"string", "default":"Name"},
     "details":{"friendly":"Details", "type":"string", "default":""},
     "image":{"friendly":"Image", "type":"image", "default":"/bower_components/thelma-components/images/person.jpg"},
-    "textColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
-    "markdown":{"friendly":"Allow Markdown?", "type":"boolean", "default":"true"}
+    "style":{
+      "friendly":"Style",
+      "type":"group",
+      "inputAttr":{
+        "markdown":{"friendly":"Markdown", "type":"boolean", "default":true},
+        "textColor":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
+        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+      }
+    }
   }
 }

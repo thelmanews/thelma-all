@@ -14,7 +14,7 @@
     "startingLat":{"friendly":"Starting Latitude", "type":"int", "default":38.8922},
     "startingLng":{"friendly":"Starting Longitude", "type":"int", "default":-77.0348},
     "geolocation":{"friendly":"Geolocation?", "type":"boolean", "default": false},
-    "geolocateZoom":{"friendly":"Geolocate Zoom", "type":"int", "default":10},
+    "geolocateZoom":{"friendly":"Geolocate Zoom", "type":"int", "default":10, "showIf":{"geolocation":true}},
     "showSwipeBar":{"friendly":"Show Swipe Bar?", "type":"boolean", "default": true}
   }
 }

@@ -9,8 +9,6 @@
   "width":280,
   "height":200,
   "inputAttr": {
-    "wrapLabels":{"friendly":"Wrap Labels?", "type":"boolean", "default": true},
-    "showHorizontalAxis":{"friendly":"Show Axis?", "type":"boolean", "default": false},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
       "fields":{
         "label":{"friendly":"Label", "type":"string", "default":"Player"},
@@ -23,6 +21,9 @@
         {"label": "Vendor", "value": 20, "display_value": "$20", "color":""},
         {"label": "Mascot", "value": 45, "display_value": "$45", "color":""}
       ]
-    }
+    },
+    "wrapLabels":{"friendly":"Wrap labels?", "type":"boolean", "default": true},
+    "showHorizontalAxis":{"friendly":"Show axis?", "type":"boolean", "default": false},
+    "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"} 
   }
 }

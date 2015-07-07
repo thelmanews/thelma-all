@@ -9,9 +9,8 @@
   "width":280,
   "height":200,
   "inputAttr": {
-    "sliderPos":{"friendly":"Slider Position", "type":"string", "default":"50%"},
-    "imageLeft":{"friendly":"Left Image", "type":"image", "default":"/bower_components/thelma-components/images/person-left.jpg"},
-    "imageRight":{"friendly":"Right Image", "type":"image", "default":"/bower_components/thelma-components/images/person-right.jpg"}
-    
+    "imageLeft":{"friendly":"Left image", "type":"image", "default":"/bower_components/thelma-components/images/person-left.jpg"},
+    "imageRight":{"friendly":"Right image", "type":"image", "default":"/bower_components/thelma-components/images/person-right.jpg"},
+    "sliderPos":{"friendly":"Slider position", "type":"string", "default":"50%"}
   }
 }

@@ -8,11 +8,18 @@
   "width":200,
   "height":200,
   "inputAttr": {
-    "content":{"friendly":"Content", "type":"content", "default":"5 million low-income Americans still can't get health insurance under Obamacare."},
+    "content":{"friendly":"Text/Markdown", "type":"content", "default":"5 million low-income Americans still can't get health insurance under Obamacare."},
     "image": {"friendly":"Image", "type":"image", "default":""},
-    "startFrom":{"friendly":"Start From", "type":"int", "default":3},
-    "animationSpeed":{"friendly":"Countdown Speed", "type":"int", "default":2},
-    "countdownColor":{"friendly":"Number Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
-    "revealTextColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}
+    "startFrom":{"friendly":"Start rrom", "type":"int", "default":3},
+    "animationSpeed":{"friendly":"Countdown speed", "type":"int", "default":2},
+    "style":{
+      "friendly": "Style",
+      "type": "group",
+      "inputAttr": {
+        "countdownColor":{"friendly":"Number color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
+        "revealTextColor":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
+        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+      }
+    }
   }
 } 

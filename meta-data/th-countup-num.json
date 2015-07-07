@@ -8,17 +8,30 @@
   "width":200,
   "height":45,
   "inputAttr": {
-    "content":{"friendly":"Enter number and text (markdown friendly)", "type":"content", "default":"Count to 40"}, 
-    "color":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
-    "numberColor":{"friendly":"Number Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
-    "numberSizeEm":{"friendly":"Number Size Ratio", "type":"int", "default":1.5},  
-    "growNumber":{"friendly":"Grow Number?", "type":"boolean", "default":false}, 
-    "duration":{"friendly":"Duration", "type":"int", "default":2},   
-    "separator":{"friendly":"Thousands Separator", "type":"string", "default":","},
-    "startFromSameNumberOfDigit":{"friendly":"Start from same number digits?", "type":"boolean", "default":"true"},
-    "startFrom":{"friendly":"Start From", "type":"int", "default":0},
+    "content":{"friendly":"Number and text", "type":"content", "default":"Count to 40"}, 
     "alignment":{"friendly":"Align","type":"dropdown", "values": ["left","right", "center", "justify"], "default": "left"},
-    "type":{"friendly":"Text Type","type":"dropdown", "values": ["large-headline","medium-headline","headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"], "default": "mainpoint"},
-    "markdown":{"friendly":"Allow Markdown?", "type":"boolean", "default":true}
+    "startFrom":{"friendly":"Start from", "type":"int", "default":0},
+    "duration":{"friendly":"Duration", "type":"int", "default":2},   
+    "numberStyle":{
+      "friendly": "Number Style",
+      "type": "group",
+      "inputAttr": {
+        "numberColor":{"friendly":"Number color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
+        "numberSizeEm":{"friendly":"Number size ratio", "type":"int", "default":1.5},  
+        "separator":{"friendly":"Thousands separator", "type":"string", "default":","},
+        "startFromSameNumberOfDigit":{"friendly":"Consistent digits", "type":"boolean", "default":"true"},
+        "growNumber":{"friendly":"Grow number", "type":"boolean", "default":false}
+      }
+    },
+    "textStyle":{
+      "friendly": "Text style",
+      "type": "group",
+      "inputAttr": {
+        "color":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
+        "type":{"friendly":"Text type","type":"dropdown", "values": ["large-headline","medium-headline","headline","mainpoint", "submainpoint", "subpoint", "chart", "label", "caps"], "default": "mainpoint"},
+        "markdown":{"friendly":"Markdown", "type":"boolean", "default":true},
+        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+      }
+    }
   }
 } 

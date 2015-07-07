@@ -8,7 +8,6 @@
   "width":280,
   "height":280,
   "inputAttr": {
-    "bgColor":{"friendly":"Background Color", "type":"colorPicker", "colorDefault":"background", "default":""},
     "links":{"friendly":"Data", "type":"table-repeating","rows":3, 
       "fields":{
         "leadIn":{"friendly":"Lead-in", "type":"string", "default":""},
@@ -22,6 +21,9 @@
           { "leadIn": "", "url": "http://www.buzzfeed.com/richardhjames/stunning-images-that-show-how-the-tide-transforms-the-bri", "title":"14 Stunning Images That Show How The Tide Transforms The British Coast", "image":"http://s3-ak.buzzfeed.com/static/2014-07/17/12/campaign_images/webdr11/14-stunning-images-that-show-how-the-tide-transfo-2-7448-1405614197-1_big.jpg" },
           { "leadIn": "", "url": "", "title":"" }
       ]
-    }
+    },
+    "bgColor":{"friendly":"Background color", "type":"colorPicker", "colorDefault":"background", "default":""},
+    "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+
   }
 }

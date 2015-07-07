@@ -1,6 +1,6 @@
 {
   "name": "th-line-graph-single",
-  "description": "Thelma line graph",
+  "description": "Thelma Line Graph with Joystick",
   "category":"chart",
   "version": "0.0.1",
   "thumbnail":"joystick-line.jpg", 
@@ -9,18 +9,6 @@
   "width":280,
   "height":280,
   "inputAttr": {
-    "lineStyle":{"friendly":"Line Style", "type":"dropdown","default":"linear", "values":["linear", "basis", "cardinal", "monotone", "step-before", "step-after"]},
-    "animateStyle":{"friendly":"Animate Style","type":"dropdown","default":"draw", "values":["draw","raise"]},
-    "fillArea":{"friendly":"Fill Area", "type":"boolean", "default": false},
-    "xAxisLabels":{"friendly":"X-axis Labels", "type":"boolean", "default": true},
-    "yAxisLabels":{"friendly":"Y-axis Labels", "type":"boolean", "default": false},
-    "yAxisMin":{"friendly":"Y-axis Min Value", "type":"int"},
-    "yAxisMax":{"friendly":"Y-axis Max Value", "type":"int"},
-    "joyStick":{"friendly":"Joystick and Value", "type":"boolean", "default": true},
-    "dataPosition":{"friendly":"Data Position","type":"dropdown","default":"left", "values":["left","right"]},
-    "color":{"friendly":"Line Color", "type":"colorPicker", "colorDefault":"accent", "default":""}, 
-    "textColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
-    "dateType":{"friendly":"Data Format","type":"dropdown","default":"YYYY", "values":["DD-MM-YY", "DD-MM", "DD-Mth", "MM-YY", "Mth-YY", "YY", "YYYY"]},
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":5, 
       "fields":{
         "label":{"friendly":"Label", "type":"string", "default":"2010"},
@@ -35,6 +23,31 @@
         {"label": 2013, "value": 110, "display_value": "$110", "note": ""},
         {"label": 2014, "value": 112, "display_value": "$112", "note": ""}
       ]
+    },
+    "chartStyles":{
+      "friendly":"Chart Style",
+      "type":"group",
+      "inputAttr":{
+        "lineStyle":{"friendly":"Line style", "type":"dropdown","default":"linear", "values":["linear", "basis", "cardinal", "monotone", "step-before", "step-after"]},
+        "color":{"friendly":"Line color", "type":"colorPicker", "colorDefault":"accent", "default":""}, 
+        "animateStyle":{"friendly":"Line animate style","type":"dropdown","default":"draw", "values":["draw","raise"]},
+        "fillArea":{"friendly":"Fill area", "type":"boolean", "default": false},
+        "joyStick":{"friendly":"Joystick", "type":"boolean", "default": true},
+        "dataPosition":{"friendly":"Value position","type":"dropdown","default":"left", "values":["left","right"], "showIf":{"joyStick":true}},
+        "textColor":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
+        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+      }
+    },
+    "axisOptions":{
+      "friendly":"Axis Options",
+      "type":"group",
+      "inputAttr":{
+        "xAxisLabels":{"friendly":"X-axis Labels", "type":"boolean", "default": true},
+        "yAxisLabels":{"friendly":"Y-axis Labels", "type":"boolean", "default": false},
+        "yAxisMin":{"friendly":"Y-axis Min Value", "type":"int"},
+        "yAxisMax":{"friendly":"Y-axis Max Value", "type":"int"},
+        "dateType":{"friendly":"Data Format","type":"dropdown","default":"YYYY", "values":["DD-MM-YY", "DD-MM", "DD-Mth", "MM-YY", "Mth-YY", "YY", "YYYY"]}
+      }
     }
   }
 }
