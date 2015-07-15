@@ -35,9 +35,8 @@
         "xAxisTitle":{"friendly":"X axis title", "type":"string", "default":""},
         "yAxisTitle":{"friendly":"Y axis title", "type":"string", "default":""},
         "legend":{"friendly":"Legend", "type":"boolean", "default": true},
-        "legendTitle":{"friendly":"Legend title", "type":"string", "default":"", "showIf":{"legend":true}},
-        "credits":{"friendly":"Credits", "type":"string", "default":"The Wall Street Journal"},
-        "creditsURL":{"friendly":"Credits URL", "type":"string", "default":"http://www.wsj.com"}
+        "credits":{"friendly":"Source", "type":"string", "default":"Source: WSJ"},
+        "creditsURL":{"friendly":"Source URL", "type":"string", "default":"http://www.wsj.com"}
       }
     },
     "colors":{
