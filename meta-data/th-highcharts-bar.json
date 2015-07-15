@@ -34,8 +34,8 @@
         "chartSubtitle":{"friendly":"Subtitle", "type":"string", "default":""},
         "xAxisTitle":{"friendly":"X axis title", "type":"string", "default":""},
         "yAxisTitle":{"friendly":"Y axis title", "type":"string", "default":""},
-        "legendTitle":{"friendly":"Legend title", "type":"string", "default":""},
         "legend":{"friendly":"Legend", "type":"boolean", "default": true},
+        "legendTitle":{"friendly":"Legend title", "type":"string", "default":"", "showIf":{"legend":true}},
         "credits":{"friendly":"Credits", "type":"string", "default":"The Wall Street Journal"},
         "creditsURL":{"friendly":"Credits URL", "type":"string", "default":"http://www.wsj.com"}
       }
@@ -55,7 +55,7 @@
           ]
         },
         "textColor":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
-        "gridlinesColor":{"friendly":"Gridlines color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
+        "gridLineColor":{"friendly":"Gridlines color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
         "backgroundColor":{"friendly":"Background color", "type":"colorPicker", "colorDefault":"", "default":""}
       }
     },
@@ -73,9 +73,11 @@
       "friendly": "Axis options",
       "type": "group",
       "inputAttr": {
+        "xTickInterval":{"friendly":"X axis tick interval", "type":"int", "default":""},
+        "yTickInterval":{"friendly":"Y axis tick interval", "type":"int", "default":""},
         "yAxisMin":{"friendly":"Y axis min", "type":"int", "default":""},
-        "yAxisMax":{"friendly":"Y axis max", "type":"int", "default":""},
-        "yInterval":{"friendly":"Y axis interval", "type":"int", "default":""}
+        "yAxisMax":{"friendly":"Y axis max", "type":"int", "default":""}
+        
       }
     } 
   }
