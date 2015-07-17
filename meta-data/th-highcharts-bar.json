@@ -3,7 +3,7 @@
   "description": "WSJ Horizontal Bar Chart",
   "category":"chart",
   "version": "0.0.1",
-  "thumbnail":"google-bar.jpg", 
+  "thumbnail":"wsj-bar-chart.jpg", 
   "tags":["chart", "bar"],
   "helpLink":"",
   "width":280,
