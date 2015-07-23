@@ -28,7 +28,6 @@
       "inputAttr": {
         "chartTitle":{"friendly":"Title", "type":"string", "default":""},
         "chartSubtitle":{"friendly":"Subtitle", "type":"string", "default":""},
-        "legend":{"friendly":"Legend", "type":"boolean", "default": true},
         "credits":{"friendly":"Source", "type":"string", "default":"Source: WSJ"},
         "creditsURL":{"friendly":"Source URL", "type":"string", "default":"http://www.wsj.com"}
       }
