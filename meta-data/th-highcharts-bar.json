@@ -1,0 +1,83 @@
+{
+  "name": "th-highcharts-bar",
+  "description": "WSJ Horizontal Bar Chart",
+  "category":"chart",
+  "version": "0.0.1",
+  "thumbnail":"wsj-bar.jpg", 
+  "tags":["chart", "bar"],
+  "helpLink":"",
+  "width":280,
+  "height":200,
+  "inputAttr": {
+    "chartData":{"friendly":"Data", "type":"table-repeating","rows":3, 
+      "fields":{
+        "label":{"friendly":"Label (x)", "type":"string", "default":""},
+        "series1":{"friendly":"Series 1 (y)", "type":"string", "default":""},
+        "series2":{"friendly":"Series 2 (y)", "type":"string", "default":""},
+        "series3":{"friendly":"Series 3 (y)", "type":"string", "default":""}
+      },
+      "default":[
+            {"label": "2012", "series1": "100", "series2": "100" },
+            {"label": "2013", "series1": "50", "series2": "150" },
+            {"label": "2014", "series1": "300", "series2": "200" },
+            {"label": "2015", "series1": "200", "series2": "110" }
+        ]
+    },
+    "series1Name":{"friendly":"Series 1 name", "type":"string", "default":"Germany"},
+    "series2Name":{"friendly":"Series 2 name", "type":"string", "default":"France"},
+    "series3Name":{"friendly":"Series 3 name", "type":"string", "default":""},
+    "titles":{
+      "friendly": "Titles & Legend",
+      "type": "group",
+      "inputAttr": {
+        "chartTitle":{"friendly":"Title", "type":"string", "default":""},
+        "chartSubtitle":{"friendly":"Subtitle", "type":"string", "default":""},
+        "xAxisTitle":{"friendly":"X axis title", "type":"string", "default":""},
+        "yAxisTitle":{"friendly":"Y axis title", "type":"string", "default":""},
+        "legend":{"friendly":"Legend", "type":"boolean", "default": true},
+        "credits":{"friendly":"Source", "type":"string", "default":"Source: WSJ"},
+        "creditsURL":{"friendly":"Source URL", "type":"string", "default":"http://www.wsj.com"}
+      }
+    },
+    "colors":{
+      "friendly": "Colors",
+      "type": "group",
+      "inputAttr": {
+        "seriesColors":{"friendly":"Series colors (in order)", "type":"table-repeating","rows":3, 
+          "fields":{
+            "color":{"friendly":"Series colors (in order)", "type":"colorPicker", "colorDefault":"accent", "default":""}
+          },
+          "default": [
+            {"color": ""},
+            {"color": ""},
+            {"color": ""}
+          ]
+        },
+        "textColor":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
+        "gridLineColor":{"friendly":"Gridlines color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
+        "backgroundColor":{"friendly":"Background color", "type":"colorPicker", "colorDefault":"", "default":""}
+      }
+    },
+    "numberFormat":{
+      "friendly": "Number format",
+      "type": "group",
+      "inputAttr": {
+        "valuePrefix":{"friendly":"Value prefix", "type":"string", "default":""},
+        "valueSuffix":{"friendly":"Value suffix", "type":"string", "default":""},
+        "valueDecimals":{"friendly":"Value decimal places", "type":"integer", "default":0},
+        "thousandsSep":{"friendly":"Thousands separator", "type":"string", "default":","}
+      }
+    },
+    "axis":{
+      "friendly": "Axis options",
+      "type": "group",
+      "inputAttr": {
+        "xTickInterval":{"friendly":"X axis tick interval", "type":"int", "default":""},
+        "yTickInterval":{"friendly":"Y axis tick interval", "type":"int", "default":""},
+        "yAxisMin":{"friendly":"Y axis min", "type":"int", "default":""},
+        "yAxisMax":{"friendly":"Y axis max", "type":"int", "default":""}
+        
+      }
+    } 
+  }
+}
