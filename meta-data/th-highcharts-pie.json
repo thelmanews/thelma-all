@@ -1,0 +1,56 @@
+{
+  "name": "th-highcharts-pie",
+  "description": "WSJ Horizontal Pie Chart",
+  "category":"chart",
+  "version": "0.0.1",
+  "thumbnail":"wsj-pie.jpg", 
+  "tags":["chart", "pie"],
+  "helpLink":"",
+  "width":280,
+  "height":200,
+  "inputAttr": {
+    "chartData":{"friendly":"Data", "type":"table-repeating","rows":2, 
+      "fields":{
+        "label":{"friendly":"Label", "type":"string", "default":""},
+        "value":{"friendly":"Value", "type":"string", "default":""},
+        "color":{"friendly":"Color", "type": "colorPicker", "colorDefault":"accent", "default": ""}
+      },
+      "default":[
+            {"label": "Germany", "value": "100"},
+            {"label": "Switzerland", "value": "50"},
+            {"label": "France", "value": "300"},
+            {"label": "Austria", "value": "200"}
+        ]
+    },
+    "titles":{
+      "friendly": "Titles & Legend",
+      "type": "group",
+      "inputAttr": {
+        "chartTitle":{"friendly":"Title", "type":"string", "default":""},
+        "chartSubtitle":{"friendly":"Subtitle", "type":"string", "default":""},
+        "legend":{"friendly":"Legend", "type":"boolean", "default": true},
+        "credits":{"friendly":"Source", "type":"string", "default":"Source: WSJ"},
+        "creditsURL":{"friendly":"Source URL", "type":"string", "default":"http://www.wsj.com"}
+      }
+    },
+    "colors":{
+      "friendly": "Colors",
+      "type": "group",
+      "inputAttr": {
+        "textColor":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
+        "gridLineColor":{"friendly":"Pie border color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
+        "backgroundColor":{"friendly":"Background color", "type":"colorPicker", "colorDefault":"", "default":""}
+      }
+    },
+    "numberFormat":{
+      "friendly": "Number format",
+      "type": "group",
+      "inputAttr": {
+        "valuePrefix":{"friendly":"Value prefix", "type":"string", "default":""},
+        "valueSuffix":{"friendly":"Value suffix", "type":"string", "default":""},
+        "valueDecimals":{"friendly":"Value decimal places", "type":"integer", "default":0},
+        "thousandsSep":{"friendly":"Thousands separator", "type":"string", "default":","}
+      }
+    }
+  }
+}
