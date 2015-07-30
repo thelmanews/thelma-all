@@ -23,6 +23,6 @@
       {"label": "sub", "value": 10, "display_value": "$10", "color":"", "offset": 0}]
     },
     "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"},
-    "showTotal":{"friendly":"Show total value","type":"boolean","default":"true"}
+    "showTotal":{"friendly":"Show total","type":"boolean","default":true}
   }
 }
