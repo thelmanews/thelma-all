@@ -38,6 +38,11 @@
       "values": ["left", "right", "center", "justify"],
       "default": "left"
     },
+    "wrapText":{
+      "friendly":"Wrap text", 
+      "type":"boolean", 
+      "default":"false"
+    },
     "colorOptions": {
       "friendly":"Color options",
       "type":"group",
