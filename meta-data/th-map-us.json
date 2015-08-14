@@ -70,6 +70,7 @@
 
         ]
     },
+    "showLegend":{"friendly":"Show Legend Bar", "type":"boolean", "default": true},
     "dataLabel":{"friendly":"Data label", "type":"string", "default":"Medicaid Coverage"},
     "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
   }
