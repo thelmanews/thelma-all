@@ -33,14 +33,14 @@
         "fillArea":{"friendly":"Fill area", "type":"boolean", "default": false},
         "color":{"friendly":"Line color", "type":"colorPicker", "colorDefault":"accent", "default":""}, 
         "textColor":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
-        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"},
-        "xAxisAtZero":{"friendly":"X-axis at zero", "type":"boolean", "default": false}
+        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
       }
     },
     "values": {
       "friendly": "Values",
       "type": "group",
       "inputAttr": {
+        "xAxisAtZero":{"friendly":"X-axis at zero", "type":"boolean", "default": false},
         "yAxisMin":{"friendly":"Y-axis min value", "type":"int", "default":""},
         "yAxisMax":{"friendly":"Y-axis max value", "type":"int", "default":""},
         "tooltips":{"friendly":"Show all values", "type":"boolean", "default": true},
