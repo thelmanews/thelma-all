@@ -34,7 +34,7 @@
         "color":{"friendly":"Line color", "type":"colorPicker", "colorDefault":"accent", "default":""}, 
         "textColor":{"friendly":"Text color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}, 
         "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"},
-        "xAxisAtZero":{"friendly":"X-axis at zero", "type":"boolean", "default": true}
+        "xAxisAtZero":{"friendly":"X-axis at zero", "type":"boolean", "default": false}
       }
     },
     "values": {
