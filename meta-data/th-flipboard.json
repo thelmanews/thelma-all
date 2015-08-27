@@ -24,7 +24,7 @@
         {"textFront": "Front", "backgroundFront":"", "colorFront":"", "textBack":"Back", "backgroundBack":"", "colorBack":""}
       ]
     },
-    "roundEdges":{"friendly":"Round edges", "type":"boolean", "default":"false"},
+    "roundCorners":{"friendly":"Round corners", "type":"boolean", "default":"true"},
     "flippable":{"friendly":"Flippable", "type":"boolean", "default":"true"},
     "itemsPerRow":{"friendly":"Items per row", "type":"int", "default":2},
     "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"} 
