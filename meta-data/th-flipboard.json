@@ -27,6 +27,7 @@
     "roundCorners":{"friendly":"Round corners", "type":"boolean", "default":"true"},
     "flippable":{"friendly":"Flippable", "type":"boolean", "default":"true"},
     "itemsPerRow":{"friendly":"Items per row", "type":"int", "default":2},
+    "textAlign":{ "friendly":"Text align", "type":"dropdown",  "values": ["left", "right", "center", "justify"], "default": "center"},
     "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"} 
   }
 }
