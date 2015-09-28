@@ -26,6 +26,7 @@
     "series1Name":{"friendly":"Series 1 name", "type":"string", "default":"Germany"},
     "series2Name":{"friendly":"Series 2 name", "type":"string", "default":"France"},
     "series3Name":{"friendly":"Series 3 name", "type":"string", "default":""},
+    "stacking": {"friendly": "Stacking Bars", "type": "dropdown", "values": ["none","normal","percentage"]},
     "titles":{
       "friendly": "Titles & Legend",
       "type": "group",
