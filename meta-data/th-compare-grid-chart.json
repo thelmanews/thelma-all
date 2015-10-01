@@ -11,13 +11,13 @@
   "inputAttr": {
     "chartData":{"friendly":"Data", "type":"table-fixed","rows":2, 
        "fields":{
-        "label":{"friendly":"Label", "type":"string", "default":"Smoker"},
+        "label":{"friendly":"Label", "type":"string", "default":"Blue"},
         "value":{"friendly":"Value", "type":"int", "default":3},
-        "image":{"friendly":"Image", "type":"image", "default":"/elements/images/kid.png"}
+        "image":{"friendly":"Image", "type":"image", "default":"/elements/images/blue-icon.png"}
       },
       "default":[
-        {"label": "Non-Smoker", "value": 33, "image": "/bower_components/thelma-components/images/kid.png"},
-        {"label": "Smoker", "value": 1, "image": "/bower_components/thelma-components/images/kid-smoker.png"}
+        {"label": "Blue", "value": 33, "image": "/bower_components/thelma-components/images/blue-icon.png"},
+        {"label": "Red", "value": 1, "image": "/bower_components/thelma-components/images/red-icon.png"}
       ]
     },
     "imagesPerRow":{"friendly":"Images per row", "type":"int", "default":-1},

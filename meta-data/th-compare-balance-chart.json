@@ -11,15 +11,15 @@
   "inputAttr": {
     "chartData":{"friendly":"Data", "type":"table-fixed","rows":2, 
       "fields":{
-        "label":{"friendly":"Label", "type":"string", "default":"Smoker"},
+        "label":{"friendly":"Label", "type":"string", "default":"Blue"},
         "count":{"friendly":"Count", "type":"int", "default":3},
         "weight":{"friendly":"Weight", "type":"float", "default":1},
-        "image":{"friendly":"Image", "type":"image", "default":"/bower_components/thelma-components/images/kid.png"},
+        "image":{"friendly":"Image", "type":"image", "default":"/bower_components/thelma-components/images/blue-icon.png"},
         "size":{"friendly":"Size (px)", "type":"int", "default":23}
       },
       "default":[
-        {"label": "Smoker", "count": 3, "weight": 1, "image": "/bower_components/thelma-components/images/kid-smoker.png", "size":23},
-        {"label": "Non-Smoker", "count": 50, "weight": 1, "image": "/bower_components/thelma-components/images/kid.png", "size":23}
+        {"label": "Blue", "count": 3, "weight": 1, "image": "/bower_components/thelma-components/images/blue-icon.png", "size":23},
+        {"label": "Red", "count": 50, "weight": 1, "image": "/bower_components/thelma-components/images/red-icon.png", "size":23}
       ]
     }
   }
