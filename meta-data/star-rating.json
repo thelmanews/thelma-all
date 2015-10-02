@@ -8,6 +8,7 @@
   "helpLink":"",
   "width":150,
   "height":30,
+  "disabled": true,
   "inputAttr": {
     "stars":{"friendly":"Star Count", "type":"int", "default":5},
     "icon": {"friendly":"Icon", "type": "dropdown", "default": "star", "values":["star","heart","face"]}
