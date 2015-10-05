@@ -8,6 +8,7 @@
   "helpLink":"",
   "width":280,
   "height":280,
+  "disabled": true,
   "inputAttr": {
     "chartData":{"friendly":"Data", "type":"table-repeating","rows":5, 
       "fields":{
