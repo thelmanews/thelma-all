@@ -47,7 +47,7 @@
     "th-stacked-chart": "https://github.com/thelmanews/th-stacked-chart.git",
     "th-stories": "https://github.com/thelmanews/th-stories.git",
     "th-table-bullets": "https://github.com/thelmanews/th-table-bullets.git",
-    "th-text": "https://github.com/thelmanews/th-text.git",
+    "th-text": "https://github.com/thelmanews/th-text.git#remove-unresolved",
     "th-theme": "https://github.com/thelmanews/th-theme.git",
     "th-time-lapse": "https://github.com/thelmanews/th-time-lapse.git",
     "th-tweet": "https://github.com/thelmanews/th-tweet.git",
