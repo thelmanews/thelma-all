@@ -1,0 +1,33 @@
+{
+  "name": "th-poll-choices",
+  "description": "Thelma Poll - Choices",
+  "category":"textual",
+  "version": "0.0.1",
+  "thumbnail":"blank.jpg",
+  "helpLink":"",
+  "width":250,
+  "height":200,
+  "inputAttr": {
+    "question":{"friendly":"Question (used as reference)", "type":"string", "default":""},
+    "items":{"friendly":"Choices", "type":"table-repeating","rows":2, 
+      "fields":{
+        "text":{"friendly":"Text", "type":"string", "default": ""}
+      },
+      "default":[
+        {"text": "Yes"},
+        {"text": "No"}
+      ]
+    },
+    "style":{
+      "friendly": "Style",
+      "type": "group",
+      "inputAttr": {
+        "itemsPerRow":{"friendly":"Choices per row", "type":"int", "default":2},
+        "itemPadding":{"friendly":"Space between choices", "type":"int", "default":0},
+        "textColor":{"friendly":"Text Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""},
+        "fillColor":{"friendly":"Fill Color", "type":"colorPicker", "colorDefault":"accent", "default":""},
+        "fontStyle":{"friendly":"Font style","type":"dropdown","default":"", "values":["","serif","sans-serif"], "applyTo":"class"}
+      }
+    }
+  }
+} 
