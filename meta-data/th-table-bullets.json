@@ -6,7 +6,7 @@
   "thumbnail":"bullets.jpg",
   "helpLink":"",
   "width":280,
-  "height":100,
+  "height":200,
   "inputAttr": {
     "tableData":{"friendly":"Data", "type":"table-repeating","rows":2, 
       "fields":{
