@@ -8,10 +8,10 @@
   "width":250,
   "height":200,
   "inputAttr": {
-    "question":{"friendly":"Question (used as reference)", "type":"string", "default":""},
+    "question":{"friendly":"Which question should these choices be paired to?", "type":"string", "default":"Will Donald Trump win the 2016 Republican nomination?"},
     "items":{"friendly":"Choices", "type":"table-repeating","rows":2, 
       "fields":{
-        "text":{"friendly":"Text", "type":"string", "default": ""}
+        "text":{"friendly":"Choices", "type":"string", "default": ""}
       },
       "default":[
         {"text": "Yes"},

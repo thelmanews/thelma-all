@@ -1,0 +1,15 @@
+{
+  "name": "th-poll-donut",
+  "description": "Thelma Poll - Donut",
+  "category":"textual",
+  "version": "0.0.1",
+  "thumbnail":"blank.jpg",
+  "helpLink":"",
+  "width":250,
+  "height":200,
+  "inputAttr": {
+    "question":{"friendly":"Which question should these chart be paired to?", "type":"string", "default":"Will Donald Trump win the 2016 Republican nomination?"},
+    "color1":{"friendly":"First Color", "type":"colorPicker", "colorDefault":"accent", "default":""},
+    "color2":{"friendly":"Second Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}
+  }
+} 
