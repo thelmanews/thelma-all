@@ -8,7 +8,7 @@
   "width":250,
   "height":200,
   "inputAttr": {
-    "question":{"friendly":"Which question should these chart be paired to?", "type":"string", "default":"Will Donald Trump win the 2016 Republican nomination?"},
+    "question":{"friendly":"Which question should this chart be paired to?", "type":"string", "default":"Will Donald Trump win the 2016 Republican nomination?"},
     "color1":{"friendly":"First Color", "type":"colorPicker", "colorDefault":"accent", "default":""},
     "color2":{"friendly":"Second Color", "type":"colorPicker", "colorDefault":"foreground1", "default":""}
   }
