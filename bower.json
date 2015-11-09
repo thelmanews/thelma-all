@@ -39,6 +39,7 @@
     "th-n-bar-chart": "https://github.com/thelmanews/th-n-bar-chart.git",
     "th-n-bar-chart-horizontal": "https://github.com/thelmanews/th-n-bar-chart-horizontal.git",
     "th-n-peak-chart": "https://github.com/thelmanews/th-n-peak-chart.git",
+    "th-poll": "https://github.com/thelmanews/th-poll.git",
     "th-quote-box": "https://github.com/thelmanews/th-quote-box.git",
     "th-simple-quote": "https://github.com/thelmanews/th-simple-quote.git",
     "th-slider": "https://github.com/thelmanews/th-slider.git",
@@ -60,6 +61,7 @@
     "polymer": "~0.5.1",
     "core-component-page": "^0.5.0",
     "webcomponentsjs": "^0.5.0",
-    "platform": "master"
+    "platform": "master",
+    "firebase": "^2.2"
   }
 }
